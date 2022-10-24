@@ -185,6 +185,7 @@ impl checkbox::StyleSheet for Bl3UiStyle {
             border_radius: 0.0,
             border_width: 0.0,
             border_color: Default::default(),
+            text_color: Some(Color::from_rgb8(220, 220, 220)),
         }
     }
 
@@ -195,6 +196,7 @@ impl checkbox::StyleSheet for Bl3UiStyle {
             border_radius: 1.0,
             border_width: 1.0,
             border_color: Color::from_rgb8(45, 45, 45),
+            text_color: Some(Color::from_rgb8(220, 220, 220)),
         }
     }
 }

@@ -129,7 +129,6 @@ impl Editor {
                         .padding(10)
                         .size(17)
                         .style(Bl3UiStyle)
-                        .select_all_on_click(true)
                         .into_element(),
                     )
                     .align_items(Alignment::Center),

@@ -1,6 +1,6 @@
-![Build](https://github.com/ZakisM/bl3_save_edit/actions/workflows/ci.yml/badge.svg)
-![](https://img.shields.io/github/downloads/ZakisM/bl3_save_edit/latest/total)
-![](https://img.shields.io/github/downloads/ZakisM/bl3_save_edit/total)
+![Build](https://github.com/Borderlands3Tools/bl3_save_edit/actions/workflows/ci.yml/badge.svg)
+![](https://img.shields.io/github/downloads/Borderlands3Tools/bl3_save_edit/latest/total)
+![](https://img.shields.io/github/downloads/Borderlands3Tools/bl3_save_edit/total)
 
 # Borderlands 3 Save Editor
 
@@ -15,7 +15,7 @@ converting between them).
 
 # How to use
 
-Visit [Releases](https://github.com/ZakisM/bl3_save_edit/releases) and download the corresponding version for your
+Visit [Releases](https://github.com/Borderlands3Tools/bl3_save_edit/releases) and download the corresponding version for your
 platform.
 
 Unzip and open the editor, then double click to run it. On the first start it will ask you to point it to the
@@ -55,7 +55,7 @@ Thanks to those who created these docs:
 - https://docs.google.com/spreadsheets/d/16b7bGPFKIrNg_cJm_WCMO6cKahexBs7BiJ6ja0RlD04
 - https://docs.google.com/spreadsheets/d/1v-F_3C2ceaFKJae1b6wmbelw_jLjmPPriBLzGTZMqRc
 
-Tool to download data from these docs can be found [here](https://github.com/ZakisM/bl3_save_edit_resource_downloader).
+Tool to download data from these docs can be found [here](https://github.com/Borderlands3Tools/bl3_save_edit_resource_downloader).
 
 Thanks to the [iced](https://github.com/iced-rs/iced) project for allowing me to create a user interface like this!
 
