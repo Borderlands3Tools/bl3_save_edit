@@ -241,7 +241,6 @@ impl CurrentParts {
                         })
                         .size(17)
                         .font(JETBRAINS_MONO_BOLD)
-                        .text_color(Color::from_rgb8(220, 220, 220))
                         .text_size(17)
                         .width(Length::Fill)
                         .style(Bl3UiStyle)

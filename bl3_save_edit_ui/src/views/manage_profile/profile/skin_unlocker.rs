@@ -63,7 +63,6 @@ impl SkinUnlockCheckbox {
         )
         .size(20)
         .font(JETBRAINS_MONO)
-        .text_color(Color::from_rgb8(220, 220, 220))
         .text_size(17)
         .style(Bl3UiStyle)
         .into_element()

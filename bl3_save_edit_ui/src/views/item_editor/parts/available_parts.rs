@@ -208,7 +208,6 @@ impl AvailableParts {
                         })
                         .size(17)
                         .font(JETBRAINS_MONO_BOLD)
-                        .text_color(Color::from_rgb8(220, 220, 220))
                         .text_size(17)
                         .style(Bl3UiStyle)
                         .into_element();
