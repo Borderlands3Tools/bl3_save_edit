@@ -4,7 +4,7 @@ use iced::alignment::Horizontal;
 use iced::{button, container, svg, Alignment, Button, Color, Element, Length, Row, Svg, Text};
 
 use crate::bl3_ui::{Bl3Message, InteractionMessage};
-use crate::resources::fonts::JETBRAINS_MONO_BOLD;
+use crate::resources::fonts::SOURCE_HAN_SANS_BOLD;
 
 pub mod choose_save_directory;
 pub mod initialization;
@@ -53,7 +53,7 @@ fn tab_bar_button<'a, V: Display + PartialEq>(
             .push(
                 Text::new(tab_bar_view.to_string())
                     .horizontal_alignment(Horizontal::Center)
-                    .font(JETBRAINS_MONO_BOLD)
+                    .font(SOURCE_HAN_SANS_BOLD)
                     .size(18),
             )
             .padding(5)

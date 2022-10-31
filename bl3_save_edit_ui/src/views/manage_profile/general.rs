@@ -7,7 +7,7 @@ use bl3_save_edit_core::parser::HeaderType;
 
 use crate::bl3_ui::{Bl3Message, InteractionMessage};
 use crate::bl3_ui_style::{Bl3UiStyle, Bl3UiTooltipStyle};
-use crate::resources::fonts::JETBRAINS_MONO;
+use crate::resources::fonts::SOURCE_HAN_SANS;
 use crate::views::manage_profile::ManageProfileInteractionMessage;
 use crate::views::InteractionExt;
 use crate::widgets::labelled_element::LabelledElement;
@@ -37,7 +37,7 @@ pub fn view(general_state: &mut GeneralState) -> Container<Bl3Message> {
                     &general_state.filename_input,
                     |_| InteractionMessage::Ignore,
                 )
-                .font(JETBRAINS_MONO)
+                .font(SOURCE_HAN_SANS)
                 .padding(10)
                 .size(17)
                 .style(Bl3UiStyle)
@@ -47,7 +47,7 @@ pub fn view(general_state: &mut GeneralState) -> Container<Bl3Message> {
             )
             .gap(10)
             .padding(10)
-            .font(JETBRAINS_MONO)
+            .font(SOURCE_HAN_SANS)
             .size(17)
             .style(Bl3UiTooltipStyle),
         )
@@ -75,7 +75,7 @@ pub fn view(general_state: &mut GeneralState) -> Container<Bl3Message> {
                     )
                 },
             )
-            .font(JETBRAINS_MONO)
+            .font(SOURCE_HAN_SANS)
             .text_size(17)
             .width(Length::Fill)
             .padding(10)

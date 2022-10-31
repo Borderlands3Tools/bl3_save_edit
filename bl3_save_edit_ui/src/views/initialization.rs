@@ -2,7 +2,7 @@ use iced::alignment::{Horizontal, Vertical};
 use iced::{Color, Container, Length, Text};
 
 use crate::bl3_ui::Bl3Message;
-use crate::resources::fonts::JETBRAINS_MONO;
+use crate::resources::fonts::SOURCE_HAN_SANS;
 
 #[derive(Debug, Clone)]
 pub enum InitializationMessage {
@@ -11,7 +11,7 @@ pub enum InitializationMessage {
 
 pub fn view<'a>() -> Container<'a, Bl3Message> {
     let initializing_text = Text::new("Initializing...")
-        .font(JETBRAINS_MONO)
+        .font(SOURCE_HAN_SANS)
         .size(20)
         .color(Color::from_rgb8(220, 220, 220));
 

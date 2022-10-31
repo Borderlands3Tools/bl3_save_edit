@@ -4,7 +4,7 @@ use iced::alignment::Horizontal;
 use iced::{button, Button, Color, Element, Length, Text};
 
 use crate::bl3_ui::{Bl3Message, InteractionMessage};
-use crate::resources::fonts::JETBRAINS_MONO_BOLD;
+use crate::resources::fonts::SOURCE_HAN_SANS_BOLD;
 use crate::views::InteractionExt;
 
 pub fn tab_bar_button<'a, T>(
@@ -26,7 +26,7 @@ where
     let button = Button::new(
         state,
         Text::new(title)
-            .font(JETBRAINS_MONO_BOLD)
+            .font(SOURCE_HAN_SANS_BOLD)
             .size(17)
             .color(Color::from_rgb8(242, 203, 5))
             .width(Length::Fill)
