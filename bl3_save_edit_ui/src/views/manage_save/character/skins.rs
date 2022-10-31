@@ -12,7 +12,7 @@ use bl3_save_edit_core::game_data::{
 
 use crate::bl3_ui::{Bl3Message, InteractionMessage};
 use crate::bl3_ui_style::Bl3UiStyle;
-use crate::resources::fonts::JETBRAINS_MONO;
+use crate::resources::fonts::SOURCE_HAN_SANS;
 use crate::views::manage_save::character::{
     CharacterSkinSelectedMessage, SaveCharacterInteractionMessage,
 };
@@ -102,7 +102,7 @@ impl SkinPickList {
                         )
                     },
                 )
-                .font(JETBRAINS_MONO)
+                .font(SOURCE_HAN_SANS)
                 .text_size(17)
                 .width(Length::Fill)
                 .padding(10)

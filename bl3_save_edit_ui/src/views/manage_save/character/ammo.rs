@@ -11,7 +11,7 @@ use bl3_save_edit_core::bl3_save::ammo::AmmoPool;
 
 use crate::bl3_ui::{Bl3Message, InteractionMessage};
 use crate::bl3_ui_style::{Bl3UiStyle, Bl3UiTooltipStyle};
-use crate::resources::fonts::{JETBRAINS_MONO, JETBRAINS_MONO_BOLD};
+use crate::resources::fonts::{SOURCE_HAN_SANS, SOURCE_HAN_SANS_BOLD};
 use crate::views::manage_save::character::{CharacterAmmoMessage, SaveCharacterInteractionMessage};
 use crate::views::manage_save::ManageSaveInteractionMessage;
 use crate::views::InteractionExt;
@@ -56,7 +56,7 @@ impl AmmoSetterField {
             .push(
                 TextMargin::new(&self.name, self.text_margin)
                     .0
-                    .font(JETBRAINS_MONO)
+                    .font(SOURCE_HAN_SANS)
                     .size(17)
                     .color(Color::from_rgb8(220, 220, 220))
                     .width(Length::FillPortion(8)),
@@ -78,7 +78,7 @@ impl AmmoSetterField {
                     )
                     .0
                     .width(Length::FillPortion(3))
-                    .font(JETBRAINS_MONO)
+                    .font(SOURCE_HAN_SANS)
                     .padding(10)
                     .size(17)
                     .style(Bl3UiStyle)
@@ -88,7 +88,7 @@ impl AmmoSetterField {
                 )
                 .gap(10)
                 .padding(10)
-                .font(JETBRAINS_MONO)
+                .font(SOURCE_HAN_SANS)
                 .size(17)
                 .style(Bl3UiTooltipStyle),
             )
@@ -135,7 +135,7 @@ impl AmmoSetter {
                 .push(
                     Container::new(
                         Text::new("Ammo Amounts")
-                            .font(JETBRAINS_MONO_BOLD)
+                            .font(SOURCE_HAN_SANS_BOLD)
                             .size(17)
                             .color(Color::from_rgb8(242, 203, 5)),
                     )
@@ -168,7 +168,7 @@ impl AmmoSetter {
                                     Button::new(
                                         &mut self.max_all_button_state,
                                         Text::new("Max All Ammo Amounts")
-                                            .font(JETBRAINS_MONO_BOLD)
+                                            .font(SOURCE_HAN_SANS_BOLD)
                                             .size(17),
                                     )
                                     .on_press(InteractionMessage::ManageSaveInteraction(

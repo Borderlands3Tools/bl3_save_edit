@@ -9,7 +9,7 @@ use bl3_save_edit_core::game_data::GameDataKv;
 
 use crate::bl3_ui::{Bl3Message, InteractionMessage};
 use crate::bl3_ui_style::{Bl3UiStyle, Bl3UiTooltipStyle};
-use crate::resources::fonts::JETBRAINS_MONO;
+use crate::resources::fonts::SOURCE_HAN_SANS;
 use crate::views::manage_save::character::ammo::AmmoSetter;
 use crate::views::manage_save::character::gear::GearUnlocker;
 use crate::views::manage_save::character::sdu::SduUnlocker;
@@ -133,7 +133,7 @@ pub fn view(character_state: &mut CharacterState) -> Container<Bl3Message> {
                 },
             )
             .0
-            .font(JETBRAINS_MONO)
+            .font(SOURCE_HAN_SANS)
             .padding(10)
             .size(17)
             .style(Bl3UiStyle)
@@ -161,7 +161,7 @@ pub fn view(character_state: &mut CharacterState) -> Container<Bl3Message> {
                     )
                 },
             )
-            .font(JETBRAINS_MONO)
+            .font(SOURCE_HAN_SANS)
             .text_size(17)
             .width(Length::Fill)
             .padding(10)
@@ -198,7 +198,7 @@ pub fn view(character_state: &mut CharacterState) -> Container<Bl3Message> {
                     },
                 )
                 .0
-                .font(JETBRAINS_MONO)
+                .font(SOURCE_HAN_SANS)
                 .padding(10)
                 .size(17)
                 .style(Bl3UiStyle)
@@ -208,7 +208,7 @@ pub fn view(character_state: &mut CharacterState) -> Container<Bl3Message> {
             )
             .gap(10)
             .padding(10)
-            .font(JETBRAINS_MONO)
+            .font(SOURCE_HAN_SANS)
             .size(17)
             .style(Bl3UiTooltipStyle),
         )
@@ -238,7 +238,7 @@ pub fn view(character_state: &mut CharacterState) -> Container<Bl3Message> {
                     },
                 )
                 .0
-                .font(JETBRAINS_MONO)
+                .font(SOURCE_HAN_SANS)
                 .padding(10)
                 .size(17)
                 .style(Bl3UiStyle)
@@ -248,7 +248,7 @@ pub fn view(character_state: &mut CharacterState) -> Container<Bl3Message> {
             )
             .gap(10)
             .padding(10)
-            .font(JETBRAINS_MONO)
+            .font(SOURCE_HAN_SANS)
             .size(17)
             .style(Bl3UiTooltipStyle),
         )
@@ -277,7 +277,7 @@ pub fn view(character_state: &mut CharacterState) -> Container<Bl3Message> {
                 },
             )
             .0
-            .font(JETBRAINS_MONO)
+            .font(SOURCE_HAN_SANS)
             .padding(10)
             .size(17)
             .style(Bl3UiStyle)

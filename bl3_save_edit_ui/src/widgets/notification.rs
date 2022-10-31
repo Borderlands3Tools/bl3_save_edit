@@ -2,7 +2,7 @@ use iced::alignment::{Horizontal, Vertical};
 use iced::{button, container, svg, Alignment, Button, Color, Container, Length, Row, Svg, Text};
 
 use crate::bl3_ui::Bl3Message;
-use crate::resources::fonts::JETBRAINS_MONO_BOLD;
+use crate::resources::fonts::SOURCE_HAN_SANS_BOLD;
 use crate::resources::svgs::{INFO_CLOSE, NEGATIVE_CLOSE, POSITIVE_CLOSE};
 
 #[derive(Debug, Default)]
@@ -53,7 +53,7 @@ impl Notification {
 
         let contents_row = Row::new()
             .push(
-                Container::new(Text::new(&self.message).font(JETBRAINS_MONO_BOLD).size(18))
+                Container::new(Text::new(&self.message).font(SOURCE_HAN_SANS_BOLD).size(18))
                     .width(Length::Fill),
             )
             .push(close_button)

@@ -6,7 +6,7 @@ use iced::{
 
 use crate::bl3_ui::{Bl3Message, InteractionMessage, MessageResult};
 use crate::bl3_ui_style::Bl3UiStyle;
-use crate::resources::fonts::{JETBRAINS_MONO, JETBRAINS_MONO_BOLD};
+use crate::resources::fonts::{SOURCE_HAN_SANS, SOURCE_HAN_SANS_BOLD};
 use crate::views::InteractionExt;
 use crate::widgets::labelled_element::LabelledElement;
 
@@ -50,7 +50,7 @@ pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
     let mut change_backup_dir_button = Button::new(
         &mut settings_state.change_backup_dir_button_state,
         Text::new("Change Folder")
-            .font(JETBRAINS_MONO_BOLD)
+            .font(SOURCE_HAN_SANS_BOLD)
             .size(17),
     )
     .padding(10)
@@ -74,7 +74,7 @@ pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
                         &settings_state.config_dir_input,
                         |_| InteractionMessage::Ignore,
                     )
-                    .font(JETBRAINS_MONO)
+                    .font(SOURCE_HAN_SANS)
                     .padding(10)
                     .size(17)
                     .style(Bl3UiStyle)
@@ -87,7 +87,7 @@ pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut settings_state.open_config_dir_button_state,
-                    Text::new("Open Folder").font(JETBRAINS_MONO_BOLD).size(17),
+                    Text::new("Open Folder").font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::SettingsInteraction(
                     SettingsInteractionMessage::OpenConfigDir,
@@ -114,7 +114,7 @@ pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
                         &settings_state.backup_dir_input,
                         |_| InteractionMessage::Ignore,
                     )
-                    .font(JETBRAINS_MONO)
+                    .font(SOURCE_HAN_SANS)
                     .padding(10)
                     .size(17)
                     .style(Bl3UiStyle)
@@ -127,7 +127,7 @@ pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut settings_state.open_backup_dir_button_state,
-                    Text::new("Open Folder").font(JETBRAINS_MONO_BOLD).size(17),
+                    Text::new("Open Folder").font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::SettingsInteraction(
                     SettingsInteractionMessage::OpenBackupDir,
@@ -146,7 +146,7 @@ pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
     let mut change_saves_dir_button = Button::new(
         &mut settings_state.change_saves_dir_button_state,
         Text::new("Change Folder")
-            .font(JETBRAINS_MONO_BOLD)
+            .font(SOURCE_HAN_SANS_BOLD)
             .size(17),
     )
     .padding(10)
@@ -170,7 +170,7 @@ pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
                         &settings_state.saves_dir_input,
                         |_| InteractionMessage::Ignore,
                     )
-                    .font(JETBRAINS_MONO)
+                    .font(SOURCE_HAN_SANS)
                     .padding(10)
                     .size(17)
                     .style(Bl3UiStyle)
@@ -183,7 +183,7 @@ pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut settings_state.open_saves_dir_button_state,
-                    Text::new("Open Folder").font(JETBRAINS_MONO_BOLD).size(17),
+                    Text::new("Open Folder").font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::SettingsInteraction(
                     SettingsInteractionMessage::OpenSavesDir,
@@ -207,7 +207,7 @@ pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
                 .push(
                     Button::new(
                         &mut settings_state.decrease_ui_scale_button_state,
-                        Text::new("  -  ").font(JETBRAINS_MONO_BOLD).size(17),
+                        Text::new("  -  ").font(SOURCE_HAN_SANS_BOLD).size(17),
                     )
                     .on_press(InteractionMessage::SettingsInteraction(
                         SettingsInteractionMessage::DecreaseUIScale,
@@ -219,13 +219,13 @@ pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
                 .push(
                     Text::new(format!("{:.2}", settings_state.ui_scale_factor))
                         .color(Color::from_rgb8(220, 220, 220))
-                        .font(JETBRAINS_MONO_BOLD)
+                        .font(SOURCE_HAN_SANS_BOLD)
                         .size(17),
                 )
                 .push(
                     Button::new(
                         &mut settings_state.increase_ui_scale_button_state,
-                        Text::new("  +  ").font(JETBRAINS_MONO_BOLD).size(17),
+                        Text::new("  +  ").font(SOURCE_HAN_SANS_BOLD).size(17),
                     )
                     .on_press(InteractionMessage::SettingsInteraction(
                         SettingsInteractionMessage::IncreaseUIScale,

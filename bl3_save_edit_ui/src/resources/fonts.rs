@@ -19,3 +19,23 @@ pub const JETBRAINS_MONO_LIGHT_ITALIC: Font = Font::External {
     name: "Jetbrains Mono Light Italic",
     bytes: include_bytes!("../../resources/font/JetBrainsMono-LightItalic.ttf"),
 };
+
+pub const SOURCE_HAN_SANS: Font = Font::External {
+    name: "Source Han Sans",
+    bytes: include_bytes!("../../resources/font/SourceHanSansSC-Regular.ttf"),
+};
+
+pub const SOURCE_HAN_SANS_BOLD: Font = Font::External {
+    name: "Source Han Sans Bold",
+    bytes: include_bytes!("../../resources/font/SourceHanSansSC-Bold.ttf"),
+};
+
+pub const SOURCE_HAN_SANS_HEAVY_ITALIC: Font = Font::External {
+    name: "Source Han Sans Heavy Italic",
+    bytes: include_bytes!("../../resources/font/SourceHanSansSC-Heavy.ttf"),
+};
+
+pub const SOURCE_HAN_SANS_LIGHT_ITALIC: Font = Font::External {
+    name: "Source Han Sans Light Italic",
+    bytes: include_bytes!("../../resources/font/SourceHanSansSC-Light.ttf"),
+};

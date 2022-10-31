@@ -23,7 +23,7 @@ use crate::bl3_ui_style::{
 use crate::commands::{initialization, interaction};
 use crate::config::{Bl3Config, ConfigMessage};
 use crate::resources::fonts::{
-    JETBRAINS_MONO, JETBRAINS_MONO_BOLD, JETBRAINS_MONO_NL_EXTRA_BOLD_ITALIC,
+    SOURCE_HAN_SANS, SOURCE_HAN_SANS_BOLD, SOURCE_HAN_SANS_HEAVY_ITALIC,
 };
 use crate::resources::svgs::REFRESH;
 use crate::state_mappers::{manage_profile, manage_save};
@@ -1561,7 +1561,7 @@ impl Application for Bl3Application {
 
     fn view(&mut self) -> Element<'_, Self::Message> {
         let title = Text::new("Borderlands 3 Save Editor".to_uppercase())
-            .font(JETBRAINS_MONO_NL_EXTRA_BOLD_ITALIC)
+            .font(SOURCE_HAN_SANS_HEAVY_ITALIC)
             .size(40)
             .color(Color::from_rgb8(242, 203, 5))
             .width(Length::Fill)
@@ -1584,7 +1584,7 @@ impl Application for Bl3Application {
         )
         .gap(10)
         .padding(10)
-        .font(JETBRAINS_MONO)
+        .font(SOURCE_HAN_SANS)
         .size(17)
         .style(Bl3UiTooltipStyle);
 
@@ -1595,7 +1595,7 @@ impl Application for Bl3Application {
                 Some(*self.loaded_files_selected.clone()),
                 |f| InteractionMessage::LoadedFileSelected(Box::new(f)),
             )
-            .font(JETBRAINS_MONO)
+            .font(SOURCE_HAN_SANS)
             .text_size(17)
             .width(Length::Fill)
             .padding(10)
@@ -1604,7 +1604,7 @@ impl Application for Bl3Application {
         } else {
             Container::new(
                 Text::new("Reloading saves...")
-                    .font(JETBRAINS_MONO)
+                    .font(SOURCE_HAN_SANS)
                     .color(Color::from_rgb8(220, 220, 200))
                     .size(17),
             )
@@ -1624,7 +1624,7 @@ impl Application for Bl3Application {
 
         let mut save_button = Button::new(
             &mut self.save_file_button_state,
-            Text::new("Save").font(JETBRAINS_MONO_BOLD).size(17),
+            Text::new("Save").font(SOURCE_HAN_SANS_BOLD).size(17),
         )
         .padding(10)
         .style(Bl3UiStyle);
@@ -1663,7 +1663,7 @@ impl Application for Bl3Application {
                         latest_release.tag_name
                     ),
                 })
-                .font(JETBRAINS_MONO_BOLD)
+                .font(SOURCE_HAN_SANS_BOLD)
                 .size(17),
             )
             .padding(10)
