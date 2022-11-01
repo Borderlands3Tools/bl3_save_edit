@@ -106,7 +106,7 @@ pub fn view(general_state: &mut GeneralState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut general_state.generate_guid_button_state,
-                    Text::new("Random").font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("Random")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::ManageSaveInteraction(
                     ManageSaveInteractionMessage::General(

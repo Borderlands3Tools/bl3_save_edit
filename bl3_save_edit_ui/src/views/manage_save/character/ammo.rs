@@ -134,7 +134,7 @@ impl AmmoSetter {
             Column::new()
                 .push(
                     Container::new(
-                        Text::new("Ammo Amounts")
+                        Text::new(t!("Ammo Amounts"))
                             .font(SOURCE_HAN_SANS_BOLD)
                             .size(17)
                             .color(Color::from_rgb8(242, 203, 5)),
@@ -167,7 +167,7 @@ impl AmmoSetter {
                                 Container::new(
                                     Button::new(
                                         &mut self.max_all_button_state,
-                                        Text::new("Max All Ammo Amounts")
+                                        Text::new(t!("Max All Ammo Amounts"))
                                             .font(SOURCE_HAN_SANS_BOLD)
                                             .size(17),
                                     )

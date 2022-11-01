@@ -128,7 +128,7 @@ impl SkinUnlocker {
             Column::new()
                 .push(
                     Container::new(
-                        Text::new("Skin Unlocker")
+                        Text::new(t!("Skin Unlocker"))
                             .font(SOURCE_HAN_SANS_BOLD)
                             .size(17)
                             .color(Color::from_rgb8(242, 203, 5)),

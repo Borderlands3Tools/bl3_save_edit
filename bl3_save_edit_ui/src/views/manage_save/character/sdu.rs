@@ -136,7 +136,7 @@ impl SduUnlocker {
             Column::new()
                 .push(
                     Container::new(
-                        Text::new("SDU Management")
+                        Text::new(t!("SDU Management"))
                             .font(SOURCE_HAN_SANS_BOLD)
                             .size(17)
                             .color(Color::from_rgb8(242, 203, 5)),
@@ -165,7 +165,7 @@ impl SduUnlocker {
                                 Container::new(
                                     Button::new(
                                         &mut self.unlock_all_button_state,
-                                        Text::new("Max All SDU Levels")
+                                        Text::new(t!("Max All SDU Levels"))
                                             .font(SOURCE_HAN_SANS_BOLD)
                                             .size(17),
                                     )

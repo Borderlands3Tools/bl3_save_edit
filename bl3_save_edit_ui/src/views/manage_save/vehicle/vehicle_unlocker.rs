@@ -154,7 +154,7 @@ impl VehicleUnlocker {
             Column::new()
                 .push(
                     Container::new(
-                        Text::new("Vehicle Unlocker")
+                        Text::new(t!("Vehicle Unlocker"))
                             .font(SOURCE_HAN_SANS_BOLD)
                             .size(17)
                             .color(Color::from_rgb8(242, 203, 5)),

@@ -49,7 +49,7 @@ pub enum SettingsInteractionMessage {
 pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
     let mut change_backup_dir_button = Button::new(
         &mut settings_state.change_backup_dir_button_state,
-        Text::new("Change Folder")
+        Text::new(t!("Change Folder"))
             .font(SOURCE_HAN_SANS_BOLD)
             .size(17),
     )
@@ -87,7 +87,7 @@ pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut settings_state.open_config_dir_button_state,
-                    Text::new("Open Folder").font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("Open Folder")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::SettingsInteraction(
                     SettingsInteractionMessage::OpenConfigDir,
@@ -127,7 +127,7 @@ pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut settings_state.open_backup_dir_button_state,
-                    Text::new("Open Folder").font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("Open Folder")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::SettingsInteraction(
                     SettingsInteractionMessage::OpenBackupDir,
@@ -145,7 +145,7 @@ pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
 
     let mut change_saves_dir_button = Button::new(
         &mut settings_state.change_saves_dir_button_state,
-        Text::new("Change Folder")
+        Text::new(t!("Change Folder"))
             .font(SOURCE_HAN_SANS_BOLD)
             .size(17),
     )
@@ -183,7 +183,7 @@ pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut settings_state.open_saves_dir_button_state,
-                    Text::new("Open Folder").font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("Open Folder")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::SettingsInteraction(
                     SettingsInteractionMessage::OpenSavesDir,

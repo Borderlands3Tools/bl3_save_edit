@@ -10,7 +10,7 @@ pub enum InitializationMessage {
 }
 
 pub fn view<'a>() -> Container<'a, Bl3Message> {
-    let initializing_text = Text::new("Initializing...")
+    let initializing_text = Text::new(t!("Initializing..."))
         .font(SOURCE_HAN_SANS)
         .size(20)
         .color(Color::from_rgb8(220, 220, 220));

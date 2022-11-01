@@ -260,7 +260,7 @@ impl CurrentParts {
                     if reorder_parts {
                         let reorder_move_up_button = Button::new(
                             &mut self.reorder_parts_move_up_button_state,
-                            Text::new("Up")
+                            Text::new(t!("Up"))
                                 .font(SOURCE_HAN_SANS_BOLD)
                                 .size(17)
                                 .horizontal_alignment(Horizontal::Center),
@@ -275,7 +275,7 @@ impl CurrentParts {
 
                         let reorder_move_down_button = Button::new(
                             &mut self.reorder_parts_move_down_button_state,
-                            Text::new("Down")
+                            Text::new(t!("Down"))
                                 .font(SOURCE_HAN_SANS_BOLD)
                                 .size(17)
                                 .horizontal_alignment(Horizontal::Center),
@@ -290,7 +290,7 @@ impl CurrentParts {
 
                         let reorder_move_top_button = Button::new(
                             &mut self.reorder_parts_move_top_button_state,
-                            Text::new("Top")
+                            Text::new(t!("Top"))
                                 .font(SOURCE_HAN_SANS_BOLD)
                                 .size(17)
                                 .horizontal_alignment(Horizontal::Center),
@@ -305,7 +305,7 @@ impl CurrentParts {
 
                         let reorder_move_bottom_button = Button::new(
                             &mut self.reorder_parts_move_bottom_button_state,
-                            Text::new("Bottom")
+                            Text::new(t!("Bottom"))
                                 .font(SOURCE_HAN_SANS_BOLD)
                                 .size(17)
                                 .horizontal_alignment(Horizontal::Center),

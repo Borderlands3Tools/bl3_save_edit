@@ -1018,7 +1018,7 @@ where
         .push(
             Button::new(
                 &mut item_editor_state.import_serial_button_state,
-                Text::new("Import").font(SOURCE_HAN_SANS_BOLD).size(17),
+                Text::new(t!("Import")).font(SOURCE_HAN_SANS_BOLD).size(17),
             )
             .on_press(interaction_message(
                 ItemEditorInteractionMessage::ImportItemFromSerialPressed,
@@ -1032,7 +1032,7 @@ where
     let create_item_button = Container::new(
         Button::new(
             &mut item_editor_state.create_item_button_state,
-            Text::new("Create Item").font(SOURCE_HAN_SANS_BOLD).size(17),
+            Text::new(t!("Create Item")).font(SOURCE_HAN_SANS_BOLD).size(17),
         )
         .on_press(interaction_message(
             ItemEditorInteractionMessage::CreateItemPressed,
@@ -1080,7 +1080,7 @@ where
             .push(
                 Button::new(
                     &mut item_editor_state.all_item_levels_button_state,
-                    Text::new("Set").font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("Set")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(interaction_message(
                     ItemEditorInteractionMessage::SetAllItemLevelsPressed,
@@ -1274,7 +1274,7 @@ where
             } else {
                 item_list_contents = item_list_contents.push(
                     Container::new(
-                        Text::new("Please Import/Create an item to get started.")
+                        Text::new(t!("Please Import/Create an item to get started."))
                             .font(SOURCE_HAN_SANS_BOLD)
                             .size(17)
                             .color(Color::from_rgb8(220, 220, 220)),

@@ -345,7 +345,7 @@ impl AvailableParts {
         } else {
             available_parts_column = available_parts_column.push(
                 Container::new(
-                    Text::new("No available parts or anointments found.")
+                    Text::new(t!("No available parts or anointments found."))
                         .font(SOURCE_HAN_SANS)
                         .size(17)
                         .color(Color::from_rgb8(220, 220, 220)),

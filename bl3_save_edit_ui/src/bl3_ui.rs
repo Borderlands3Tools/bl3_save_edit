@@ -1560,7 +1560,7 @@ impl Application for Bl3Application {
     }
 
     fn view(&mut self) -> Element<'_, Self::Message> {
-        let title = Text::new("Borderlands 3 Save Editor".to_uppercase())
+        let title = Text::new(t!("Borderlands 3 Save Editor").to_uppercase())
             .font(SOURCE_HAN_SANS_HEAVY_ITALIC)
             .size(40)
             .color(Color::from_rgb8(242, 203, 5))
@@ -1579,7 +1579,7 @@ impl Application for Bl3Application {
                 .padding(10)
                 .style(Bl3UiStyle)
                 .into_element(),
-            "Refresh saves folder",
+            t!("Refresh saves folder"),
             tooltip::Position::Bottom,
         )
         .gap(10)
@@ -1603,7 +1603,7 @@ impl Application for Bl3Application {
             .into_element()
         } else {
             Container::new(
-                Text::new("Reloading saves...")
+                Text::new(t!("Reloading saves..."))
                     .font(SOURCE_HAN_SANS)
                     .color(Color::from_rgb8(220, 220, 200))
                     .size(17),
@@ -1624,7 +1624,7 @@ impl Application for Bl3Application {
 
         let mut save_button = Button::new(
             &mut self.save_file_button_state,
-            Text::new("Save").font(SOURCE_HAN_SANS_BOLD).size(17),
+            Text::new(t!("Save")).font(SOURCE_HAN_SANS_BOLD).size(17),
         )
         .padding(10)
         .style(Bl3UiStyle);
@@ -1657,10 +1657,10 @@ impl Application for Bl3Application {
             let mut update_button = Button::new(
                 &mut self.update_button_state,
                 Text::new(match self.is_updating {
-                    true => "Updating...".to_string(),
-                    false => format!(
-                        "Click here to update to version: {}",
-                        latest_release.tag_name
+                    true => t!("Updating...").to_string(),
+                    false => t!(
+                        "Click here to update to version: %{version}",
+                        version = &latest_release.tag_name
                     ),
                 })
                 .font(SOURCE_HAN_SANS_BOLD)

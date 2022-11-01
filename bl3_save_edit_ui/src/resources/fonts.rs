@@ -22,20 +22,20 @@ pub const JETBRAINS_MONO_LIGHT_ITALIC: Font = Font::External {
 
 pub const SOURCE_HAN_SANS: Font = Font::External {
     name: "Source Han Sans",
-    bytes: include_bytes!("../../resources/font/SourceHanSansSC-Regular.ttf"),
+    bytes: include_bytes!("../../resources/font/sarasa-fixed-sc-regular.ttf"),
 };
 
 pub const SOURCE_HAN_SANS_BOLD: Font = Font::External {
     name: "Source Han Sans Bold",
-    bytes: include_bytes!("../../resources/font/SourceHanSansSC-Bold.ttf"),
+    bytes: include_bytes!("../../resources/font/sarasa-fixed-sc-bold.ttf"),
 };
 
 pub const SOURCE_HAN_SANS_HEAVY_ITALIC: Font = Font::External {
     name: "Source Han Sans Heavy Italic",
-    bytes: include_bytes!("../../resources/font/SourceHanSansSC-Heavy.ttf"),
+    bytes: include_bytes!("../../resources/font/sarasa-fixed-sc-bold.ttf"),
 };
 
 pub const SOURCE_HAN_SANS_LIGHT_ITALIC: Font = Font::External {
     name: "Source Han Sans Light Italic",
-    bytes: include_bytes!("../../resources/font/SourceHanSansSC-Light.ttf"),
+    bytes: include_bytes!("../../resources/font/sarasa-fixed-sc-regular.ttf"),
 };

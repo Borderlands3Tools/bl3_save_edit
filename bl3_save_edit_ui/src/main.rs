@@ -12,6 +12,13 @@ use crate::bl3_ui::Bl3Application;
 use crate::config::Bl3Config;
 use crate::update::remove_file;
 
+// Load I18n macro, for allow you use `t!` macro in anywhere.
+#[macro_use]
+extern crate rust_i18n;
+
+// Init translations for current crate.
+i18n!("locales");
+
 mod bl3_ui;
 mod bl3_ui_style;
 mod commands;
@@ -31,6 +38,9 @@ fn main() -> Result<()> {
     let mut pargs = pico_args::Arguments::from_env();
 
     env::set_var("RUST_LOG", "INFO");
+
+    rust_i18n::set_locale("zh-CN");
+    rust_i18n::locale();
 
     let config = Bl3Config::load();
 

@@ -90,7 +90,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut keys_state.max_golden_keys_button_state,
-                    Text::new("Max").font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("Max")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::ManageProfileInteraction(
                     ManageProfileInteractionMessage::Keys(
@@ -140,7 +140,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut keys_state.max_diamond_keys_button_state,
-                    Text::new("Max").font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("Max")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::ManageProfileInteraction(
                     ManageProfileInteractionMessage::Keys(
@@ -190,7 +190,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut keys_state.max_vault_card_1_keys_button_state,
-                    Text::new("Max").font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("Max")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::ManageProfileInteraction(
                     ManageProfileInteractionMessage::Keys(
@@ -240,7 +240,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut keys_state.max_vault_card_1_chests_button_state,
-                    Text::new("Max").font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("Max")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::ManageProfileInteraction(
                     ManageProfileInteractionMessage::Keys(
@@ -290,7 +290,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut keys_state.max_vault_card_2_keys_button_state,
-                    Text::new("Max").font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("Max")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::ManageProfileInteraction(
                     ManageProfileInteractionMessage::Keys(
@@ -340,7 +340,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut keys_state.max_vault_card_2_chests_button_state,
-                    Text::new("Max").font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("Max")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::ManageProfileInteraction(
                     ManageProfileInteractionMessage::Keys(
@@ -390,7 +390,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut keys_state.max_vault_card_3_keys_button_state,
-                    Text::new("Max").font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("Max")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::ManageProfileInteraction(
                     ManageProfileInteractionMessage::Keys(
@@ -440,7 +440,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut keys_state.max_vault_card_3_chests_button_state,
-                    Text::new("Max").font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("Max")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::ManageProfileInteraction(
                     ManageProfileInteractionMessage::Keys(

@@ -103,7 +103,7 @@ impl GearUnlocker {
             Column::new()
                 .push(
                     Container::new(
-                        Text::new("Gear Management")
+                        Text::new(t!("Gear Management"))
                             .font(SOURCE_HAN_SANS_BOLD)
                             .size(17)
                             .color(Color::from_rgb8(242, 203, 5)),

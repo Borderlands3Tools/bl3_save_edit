@@ -37,7 +37,7 @@ impl ItemEditorLootlemonItem {
             .push(
                 Button::new(
                     &mut self.import_button_state,
-                    Text::new("Import Item")
+                    Text::new(t!("Import Item"))
                         .font(SOURCE_HAN_SANS_BOLD)
                         .size(16)
                         .horizontal_alignment(Horizontal::Center),
@@ -52,7 +52,7 @@ impl ItemEditorLootlemonItem {
             .push(
                 Button::new(
                     &mut self.open_lootlemon_button_state,
-                    Text::new("Open on Lootlemon ➜")
+                    Text::new(t!("Open on Lootlemon ➜"))
                         .font(SOURCE_HAN_SANS_BOLD)
                         .size(16)
                         .horizontal_alignment(Horizontal::Center),
