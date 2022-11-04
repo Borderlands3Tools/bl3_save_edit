@@ -1,6 +1,7 @@
 ![Build](https://github.com/Borderlands3Tools/bl3_save_edit/actions/workflows/ci.yml/badge.svg)
 ![](https://img.shields.io/github/downloads/Borderlands3Tools/bl3_save_edit/latest/total)
 ![](https://img.shields.io/github/downloads/Borderlands3Tools/bl3_save_edit/total)
+[![Crowdin](https://badges.crowdin.net/borderlands-3-save-editor/localized.svg)](https://crowdin.com/project/borderlands-3-save-editor)
 
 # Borderlands 3 Save Editor
 
