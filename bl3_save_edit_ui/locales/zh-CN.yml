@@ -1,59 +1,125 @@
 zh-CN:
-  All Levels: 所有级别
-  Ammo Amounts: 弹药量
-  Backups folder: 备份文件夹
-  Borderlands 3 Save Editor: 无主之地3存档修改器
-  Bottom: Bottom
-  Change Folder: 更改文件夹
-  Choose a saves folder first...: "请先选择配置文件夹..."
-  "Click here to update to version: %{version}": "单击此处更新到版本: %{version}"
-  Config folder: 配置文件夹
-  Create Item: 创建项目
-  Delete: 删除
-  Diamond Keys: 钻石钥匙
-  Down: Down
-  Duplicate: 复制
-  Eridium: Eridium
-  File: 文件
-  Gear Management: 设备管理
-  Golden Keys: 金钥匙
-  Guardian Rewards: 护卫者奖励
-  Import: 导入
-  Import Item: 导入项目
-  Import Serial: Import Serial
-  Initializing...: "正在初始化..."
-  Loading config...: "正在加载配置..."
-  Loading...: "正在加载..."
-  Max: Max
-  Max All Ammo Amounts: 所有弹药的最大数量
-  Max All Guardian Rewards: 最高所有守护者奖励
-  Max All SDU Levels: 最大所有 SDU 级别
-  Money: 金钱
-  No available parts or anointments found.: "找不到可用的部件或膏药."
-  Open Folder: 打开文件夹
-  Open on Lootlemon ➜: "在 Lootlemon.com 上打开 ➜"
-  Please Import/Create an item to get started.: "请导入或创建项目以开始使用."
-  Random: 随机
-  Refresh saves folder: 从存档文件夹重新读取数据
-  Reloading saves...: 重新加载存档...
-  SDU Management: SDU 管理
-  Save: 写入存档
-  Save GUID: Save GUID
-  Save Slot: Save Slot
-  Save Type: Save Type
-  Saves folder: 存档文件夹
-  Select Borderlands 3 Save/Profile folder: 选择Borderland 3保存/配置文件文件夹
-  Select...: "选择..."
-  Set: Set
-  Share: 分享
-  Skin Unlocker: 皮肤解锁
-  Top: Top
-  Up: Up
-  Updating...: "正在更新..."
-  Vault Card 1 Chests: 金库卡 1 箱子
-  Vault Card 1 Keys: 金库卡 1 钥匙
-  Vault Card 2 Chests: 金库卡 2 箱子
-  Vault Card 2 Keys: 金库卡 2 钥匙
-  Vault Card 3 Chests: 金库卡 3 箱子
-  Vault Card 3 Keys: 金库卡 3 钥匙
-  Vehicle Unlocker: 车辆解锁
+  main:
+    title: 无主之地 3 存档修改器
+    #game saves
+    refresh_saves: 重新加载存档
+    reloading_saves: 存档重载中
+    save: 保存
+    #software update
+    update_to: "单击此处更新到版本：%{version}"
+    updating: 更新中...
+  welcome:
+    select_folder: 选择无主之地3存档/配置文件目录
+    select: 请选择...
+  general:
+    file: 文件
+    file_tooltip: 不可编辑，通过更改下面的存档插槽来修改此选项
+    save_guid: 存档编号
+    guid_random: 随机
+    save_slot: 存档插槽
+    save_slot_tooltip: 插槽值必须大于等于 1
+    save_type: 存档类型
+  character:
+    name: 名字
+    class: 职业
+    level: 等级
+    level_tooltip: 等级必须在 1 到 %{max} 之间
+    experience: 经验值
+    experience_tooltip: 经验值必须在 0 到 9,520,932 之间
+    skill_points: 技能点
+    skin:
+      head_skin: 头部皮肤
+      character_skin: 人物皮肤
+      echo_theme: ECHO 主题
+    gear:
+      title: 装备管理
+      grenade: 手雷
+      shield: 护盾
+      weapon_slot_1: 武器栏 1
+      weapon_slot_2: 武器栏 2
+      weapon_slot_3: 武器栏 3
+      weapon_slot_4: 武器栏 4
+      artifact: 神器
+      class_mod: 职业模组
+    ammo:
+      title: 弹药数量
+      amount_tooltip: 数量必须在 %{min} 到 %{max} 之间
+      max_all: 将所有弹药数量设为最大
+    sdu:
+      title: SDU 管理
+      level_tooltip: 等级必须在 %{min} 到 %{max} 之间
+      max_all: 将所有SDU级别设为最大
+  inventory:
+    create_item: 创建物品
+    import_item:
+      serial: 导入序列号
+      import: 导入
+    all_item:
+      levels: 所有等级
+      level_tooltip: 等级必须在 1 到 %{max} 之间
+      set_levels: 设置
+    item_list:
+    item_search:
+      list_item: 在 %{count} 个物品中搜索
+      lootlemon: 在 %{count} 个物品中搜索
+    list_item:
+      duplicate: 复制
+      share: 分享
+      delete: 删除
+    lootlemon_item:
+      import: 导入物品
+      open: 在 Lootlemon 中打开
+    item_editor:
+      level: 等级
+      level_tooltip: 等级必须在 1 到 %{max} 之间
+      serial: 序列号
+      balance: Balance
+      balance_note: 在 %{count} 个 Balance 零件中搜索...
+      inventory_data: Inventory Data
+      inventory_data_note: 在 %{count} 个 Inventory Data 零件中搜索...
+      manufacturer: 制造商
+      manufacturer_note: 在 %{count} 个制造商零件中搜索...
+    available_parts:
+      show_all: 显示所有部件
+      search_parts: 搜索 %{amount} 个可用的零件...
+      search_anointments: 搜索 %{amount} 个可用的受福...
+      no_available: 没有找到可用的零件或受福。
+    current_parts:
+      reorder: 重新排序部件
+      tooltip: 重新排序此项目的组成部分。 当此复选框处于活动状态时显示的顺序将是他们在游戏中加载的顺序。 它们将从上至下装载。\n即使此复选框未激活，您也会查看分类部分 当此复选框处于活动状态时，仍会按显示顺序加载它们。
+      up: 上移
+      down: 下移
+      top: 移到顶部
+      bottom: 移到底部
+      search_parts: 在 %{amount} 个已用的零件中搜索...
+      no_parts: 此物品没有配件。
+      search_anointments: 在 %{amount} 个已用的受福中搜索...
+      no_anointments: 这个物品没有受福
+  currency:
+    money: 金钱
+    eridium: E矿
+    max: 最大
+  vehicle:
+    title: 顺风车载具解锁
+    unlock_outrunner_chassis: 解锁所有冲锋车底盘(轮子)
+    unlock_outrunner_parts: 解锁所有冲锋车零件
+    unlock_outrunner_skins: 解锁所有冲锋车皮肤
+    unlock_jetbeast_chassis: 解锁所有喷射兽底盘(轮子)
+    unlock_jetbeast_parts: 解锁所有喷射兽零件
+    unlock_jetbeast_skins: 解锁所有喷射兽皮肤
+    unlock_technical_chassis: 解锁所有爆改车底盘(轮子)
+    unlock_technical_parts: 解锁所有爆改车零件
+    unlock_technical_skins: 解锁所有爆改车皮肤
+    unlock_cyclone_chassis: 解锁所有旋风车底盘(轮子)
+    unlock_cyclone_parts: 解锁所有旋风车零件
+    unlock_cyclone_skins: 解锁所有旋风车皮肤
+  setting:
+    config_folder: 配置目录
+    config_folder_note: 加载配置...
+    backups_folder: 备份目录
+    backups_folder_note: 请选择存储路径...
+    save_folder: 存档目录
+    save_folder_note: 请选择存储路径...
+    ui_scale: UI缩放
+    open_folder: 打开目录
+    change_folder: 切换目录
