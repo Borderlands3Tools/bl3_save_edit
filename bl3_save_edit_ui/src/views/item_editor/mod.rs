@@ -1274,7 +1274,7 @@ where
             } else {
                 item_list_contents = item_list_contents.push(
                     Container::new(
-                        Text::new(t!("Please Import/Create an item to get started."))
+                        Text::new(t!("inventory.list_item.item_empty"))
                             .font(SOURCE_HAN_SANS_BOLD)
                             .size(17)
                             .color(Color::from_rgb8(220, 220, 220)),
@@ -1433,7 +1433,7 @@ pub fn get_filtered_items(
                     .flags
                     .map(|f| f.contains(ItemFlags::JUNK))
                     .unwrap_or(false)
-            || format!("level {}", item.level().to_string()).contains(&search_items_query)
+            || t!("inventory.list_item.level", level=&item.level().to_string()).contains(&search_items_query)
             || item
                 .item_type
                 .to_string()

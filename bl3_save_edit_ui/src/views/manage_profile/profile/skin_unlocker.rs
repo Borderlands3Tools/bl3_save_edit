@@ -84,37 +84,37 @@ impl std::default::Default for SkinUnlocker {
     fn default() -> Self {
         Self {
             character_skins: SkinUnlockCheckbox::new(
-                "Unlock All Character Skins",
+                t!("profile.skin.character_skins"),
                 ProfileSkinData::new(ProfileSkinType::Regular(SkinSet::CharacterSkins), 0),
                 SkinUnlockedMessage::CharacterSkins,
             ),
             character_heads: SkinUnlockCheckbox::new(
-                "Unlock All Character Heads",
+                t!("profile.skin.character_heads"),
                 ProfileSkinData::new(ProfileSkinType::Regular(SkinSet::CharacterHeads), 0),
                 SkinUnlockedMessage::CharacterHeads,
             ),
             echo_themes: SkinUnlockCheckbox::new(
-                "Unlock All Echo Themes",
+                t!("profile.skin.echo_themes"),
                 ProfileSkinData::new(ProfileSkinType::Regular(SkinSet::EchoThemes), 0),
                 SkinUnlockedMessage::EchoThemes,
             ),
             emotes: SkinUnlockCheckbox::new(
-                "Unlock All Emotes",
+                t!("profile.skin.emotes"),
                 ProfileSkinData::new(ProfileSkinType::Regular(SkinSet::Emotes), 0),
                 SkinUnlockedMessage::Emotes,
             ),
             room_decorations: SkinUnlockCheckbox::new(
-                "Unlock All Room Decorations",
+                t!("profile.skin.room_decorations"),
                 ProfileSkinData::new(ProfileSkinType::Regular(SkinSet::RoomDecorations), 0),
                 SkinUnlockedMessage::RoomDecorations,
             ),
             weapon_skins: SkinUnlockCheckbox::new(
-                "Unlock All Weapon Skins",
+                t!("profile.skin.weapon_skins"),
                 ProfileSkinData::new(ProfileSkinType::Weapon(WeaponSkinSet::WeaponSkins), 0),
                 SkinUnlockedMessage::WeaponSkins,
             ),
             weapon_trinkets: SkinUnlockCheckbox::new(
-                "Unlock All Weapon Trinkets",
+                t!("profile.skin.weapon_trinkets"),
                 ProfileSkinData::new(ProfileSkinType::Weapon(WeaponSkinSet::WeaponTrinkets), 0),
                 SkinUnlockedMessage::WeaponTrinkets,
             ),
@@ -128,7 +128,7 @@ impl SkinUnlocker {
             Column::new()
                 .push(
                     Container::new(
-                        Text::new(t!("Skin Unlocker"))
+                        Text::new(t!("profile.skin.title"))
                             .font(SOURCE_HAN_SANS_BOLD)
                             .size(17)
                             .color(Color::from_rgb8(242, 203, 5)),

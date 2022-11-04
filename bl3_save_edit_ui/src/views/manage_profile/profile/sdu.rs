@@ -80,7 +80,7 @@ impl SduUnlockField {
                     .size(17)
                     .style(Bl3UiStyle)
                     .into_element(),
-                    format!("Level must be between {} and {}", minimum, maximum),
+                    t!("profile.sdu.level_tooltip", min=&minimum.to_string(), max=&maximum.to_string()),
                     tooltip::Position::Top,
                 )
                 .gap(10)
@@ -117,7 +117,7 @@ impl SduUnlocker {
             Column::new()
                 .push(
                     Container::new(
-                        Text::new(t!("SDU Management"))
+                        Text::new(t!("profile.sdu.title"))
                             .font(SOURCE_HAN_SANS_BOLD)
                             .size(17)
                             .color(Color::from_rgb8(242, 203, 5)),
@@ -136,7 +136,7 @@ impl SduUnlocker {
                                 Container::new(
                                     Button::new(
                                         &mut self.unlock_all_button_state,
-                                        Text::new(t!("Max All SDU Levels"))
+                                        Text::new(t!("profile.sdu.max_all"))
                                             .font(SOURCE_HAN_SANS_BOLD)
                                             .size(17),
                                     )

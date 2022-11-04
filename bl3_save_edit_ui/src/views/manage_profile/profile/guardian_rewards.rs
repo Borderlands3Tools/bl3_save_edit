@@ -83,7 +83,7 @@ impl GuardianRewardField {
                     .size(17)
                     .style(Bl3UiStyle)
                     .into_element(),
-                    format!("Reward must be between {} and {}", minimum, maximum),
+                    t!("profile.guardian_rewards.reward_tooltip", min=&minimum.to_string(), max=&maximum.to_string()),
                     tooltip::Position::Top,
                 )
                 .gap(10)
@@ -224,7 +224,7 @@ impl GuardianRewardUnlocker {
             Column::new()
                 .push(
                     Container::new(
-                        Text::new(t!("Guardian Rewards"))
+                        Text::new(t!("profile.guardian_rewards.title"))
                             .font(SOURCE_HAN_SANS_BOLD)
                             .size(17)
                             .color(Color::from_rgb8(242, 203, 5)),
@@ -277,7 +277,7 @@ impl GuardianRewardUnlocker {
                                 Container::new(
                                     Button::new(
                                         &mut self.unlock_all_button_state,
-                                        Text::new(t!("Max All Guardian Rewards"))
+                                        Text::new(t!("profile.guardian_rewards.max_all"))
                                             .font(SOURCE_HAN_SANS_BOLD)
                                             .size(17),
                                     )

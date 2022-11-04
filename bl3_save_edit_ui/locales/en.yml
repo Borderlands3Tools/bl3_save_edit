@@ -1,4 +1,7 @@
 en:
+  view:
+    init: Initializing...
+    load: Loading...
   main:
     title: Borderlands 3 Save Editor
     # game saves
@@ -63,6 +66,8 @@ en:
       list_item: Search %{count} items...
       lootlemon: Search %{count} items...
     list_item:
+      item_empty: Please Import/Create an item to get started.
+      level: level %{level}
       duplicate: Duplicate
       share: Share
       delete: Delete
@@ -123,3 +128,34 @@ en:
     ui_scale: UI Scale
     open_folder: Open Folder
     change_folder: Change Folder
+  profile:
+    guardian_rank_tokens: Guardian Rank Tokens
+    science_level: Borderlands Science Level
+    science_tokens: Borderlands Science Tokens
+    guardian_rewards: 
+      title: Guardian Rewards
+      reward_tooltip: Reward must be between %{min} and %{max}
+      max_all: Max All Guardian Rewards
+    skin:
+      title: Skin Unlocker
+      character_skins: Unlock All Character Skins
+      character_heads: Unlock All Character Heads
+      echo_themes: Unlock All Echo Themes
+      emotes: Unlock All Emotes
+      room_decorations: Unlock All Room Decorations
+      weapon_skins: Unlock All Weapon Skins
+      weapon_trinkets: Unlock All Weapon Trinkets
+    sdu:
+      title: SDU Management
+      level_tooltip: Level must be between 1 and %{max}
+      max_all: Max All SDU Levels
+  keys:
+    golden_keys: Golden Keys
+    diamond_keys: Diamond Keys
+    vault_card1_chests: Vault Card 1 Chests
+    vault_card1_keys: Vault Card 1 Keys
+    vault_card2_chests: Vault Card 2 Chests
+    vault_card2_keys: Vault Card 2 Keys
+    vault_card3_chests: Vault Card 3 Chests
+    vault_card3_keys: Vault Card 3 Keys
+    max: Max

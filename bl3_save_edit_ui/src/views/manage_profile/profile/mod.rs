@@ -84,7 +84,7 @@ pub enum GuardianRewardMessage {
 pub fn view(profile_state: &mut ProfileState) -> Container<Bl3Message> {
     let guardian_rank_tokens = Container::new(
         LabelledElement::create(
-            "Guardian Rank Tokens",
+            t!("profile.guardian_rank_tokens"),
             Length::Units(215),
             NumberInput::new(
                 &mut profile_state.guardian_rank_tokens_input_state,
@@ -115,7 +115,7 @@ pub fn view(profile_state: &mut ProfileState) -> Container<Bl3Message> {
 
     let borderlands_science_level = Container::new(
         LabelledElement::create(
-            "Borderlands Science Level",
+            t!("profile.science_level"),
             Length::Units(215),
             PickList::new(
                 &mut profile_state.science_level_selector,
@@ -145,7 +145,7 @@ pub fn view(profile_state: &mut ProfileState) -> Container<Bl3Message> {
 
     let borderlands_science_tokens = Container::new(
         LabelledElement::create(
-            "Borderlands Science Tokens",
+            t!("profile.science_tokens"),
             Length::Units(225),
             NumberInput::new(
                 &mut profile_state.science_tokens_input_state,

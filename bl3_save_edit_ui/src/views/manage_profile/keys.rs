@@ -61,7 +61,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    t!("Golden Keys"),
+                    t!("keys.golden_keys"),
                     Length::Units(170),
                     NumberInput::new(
                         &mut keys_state.golden_keys_input_state,
@@ -90,7 +90,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut keys_state.max_golden_keys_button_state,
-                    Text::new(t!("Max")).font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("keys.max")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::ManageProfileInteraction(
                     ManageProfileInteractionMessage::Keys(
@@ -111,7 +111,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    t!("Diamond Keys"),
+                    t!("keys.diamond_keys"),
                     Length::Units(170),
                     NumberInput::new(
                         &mut keys_state.diamond_keys_input_state,
@@ -140,7 +140,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut keys_state.max_diamond_keys_button_state,
-                    Text::new(t!("Max")).font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("keys.max")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::ManageProfileInteraction(
                     ManageProfileInteractionMessage::Keys(
@@ -161,7 +161,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    t!("Vault Card 1 Keys"),
+                    t!("keys.vault_card1_keys"),
                     Length::Units(170),
                     NumberInput::new(
                         &mut keys_state.vault_card_1_keys_input_state,
@@ -190,7 +190,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut keys_state.max_vault_card_1_keys_button_state,
-                    Text::new(t!("Max")).font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("keys.max")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::ManageProfileInteraction(
                     ManageProfileInteractionMessage::Keys(
@@ -211,7 +211,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    t!("Vault Card 1 Chests"),
+                    t!("keys.vault_card1_chests"),
                     Length::Units(170),
                     NumberInput::new(
                         &mut keys_state.vault_card_1_chests_input_state,
@@ -240,7 +240,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut keys_state.max_vault_card_1_chests_button_state,
-                    Text::new(t!("Max")).font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("keys.max")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::ManageProfileInteraction(
                     ManageProfileInteractionMessage::Keys(
@@ -261,7 +261,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    t!("Vault Card 2 Keys"),
+                    t!("keys.vault_card2_keys"),
                     Length::Units(170),
                     NumberInput::new(
                         &mut keys_state.vault_card_2_keys_input_state,
@@ -290,7 +290,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut keys_state.max_vault_card_2_keys_button_state,
-                    Text::new(t!("Max")).font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("keys.max")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::ManageProfileInteraction(
                     ManageProfileInteractionMessage::Keys(
@@ -311,7 +311,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    t!("Vault Card 2 Chests"),
+                    t!("keys.vault_card2_chests"),
                     Length::Units(170),
                     NumberInput::new(
                         &mut keys_state.vault_card_2_chests_input_state,
@@ -340,7 +340,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut keys_state.max_vault_card_2_chests_button_state,
-                    Text::new(t!("Max")).font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("keys.max")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::ManageProfileInteraction(
                     ManageProfileInteractionMessage::Keys(
@@ -361,7 +361,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    t!("Vault Card 3 Keys"),
+                    t!("keys.vault_card3_keys"),
                     Length::Units(170),
                     NumberInput::new(
                         &mut keys_state.vault_card_3_keys_input_state,
@@ -390,7 +390,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut keys_state.max_vault_card_3_keys_button_state,
-                    Text::new(t!("Max")).font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("keys.max")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::ManageProfileInteraction(
                     ManageProfileInteractionMessage::Keys(
@@ -411,7 +411,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    t!("Vault Card 3 Chests"),
+                    t!("keys.vault_card3_chests"),
                     Length::Units(170),
                     NumberInput::new(
                         &mut keys_state.vault_card_3_chests_input_state,
@@ -440,7 +440,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut keys_state.max_vault_card_3_chests_button_state,
-                    Text::new(t!("Max")).font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("keys.max")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::ManageProfileInteraction(
                     ManageProfileInteractionMessage::Keys(

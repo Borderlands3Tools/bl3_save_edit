@@ -1,23 +1,26 @@
 zh-CN:
+  view:
+    init: 初始化中...
+    load: 正在加载...
   main:
     title: 无主之地 3 存档修改器
     #game saves
     refresh_saves: 重新加载存档
-    reloading_saves: 存档重载中
+    reloading_saves: 正在重新加载存档
     save: 保存
     #software update
     update_to: "单击此处更新到版本：%{version}"
     updating: 更新中...
   welcome:
-    select_folder: 选择无主之地3存档/配置文件目录
+    select_folder: 选择无主之地 3 存档/配置文件目录
     select: 请选择...
   general:
     file: 文件
-    file_tooltip: 不可编辑，通过更改下面的存档插槽来修改此选项
-    save_guid: 存档编号
+    file_tooltip: 不可编辑，通过更改下面的存档槽位来修改此选项
+    save_guid: 存档编码
     guid_random: 随机
-    save_slot: 存档插槽
-    save_slot_tooltip: 插槽值必须大于等于 1
+    save_slot: 存档槽位
+    save_slot_tooltip: 槽位必须大于等于 1
     save_type: 存档类型
   character:
     name: 名字
@@ -35,24 +38,24 @@ zh-CN:
       title: 装备管理
       grenade: 手雷
       shield: 护盾
-      weapon_slot_1: 武器栏 1
-      weapon_slot_2: 武器栏 2
-      weapon_slot_3: 武器栏 3
-      weapon_slot_4: 武器栏 4
-      artifact: 神器
+      weapon_slot_1: 武器槽位 1
+      weapon_slot_2: 武器槽位 2
+      weapon_slot_3: 武器槽位 3
+      weapon_slot_4: 武器槽位 4
+      artifact: 传奇神器
       class_mod: 职业模组
     ammo:
       title: 弹药数量
       amount_tooltip: 数量必须在 %{min} 到 %{max} 之间
       max_all: 将所有弹药数量设为最大
     sdu:
-      title: SDU 管理
+      title: 储物格升级管理
       level_tooltip: 等级必须在 %{min} 到 %{max} 之间
-      max_all: 将所有SDU级别设为最大
+      max_all: 将所有储物格升级设为最大
   inventory:
     create_item: 创建物品
     import_item:
-      serial: 导入序列号
+      serial: 使用序列号导入
       import: 导入
     all_item:
       levels: 所有等级
@@ -63,6 +66,8 @@ zh-CN:
       list_item: 在 %{count} 个物品中搜索
       lootlemon: 在 %{count} 个物品中搜索
     list_item:
+      item_empty: 请导入/创建一个物品以开始操作。
+      level: 等级 %{level}
       duplicate: 复制
       share: 分享
       delete: 删除
@@ -74,33 +79,33 @@ zh-CN:
       level_tooltip: 等级必须在 1 到 %{max} 之间
       serial: 序列号
       balance: Balance
-      balance_note: 在 %{count} 个 Balance 零件中搜索...
+      balance_note: 在 %{count} 个 Balance 部件中搜索...
       inventory_data: Inventory Data
-      inventory_data_note: 在 %{count} 个 Inventory Data 零件中搜索...
-      manufacturer: 制造商
-      manufacturer_note: 在 %{count} 个制造商零件中搜索...
+      inventory_data_note: 在 %{count} 个 Inventory Data 部件中搜索...
+      manufacturer: Manufacturer
+      manufacturer_note: 在 %{count} 个 Manufacturer 部件中搜索...
     available_parts:
       show_all: 显示所有部件
-      search_parts: 搜索 %{amount} 个可用的零件...
-      search_anointments: 搜索 %{amount} 个可用的受福...
-      no_available: 没有找到可用的零件或受福。
+      search_parts: 在 %{amount} 个可用部件中搜索...
+      search_anointments: 在 %{amount} 个可用受福中搜索...
+      no_available: 没有找到可用部件或受福。
     current_parts:
       reorder: 重新排序部件
-      tooltip: 重新排序此项目的组成部分。 当此复选框处于活动状态时显示的顺序将是他们在游戏中加载的顺序。 它们将从上至下装载。\n即使此复选框未激活，您也会查看分类部分 当此复选框处于活动状态时，仍会按显示顺序加载它们。
+      tooltip: 重新排序此物品的部件。 当此复选框处于活动状态时显示的顺序将是他们在游戏中加载的顺序。 它们将从上至下装载。\n当复选框未选中，部件会分类显示；当此复选框被选中时，则会按照加载顺序显示。
       up: 上移
       down: 下移
-      top: 移到顶部
-      bottom: 移到底部
-      search_parts: 在 %{amount} 个已用的零件中搜索...
-      no_parts: 此物品没有配件。
-      search_anointments: 在 %{amount} 个已用的受福中搜索...
+      top: 置顶
+      bottom: 置底
+      search_parts: 在 %{amount} 个当前部件中搜索...
+      no_parts: 此物品没有部件。
+      search_anointments: 在 %{amount} 个当前受福中搜索...
       no_anointments: 这个物品没有受福
   currency:
     money: 金钱
     eridium: E矿
-    max: 最大
+    max: 设为最大
   vehicle:
-    title: 顺风车载具解锁
+    title: 顺风车载具解锁器
     unlock_outrunner_chassis: 解锁所有冲锋车底盘(轮子)
     unlock_outrunner_parts: 解锁所有冲锋车零件
     unlock_outrunner_skins: 解锁所有冲锋车皮肤
@@ -117,9 +122,40 @@ zh-CN:
     config_folder: 配置目录
     config_folder_note: 加载配置...
     backups_folder: 备份目录
-    backups_folder_note: 请选择存储路径...
+    backups_folder_note: 请选择存储目录...
     save_folder: 存档目录
-    save_folder_note: 请选择存储路径...
+    save_folder_note: 请选择存储目录...
     ui_scale: UI缩放
     open_folder: 打开目录
     change_folder: 切换目录
+  profile:
+    guardian_rank_tokens: 护卫者代币
+    science_level: 无主之地科学等级
+    science_tokens: 无主之地科学代币
+    guardian_rewards:
+      title: 护卫者奖励
+      reward_tooltip: 奖励必须在 %{min} 到 %{max} 之间
+      max_all: 将所有护卫者奖励设为最大
+    skin:
+      title: 皮肤解锁器
+      character_skins: 解锁所有角色皮肤
+      character_heads: 解锁所有角色头部
+      echo_themes: 解锁所有 ECHO 主题
+      emotes: 解锁所有表情
+      room_decorations: 解锁所有房间装饰
+      weapon_skins: 解锁所有武器皮肤
+      weapon_trinkets: 解锁所有武器饰品
+    sdu:
+      title: 储物格升级管理
+      level_tooltip: 等级必须在 1 到 %{max} 之间
+      max_all: 将所有储物格升级设为最大
+  keys:
+    golden_keys: 金钥匙
+    diamond_keys: 钻石钥匙
+    vault_card1_chests: 秘藏卡片1 宝箱
+    vault_card1_keys: 秘藏卡片1 钥匙
+    vault_card2_chests: 秘藏卡片2 宝箱
+    vault_card2_keys: 秘藏卡片2 钥匙
+    vault_card3_chests: 秘藏卡片3 宝箱
+    vault_card3_keys: 秘藏卡片3 钥匙
+    max: 设为最大
