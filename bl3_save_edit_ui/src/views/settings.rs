@@ -49,7 +49,7 @@ pub enum SettingsInteractionMessage {
 pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
     let mut change_backup_dir_button = Button::new(
         &mut settings_state.change_backup_dir_button_state,
-        Text::new(t!("Change Folder"))
+        Text::new(t!("setting.change_folder"))
             .font(SOURCE_HAN_SANS_BOLD)
             .size(17),
     )
@@ -66,11 +66,11 @@ pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    t!("Config folder"),
+                    t!("setting.config_folder"),
                     Length::Units(140),
                     TextInput::new(
                         &mut settings_state.config_dir_input_state,
-                        &t!("Loading config..."),
+                        &t!("setting.config_folder_note"),
                         &settings_state.config_dir_input,
                         |_| InteractionMessage::Ignore,
                     )
@@ -87,7 +87,7 @@ pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut settings_state.open_config_dir_button_state,
-                    Text::new(t!("Open Folder")).font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("setting.open_folder")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::SettingsInteraction(
                     SettingsInteractionMessage::OpenConfigDir,
@@ -106,11 +106,11 @@ pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    t!("Backups folder"),
+                    t!("setting.backups_folder"),
                     Length::Units(140),
                     TextInput::new(
                         &mut settings_state.backup_dir_input_state,
-                        &t!("Choose a saves folder first..."),
+                        &t!("setting.backups_folder_note"),
                         &settings_state.backup_dir_input,
                         |_| InteractionMessage::Ignore,
                     )
@@ -127,7 +127,7 @@ pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut settings_state.open_backup_dir_button_state,
-                    Text::new(t!("Open Folder")).font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("setting.open_folder")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::SettingsInteraction(
                     SettingsInteractionMessage::OpenBackupDir,
@@ -145,7 +145,7 @@ pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
 
     let mut change_saves_dir_button = Button::new(
         &mut settings_state.change_saves_dir_button_state,
-        Text::new(t!("Change Folder"))
+        Text::new(t!("setting.change_folder"))
             .font(SOURCE_HAN_SANS_BOLD)
             .size(17),
     )
@@ -162,11 +162,11 @@ pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    t!("Saves folder"),
+                    t!("setting.save_folder"),
                     Length::Units(140),
                     TextInput::new(
                         &mut settings_state.saves_dir_input_state,
-                        &t!("Choose a saves folder first..."),
+                        &t!("setting.save_folder_note"),
                         &settings_state.saves_dir_input,
                         |_| InteractionMessage::Ignore,
                     )
@@ -183,7 +183,7 @@ pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut settings_state.open_saves_dir_button_state,
-                    Text::new(t!("Open Folder")).font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("setting.open_folder")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::SettingsInteraction(
                     SettingsInteractionMessage::OpenSavesDir,
@@ -201,7 +201,7 @@ pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
 
     let ui_scale = Container::new(
         LabelledElement::create(
-            "UI Scale",
+            t!("setting.ui_scale"),
             Length::Units(140),
             Row::new()
                 .push(

@@ -74,7 +74,7 @@ impl Editor {
         let item_level_editor = Row::new()
             .push(
                 LabelledElement::create(
-                    "Level",
+                    t!("inventory.item_editor.level"),
                     Length::Units(60),
                     Tooltip::new(
                         NumberInput::new(
@@ -92,7 +92,7 @@ impl Editor {
                         .size(17)
                         .style(Bl3UiStyle)
                         .into_element(),
-                        format!("Level must be between 1 and {}", MAX_CHARACTER_LEVEL),
+                        t!("inventory.item_editor.level_tooltip", max=&MAX_CHARACTER_LEVEL.to_string()),
                         tooltip::Position::Top,
                     )
                     .gap(10)
@@ -117,7 +117,7 @@ impl Editor {
             .push(
                 Container::new(
                     LabelledElement::create(
-                        "Serial",
+                        t!("inventory.item_editor.serial"),
                         Length::Units(85),
                         TextInput::new(
                             &mut self.serial_input_state,
@@ -207,11 +207,14 @@ impl Editor {
             .push(
                 Container::new(
                     LabelledElement::create(
-                        "Balance",
+                        t!("inventory.item_editor.balance"),
                         Length::Units(130),
                         SearchablePickList::new(
                             &mut self.balance_input_state,
-                            &format!("Search {} Balance Parts...", self.inv_data_parts_list.len()),
+                            &t!(
+                                "inventory.item_editor.balance_note", 
+                                count=&self.inv_data_parts_list.len().to_string()
+                            ),
                             &self.balance_search_input,
                             Some(self.balance_input_selected.clone()),
                             &self.balance_parts_list[..],
@@ -243,13 +246,13 @@ impl Editor {
             .push(
                 Container::new(
                     LabelledElement::create(
-                        "Inventory Data",
+                        t!("inventory.item_editor.inventory_data"),
                         Length::Units(130),
                         SearchablePickList::new(
                             &mut self.inv_data_input_state,
-                            &format!(
-                                "Search {} Inventory Data Parts...",
-                                self.inv_data_parts_list.len()
+                            &t!(
+                                "inventory.item_editor.inventory_data_note", 
+                                count=&self.inv_data_parts_list.len().to_string()
                             ),
                             &self.inv_data_search_input,
                             Some(self.inv_data_input_selected.clone()),
@@ -282,13 +285,13 @@ impl Editor {
             .push(
                 Container::new(
                     LabelledElement::create(
-                        "Manufacturer",
+                        t!("inventory.item_editor.manufacturer"),
                         Length::Units(130),
                         SearchablePickList::new(
                             &mut self.manufacturer_input_state,
-                            &format!(
-                                "Search {} Manufacturer Parts...",
-                                self.manufacturer_parts_list.len()
+                            &t!(
+                                "inventory.item_editor.manufacturer_note", 
+                                count=&self.manufacturer_parts_list.len().to_string()
                             ),
                             &self.manufacturer_search_input,
                             Some(self.manufacturer_input_selected.clone()),

@@ -73,26 +73,26 @@ pub struct GearUnlocker {
 impl std::default::Default for GearUnlocker {
     fn default() -> Self {
         Self {
-            grenade: GearUnlockCheckbox::new("Grenade", CharacterGearUnlockedMessage::Grenade),
-            shield: GearUnlockCheckbox::new("Shield", CharacterGearUnlockedMessage::Shield),
+            grenade: GearUnlockCheckbox::new(t!("character.gear.grenade"), CharacterGearUnlockedMessage::Grenade),
+            shield: GearUnlockCheckbox::new(t!("character.gear.shield"), CharacterGearUnlockedMessage::Shield),
             weapon_1: GearUnlockCheckbox::new(
-                "Weapon Slot 1",
+                t!("character.gear.weapon_slot_1"),
                 CharacterGearUnlockedMessage::Weapon1,
             ),
             weapon_2: GearUnlockCheckbox::new(
-                "Weapon Slot 2",
+                t!("character.gear.weapon_slot_2"),
                 CharacterGearUnlockedMessage::Weapon2,
             ),
             weapon_3: GearUnlockCheckbox::new(
-                "Weapon Slot 3",
+                t!("character.gear.weapon_slot_3"),
                 CharacterGearUnlockedMessage::Weapon3,
             ),
             weapon_4: GearUnlockCheckbox::new(
-                "Weapon Slot 4",
+                t!("character.gear.weapon_slot_4"),
                 CharacterGearUnlockedMessage::Weapon4,
             ),
-            artifact: GearUnlockCheckbox::new("Artifact", CharacterGearUnlockedMessage::Artifact),
-            class_mod: GearUnlockCheckbox::new("Class Mod", CharacterGearUnlockedMessage::ClassMod),
+            artifact: GearUnlockCheckbox::new(t!("character.gear.artifact"), CharacterGearUnlockedMessage::Artifact),
+            class_mod: GearUnlockCheckbox::new(t!("character.gear.class_mod"), CharacterGearUnlockedMessage::ClassMod),
         }
     }
 }
@@ -103,7 +103,7 @@ impl GearUnlocker {
             Column::new()
                 .push(
                     Container::new(
-                        Text::new(t!("Gear Management"))
+                        Text::new(t!("character.gear.title"))
                             .font(SOURCE_HAN_SANS_BOLD)
                             .size(17)
                             .color(Color::from_rgb8(242, 203, 5)),

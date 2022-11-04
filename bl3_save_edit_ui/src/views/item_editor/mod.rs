@@ -982,7 +982,7 @@ where
     let serial_importer = Row::new()
         .push(
             LabelledElement::create(
-                t!("Import Serial"),
+                t!("inventory.import_item.serial"),
                 Length::Units(120),
                 Tooltip::new(
                     TextInputLimited::new(
@@ -1018,7 +1018,7 @@ where
         .push(
             Button::new(
                 &mut item_editor_state.import_serial_button_state,
-                Text::new(t!("Import")).font(SOURCE_HAN_SANS_BOLD).size(17),
+                Text::new(t!("inventory.import_item.import")).font(SOURCE_HAN_SANS_BOLD).size(17),
             )
             .on_press(interaction_message(
                 ItemEditorInteractionMessage::ImportItemFromSerialPressed,
@@ -1032,7 +1032,7 @@ where
     let create_item_button = Container::new(
         Button::new(
             &mut item_editor_state.create_item_button_state,
-            Text::new(t!("Create Item")).font(SOURCE_HAN_SANS_BOLD).size(17),
+            Text::new(t!("inventory.create_item")).font(SOURCE_HAN_SANS_BOLD).size(17),
         )
         .on_press(interaction_message(
             ItemEditorInteractionMessage::CreateItemPressed,
@@ -1046,7 +1046,7 @@ where
         Row::new()
             .push(
                 LabelledElement::create(
-                    t!("All Levels"),
+                    t!("inventory.all_item.levels"),
                     Length::Units(95),
                     Tooltip::new(
                         NumberInput::new(
@@ -1064,7 +1064,7 @@ where
                         .size(17)
                         .style(Bl3UiStyle)
                         .into_element(),
-                        format!("Level must be between 1 and {}", MAX_CHARACTER_LEVEL),
+                        t!("inventory.all_item.level_tooltip", max=&MAX_CHARACTER_LEVEL.to_string()),
                         tooltip::Position::Top,
                     )
                     .gap(10)
@@ -1080,7 +1080,7 @@ where
             .push(
                 Button::new(
                     &mut item_editor_state.all_item_levels_button_state,
-                    Text::new(t!("Set")).font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("inventory.all_item.set_levels")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(interaction_message(
                     ItemEditorInteractionMessage::SetAllItemLevelsPressed,
@@ -1152,8 +1152,8 @@ where
         .width(Length::Fill);
 
     let item_list_search_input_placeholder = match item_editor_state.item_list_tab_type {
-        ItemListTabType::Items => format!("Search {} items...", number_of_items),
-        ItemListTabType::Lootlemon => format!("Search {} items...", number_of_lootlemon_items),
+        ItemListTabType::Items => t!("inventory.item_search.list_item", count=&number_of_items.to_string()),
+        ItemListTabType::Lootlemon => t!("inventory.item_search.lootlemon", count=&number_of_lootlemon_items.to_string()),
     };
 
     let item_list_search_input = match item_list_tab_type {

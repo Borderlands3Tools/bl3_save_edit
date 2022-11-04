@@ -85,62 +85,62 @@ impl std::default::Default for VehicleUnlocker {
     fn default() -> Self {
         Self {
             outrunner_chassis: VehicleUnlockCheckbox::new(
-                "Unlock All Outrunner Chassis (Wheels)",
+                t!("vehicle.unlock_outrunner_chassis"),
                 VehicleData::new(VehicleType::Outrunner(VehicleSubType::Chassis), 0),
                 VehicleUnlockedMessage::OutrunnerChassis,
             ),
             outrunner_parts: VehicleUnlockCheckbox::new(
-                "Unlock All Outrunner Parts",
+                t!("vehicle.unlock_outrunner_parts"),
                 VehicleData::new(VehicleType::Outrunner(VehicleSubType::Parts), 0),
                 VehicleUnlockedMessage::OutrunnerParts,
             ),
             outrunner_skins: VehicleUnlockCheckbox::new(
-                "Unlock All Outrunner Skins",
+                t!("vehicle.unlock_outrunner_skins"),
                 VehicleData::new(VehicleType::Outrunner(VehicleSubType::Skins), 0),
                 VehicleUnlockedMessage::OutrunnerSkins,
             ),
             jetbeast_chassis: VehicleUnlockCheckbox::new(
-                "Unlock All Jetbeast Chassis (Wheels)",
+                t!("vehicle.unlock_jetbeast_chassis"),
                 VehicleData::new(VehicleType::Jetbeast(VehicleSubType::Chassis), 0),
                 VehicleUnlockedMessage::JetbeastChassis,
             ),
             jetbeast_parts: VehicleUnlockCheckbox::new(
-                "Unlock All Jetbeast Parts",
+                t!("vehicle.unlock_jetbeast_parts"),
                 VehicleData::new(VehicleType::Jetbeast(VehicleSubType::Parts), 0),
                 VehicleUnlockedMessage::JetbeastParts,
             ),
             jetbeast_skins: VehicleUnlockCheckbox::new(
-                "Unlock All Jetbeast Skins",
+                t!("vehicle.unlock_jetbeast_skins"),
                 VehicleData::new(VehicleType::Jetbeast(VehicleSubType::Skins), 0),
                 VehicleUnlockedMessage::JetbeastSkins,
             ),
             technical_chassis: VehicleUnlockCheckbox::new(
-                "Unlock All Technical Chassis (Wheels)",
+                t!("vehicle.unlock_technical_chassis"),
                 VehicleData::new(VehicleType::Technical(VehicleSubType::Chassis), 0),
                 VehicleUnlockedMessage::TechnicalChassis,
             ),
             technical_parts: VehicleUnlockCheckbox::new(
-                "Unlock All Technical Parts",
+                t!("vehicle.unlock_technical_parts"),
                 VehicleData::new(VehicleType::Technical(VehicleSubType::Parts), 0),
                 VehicleUnlockedMessage::TechnicalParts,
             ),
             technical_skins: VehicleUnlockCheckbox::new(
-                "Unlock All Technical Skins",
+                t!("vehicle.unlock_technical_skins"),
                 VehicleData::new(VehicleType::Technical(VehicleSubType::Skins), 0),
                 VehicleUnlockedMessage::TechnicalSkins,
             ),
             cyclone_chassis: VehicleUnlockCheckbox::new(
-                "Unlock All Cyclone Chassis (Wheels)",
+                t!("vehicle.unlock_cyclone_chassis"),
                 VehicleData::new(VehicleType::Cyclone(VehicleSubType::Chassis), 0),
                 VehicleUnlockedMessage::CycloneChassis,
             ),
             cyclone_parts: VehicleUnlockCheckbox::new(
-                "Unlock All Cyclone Parts",
+                t!("vehicle.unlock_cyclone_parts"),
                 VehicleData::new(VehicleType::Cyclone(VehicleSubType::Parts), 0),
                 VehicleUnlockedMessage::CycloneParts,
             ),
             cyclone_skins: VehicleUnlockCheckbox::new(
-                "Unlock All Cyclone Skins",
+                t!("vehicle.unlock_cyclone_skins"),
                 VehicleData::new(VehicleType::Cyclone(VehicleSubType::Skins), 0),
                 VehicleUnlockedMessage::CycloneSkins,
             ),
@@ -154,7 +154,7 @@ impl VehicleUnlocker {
             Column::new()
                 .push(
                     Container::new(
-                        Text::new(t!("Vehicle Unlocker"))
+                        Text::new(t!("vehicle.title"))
                             .font(SOURCE_HAN_SANS_BOLD)
                             .size(17)
                             .color(Color::from_rgb8(242, 203, 5)),

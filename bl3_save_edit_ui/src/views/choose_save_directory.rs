@@ -28,14 +28,14 @@ pub enum ChooseSaveInteractionMessage {
 }
 
 pub fn view(choose_save_directory_state: &mut ChooseSaveDirectoryState) -> Container<Bl3Message> {
-    let dir_button_text = Text::new(t!("Select Borderlands 3 Save/Profile folder"))
+    let dir_button_text = Text::new(t!("welcome.select_folder"))
         .font(SOURCE_HAN_SANS)
         .size(20)
         .color(Color::from_rgb8(220, 220, 220));
 
     let mut dir_button = Button::new(
         &mut choose_save_directory_state.choose_dir_button_state,
-        Text::new(t!("Select..."))
+        Text::new(t!("welcome.select"))
             .horizontal_alignment(Horizontal::Center)
             .font(SOURCE_HAN_SANS)
             .size(18),

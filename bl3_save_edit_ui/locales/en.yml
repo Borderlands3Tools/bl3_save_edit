@@ -1,59 +1,125 @@
 en:
-  All Levels: All Levels
-  Ammo Amounts: Ammo Amounts
-  Backups folder: Backups folder
-  Borderlands 3 Save Editor: Borderlands 3 Save Editor
-  Bottom: Bottom
-  Change Folder: Change Folder
-  Choose a saves folder first...: "Choose a saves folder first..."
-  "Click here to update to version: %{version}": "Click here to update to version: %{version}"
-  Config folder: Config folder
-  Create Item: Create Item
-  Delete: Delete
-  Diamond Keys: Diamond Keys
-  Down: Down
-  Duplicate: Duplicate
-  Eridium: Eridium
-  File: File
-  Gear Management: Gear Management
-  Golden Keys: Golden Keys
-  Guardian Rewards: Guardian Rewards
-  Import: Import
-  Import Item: Import Item
-  Import Serial: Import Serial
-  Initializing...: "Initializing..."
-  Loading config...: "Loading config..."
-  Loading...: "Loading..."
-  Max: Max
-  Max All Ammo Amounts: Max All Ammo Amounts
-  Max All Guardian Rewards: Max All Guardian Rewards
-  Max All SDU Levels: Max All SDU Levels
-  Money: Money
-  No available parts or anointments found.: "No available parts or anointments found."
-  Open Folder: Open Folder
-  Open on Lootlemon ➜: Open on Lootlemon ➜
-  Please Import/Create an item to get started.: "Please Import/Create an item to get started."
-  Random: Random
-  Refresh saves folder: Refresh saves folder
-  Reloading saves...: "Reloading saves..."
-  SDU Management: SDU Management
-  Save: Save
-  Save GUID: Save GUID
-  Save Slot: Save Slot
-  Save Type: Save Type
-  Saves folder: Saves folder
-  Select Borderlands 3 Save/Profile folder: Select Borderlands 3 Save/Profile folder
-  Select...: "Select..."
-  Set: Set
-  Share: Share
-  Skin Unlocker: Skin Unlocker
-  Top: Top
-  Up: Up
-  Updating...: "Updating..."
-  Vault Card 1 Chests: Vault Card 1 Chests
-  Vault Card 1 Keys: Vault Card 1 Keys
-  Vault Card 2 Chests: Vault Card 2 Chests
-  Vault Card 2 Keys: Vault Card 2 Keys
-  Vault Card 3 Chests: Vault Card 3 Chests
-  Vault Card 3 Keys: Vault Card 3 Keys
-  Vehicle Unlocker: Vehicle Unlocker
+  main:
+    title: Borderlands 3 Save Editor
+    # game saves
+    refresh_saves: Refresh saves folder
+    reloading_saves: Reloading saves
+    save: Save
+    # software update
+    update_to: "Click here to update to version: %{version}"
+    updating: Updating...
+  welcome:
+    select_folder: Select Borderlands 3 Save/Profile folder
+    select: Select...
+  general:
+    file: File
+    file_tooltip: Not editable, this is modified by changing your Save Slot below
+    save_guid: Save GUID
+    guid_random: Random
+    save_slot: Save Slot
+    save_slot_tooltip: Slot must be 1 or greater
+    save_type: Save Type
+  character:
+    name: Name
+    class: Class
+    level: Level
+    level_tooltip: Level must be between 1 and %{max}
+    experience: Experience
+    experience_tooltip: Experience must be between 0 and 9,520,932
+    skill_points: Skill Points
+    skin:
+      head_skin: Head Skin
+      character_skin: Character Skin
+      echo_theme: ECHO Theme
+    gear:
+      title: Gear Management
+      grenade: Grenade
+      shield: Shield
+      weapon_slot_1: Weapon Slot 1
+      weapon_slot_2: Weapon Slot 2
+      weapon_slot_3: Weapon Slot 3
+      weapon_slot_4: Weapon Slot 4
+      artifact: Artifact
+      class_mod: Class Mod
+    ammo:
+      title: Ammo Amounts
+      amount_tooltip: Amount must be between %{min} and %{max}
+      max_all: Max All Ammo Amounts
+    sdu:
+      title: SDU Management
+      level_tooltip: Level must be between %{min} and %{max}
+      max_all: Max All SDU Levels
+  inventory:
+    create_item: Create Item
+    import_item:
+      serial: Import Serial
+      import: Import
+    all_item:
+      levels: All Levels
+      level_tooltip: Level must be between 1 and %{max}
+      set_levels: Set
+    item_list:
+    item_search:
+      list_item: Search %{count} items...
+      lootlemon: Search %{count} items...
+    list_item:
+      duplicate: Duplicate
+      share: Share
+      delete: Delete
+    lootlemon_item:
+      import: Import Item
+      open: Open on Lootlemon ➜
+    item_editor:
+      level: Level
+      level_tooltip: Level must be between 1 and %{max}
+      serial: Serial
+      balance: Balance
+      balance_note: Search %{count} Balance Parts...
+      inventory_data: Inventory Data
+      inventory_data_note: Search %{count} Inventory Data Parts...
+      manufacturer: Manufacturer
+      manufacturer_note: Search %{count} Manufacturer Parts...
+    available_parts:
+      show_all: Show All Parts
+      search_parts: Search %{amount} Available Parts...
+      search_anointments: Search %{amount} Available Anointments...
+      no_available: No available parts or anointments found.
+    current_parts:
+      reorder: Reorder Parts
+      tooltip: Reorder the parts of this item. The order that is shown when this checkbox is active will be the order that they get loaded in game. They will be loaded from top to bottom.\nEven if this checkbox is not active and you are viewing the categorized parts, they will still be loaded in the order that is show when this checkbox is active.
+      up: Up
+      down: Down
+      top: Top
+      bottom: Bottom
+      search_parts: Search %{amount} Current Parts...
+      no_parts: This item has no parts.
+      search_anointments: Search %{amount} Current Anointments...
+      no_anointments: This item has no anointments.
+  currency:
+    money: Money
+    eridium: Eridium
+    max: Max
+  vehicle:
+    title: Vehicle Unlocker
+    unlock_outrunner_chassis: Unlock All Outrunner Chassis (Wheels)
+    unlock_outrunner_parts: Unlock All Outrunner Parts
+    unlock_outrunner_skins: Unlock All Outrunner Skins
+    unlock_jetbeast_chassis: Unlock All Jetbeast Chassis (Wheels)
+    unlock_jetbeast_parts: Unlock All Jetbeast Parts
+    unlock_jetbeast_skins: Unlock All Jetbeast Skins
+    unlock_technical_chassis: Unlock All Technical Chassis (Wheels)
+    unlock_technical_parts: Unlock All Technical Parts
+    unlock_technical_skins: Unlock All Technical Skins
+    unlock_cyclone_chassis: Unlock All Cyclone Chassis (Wheels)
+    unlock_cyclone_parts: Unlock All Cyclone Parts
+    unlock_cyclone_skins: Unlock All Cyclone Skins
+  setting:
+    config_folder: Config folder
+    config_folder_note: Loading config...
+    backups_folder: Backups folder
+    backups_folder_note: Choose a saves folder first...
+    save_folder: Saves folder
+    save_folder_note: Choose a saves folder first...
+    ui_scale: UI Scale
+    open_folder: Open Folder
+    change_folder: Change Folder

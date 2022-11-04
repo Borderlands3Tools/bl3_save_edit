@@ -128,21 +128,21 @@ impl std::default::Default for SkinSelectors {
     fn default() -> Self {
         Self {
             head_skin: SkinPickList::new(
-                "Head Skin",
+                t!("character.skin.head_skin"),
                 105,
                 &PROFILE_HEADS_DEFAULTS,
                 &PROFILE_HEADS,
                 CharacterSkinSelectedMessage::HeadSkin,
             ),
             character_skin: SkinPickList::new(
-                "Character Skin",
+                t!("character.skin.character_skin"),
                 135,
                 &PROFILE_SKINS_DEFAULTS,
                 &PROFILE_SKINS,
                 CharacterSkinSelectedMessage::CharacterSkin,
             ),
             echo_theme: SkinPickList::new(
-                "ECHO Theme",
+                t!("character.skin.echo_theme"),
                 105,
                 &PROFILE_ECHO_THEMES_DEFAULTS,
                 &PROFILE_ECHO_THEMES,

@@ -63,7 +63,7 @@ impl ItemEditorListItem {
             .push(
                 Button::new(
                     &mut self.duplicate_button_state,
-                    Text::new(t!("Duplicate"))
+                    Text::new(t!("inventory.list_item.duplicate"))
                         .font(SOURCE_HAN_SANS_BOLD)
                         .size(16)
                         .horizontal_alignment(Horizontal::Center),
@@ -78,7 +78,7 @@ impl ItemEditorListItem {
             .push(
                 Button::new(
                     &mut self.share_button_state,
-                    Text::new(t!("Share"))
+                    Text::new(t!("inventory.list_item.share"))
                         .font(SOURCE_HAN_SANS_BOLD)
                         .size(16)
                         .horizontal_alignment(Horizontal::Center),
@@ -93,7 +93,7 @@ impl ItemEditorListItem {
             .push(
                 Button::new(
                     &mut self.delete_button_state,
-                    Text::new(t!("Delete"))
+                    Text::new(t!("inventory.list_item.delete"))
                         .font(SOURCE_HAN_SANS_BOLD)
                         .size(16)
                         .horizontal_alignment(Horizontal::Center),

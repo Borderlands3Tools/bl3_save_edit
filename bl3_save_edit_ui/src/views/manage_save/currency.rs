@@ -31,7 +31,7 @@ pub fn view(currency_state: &mut CurrencyState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    t!("Money"),
+                    t!("currency.money"),
                     Length::Units(75),
                     NumberInput::new(
                         &mut currency_state.money_input_state,
@@ -60,7 +60,7 @@ pub fn view(currency_state: &mut CurrencyState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut currency_state.max_money_button_state,
-                    Text::new(t!("Max")).font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("currency.max")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::ManageSaveInteraction(
                     ManageSaveInteractionMessage::Currency(
@@ -81,7 +81,7 @@ pub fn view(currency_state: &mut CurrencyState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    t!("Eridium"),
+                    t!("currency.eridium"),
                     Length::Units(75),
                     NumberInput::new(
                         &mut currency_state.eridium_input_state,
@@ -110,7 +110,7 @@ pub fn view(currency_state: &mut CurrencyState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut currency_state.max_eridium_button_state,
-                    Text::new(t!("Max")).font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("currency.max")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::ManageSaveInteraction(
                     ManageSaveInteractionMessage::Currency(

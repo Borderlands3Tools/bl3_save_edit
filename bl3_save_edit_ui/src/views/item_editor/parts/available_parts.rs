@@ -201,7 +201,7 @@ impl AvailableParts {
                     });
 
                     let show_all_parts_checkbox =
-                        Checkbox::new(self.show_all_available_parts, "Show All Parts", move |c| {
+                        Checkbox::new(self.show_all_available_parts, t!("inventory.available_parts.show_all"), move |c| {
                             interaction_message(
                                 ItemEditorInteractionMessage::ShowAllAvailablePartsSelected(c),
                             )
@@ -245,9 +245,9 @@ impl AvailableParts {
             let amount: usize = available_parts.iter().map(|cat_p| cat_p.parts.len()).sum();
 
             let search_placeholder = match self.parts_tab_type {
-                AvailablePartType::Parts => format!("Search {} Available Parts...", amount),
+                AvailablePartType::Parts => t!("inventory.available_parts.search_parts", amount = &amount.to_string()),
                 AvailablePartType::Anointments => {
-                    format!("Search {} Available Anointments...", amount)
+                    t!("inventory.available_parts.search_anointments", amount = &amount.to_string())
                 }
             };
 
@@ -345,7 +345,7 @@ impl AvailableParts {
         } else {
             available_parts_column = available_parts_column.push(
                 Container::new(
-                    Text::new(t!("No available parts or anointments found."))
+                    Text::new(t!("inventory.available_parts.no_available"))
                         .font(SOURCE_HAN_SANS)
                         .size(17)
                         .color(Color::from_rgb8(220, 220, 220)),

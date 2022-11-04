@@ -117,7 +117,7 @@ pub fn view(character_state: &mut CharacterState) -> Container<Bl3Message> {
 
     let character_name = Container::new(
         LabelledElement::create(
-            "Name",
+            t!("character.name"),
             Length::Units(75),
             TextInputLimited::new(
                 &mut character_state.name_input_state,
@@ -147,7 +147,7 @@ pub fn view(character_state: &mut CharacterState) -> Container<Bl3Message> {
 
     let player_class = Container::new(
         LabelledElement::create(
-            "Class",
+            t!("character.class"),
             Length::Units(65),
             PickList::new(
                 &mut character_state.player_class_selector,
@@ -181,7 +181,7 @@ pub fn view(character_state: &mut CharacterState) -> Container<Bl3Message> {
 
     let level = Container::new(
         LabelledElement::create(
-            "Level",
+            t!("character.level"),
             Length::Units(60),
             Tooltip::new(
                 NumberInput::new(
@@ -203,7 +203,7 @@ pub fn view(character_state: &mut CharacterState) -> Container<Bl3Message> {
                 .size(17)
                 .style(Bl3UiStyle)
                 .into_element(),
-                format!("Level must be between 1 and {}", MAX_CHARACTER_LEVEL),
+                t!("character.level_tooltip", max=&MAX_CHARACTER_LEVEL.to_string()),
                 tooltip::Position::Top,
             )
             .gap(10)
@@ -221,7 +221,7 @@ pub fn view(character_state: &mut CharacterState) -> Container<Bl3Message> {
 
     let experience_points = Container::new(
         LabelledElement::create(
-            "Experience",
+            t!("character.experience"),
             Length::Units(95),
             Tooltip::new(
                 NumberInput::new(
@@ -243,7 +243,7 @@ pub fn view(character_state: &mut CharacterState) -> Container<Bl3Message> {
                 .size(17)
                 .style(Bl3UiStyle)
                 .into_element(),
-                "Experience must be between 0 and 9,520,932",
+                t!("character.experience_tooltip"),
                 tooltip::Position::Top,
             )
             .gap(10)
@@ -261,7 +261,7 @@ pub fn view(character_state: &mut CharacterState) -> Container<Bl3Message> {
 
     let ability_points = Container::new(
         LabelledElement::create(
-            "Skill Points",
+            t!("character.skill_points"),
             Length::Units(130),
             NumberInput::new(
                 &mut character_state.ability_points_input_state,

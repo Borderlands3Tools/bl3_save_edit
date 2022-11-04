@@ -40,7 +40,7 @@ pub fn view(general_state: &mut GeneralState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    t!("File"),
+                    t!("general.file"),
                     Length::Units(90),
                     Tooltip::new(
                         TextInput::new(
@@ -54,7 +54,7 @@ pub fn view(general_state: &mut GeneralState) -> Container<Bl3Message> {
                         .size(17)
                         .style(Bl3UiStyle)
                         .into_element(),
-                        "Not editable, this is modified by changing your Save Slot below",
+                        t!("general.file_tooltip"),
                         tooltip::Position::Top,
                     )
                     .gap(10)
@@ -77,7 +77,7 @@ pub fn view(general_state: &mut GeneralState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    t!("Save GUID"),
+                    t!("general.save_guid"),
                     Length::Units(90),
                     TextInputLimited::new(
                         &mut general_state.guid_input_state,
@@ -106,7 +106,7 @@ pub fn view(general_state: &mut GeneralState) -> Container<Bl3Message> {
             .push(
                 Button::new(
                     &mut general_state.generate_guid_button_state,
-                    Text::new(t!("Random")).font(SOURCE_HAN_SANS_BOLD).size(17),
+                    Text::new(t!("general.guid_random")).font(SOURCE_HAN_SANS_BOLD).size(17),
                 )
                 .on_press(InteractionMessage::ManageSaveInteraction(
                     ManageSaveInteractionMessage::General(
@@ -125,7 +125,7 @@ pub fn view(general_state: &mut GeneralState) -> Container<Bl3Message> {
 
     let save_slot = Container::new(
         LabelledElement::create(
-            t!("Save Slot"),
+            t!("general.save_slot"),
             Length::Units(90),
             Tooltip::new(
                 NumberInput::new(
@@ -147,7 +147,7 @@ pub fn view(general_state: &mut GeneralState) -> Container<Bl3Message> {
                 .size(17)
                 .style(Bl3UiStyle)
                 .into_element(),
-                "Slot must be 1 or greater",
+                t!("general.save_slot_tooltip"),
                 tooltip::Position::Top,
             )
             .gap(10)
@@ -165,7 +165,7 @@ pub fn view(general_state: &mut GeneralState) -> Container<Bl3Message> {
 
     let save_type = Container::new(
         LabelledElement::create(
-            t!("Save Type"),
+            t!("general.save_type"),
             Length::Units(90),
             PickList::new(
                 &mut general_state.save_type_selector,
