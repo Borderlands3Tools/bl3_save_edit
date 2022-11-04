@@ -40,7 +40,7 @@ pub fn view(general_state: &mut GeneralState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    "File",
+                    t!("File"),
                     Length::Units(90),
                     Tooltip::new(
                         TextInput::new(
@@ -77,7 +77,7 @@ pub fn view(general_state: &mut GeneralState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    "Save GUID",
+                    t!("Save GUID"),
                     Length::Units(90),
                     TextInputLimited::new(
                         &mut general_state.guid_input_state,
@@ -125,7 +125,7 @@ pub fn view(general_state: &mut GeneralState) -> Container<Bl3Message> {
 
     let save_slot = Container::new(
         LabelledElement::create(
-            "Save Slot",
+            t!("Save Slot"),
             Length::Units(90),
             Tooltip::new(
                 NumberInput::new(
@@ -165,7 +165,7 @@ pub fn view(general_state: &mut GeneralState) -> Container<Bl3Message> {
 
     let save_type = Container::new(
         LabelledElement::create(
-            "Save Type",
+            t!("Save Type"),
             Length::Units(90),
             PickList::new(
                 &mut general_state.save_type_selector,

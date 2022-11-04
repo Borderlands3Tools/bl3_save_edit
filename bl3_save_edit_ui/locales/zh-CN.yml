@@ -1,33 +1,47 @@
 zh-CN:
-  Borderlands 3 Save Editor: 无主之地3存档修改器
-  Refresh saves folder: 从存档文件夹重新读取数据
-  Reloading saves...: 重新加载存档...
-  Save: 写入存档
-  "Click here to update to version: %{version}": "单击此处更新到版本: %{version}"
-  Random: 随机
-  Updating...: "正在更新..."
+  All Levels: 所有级别
   Ammo Amounts: 弹药量
+  Backups folder: 备份文件夹
+  Borderlands 3 Save Editor: 无主之地3存档修改器
   Bottom: Bottom
   Change Folder: 更改文件夹
+  Choose a saves folder first...: "请先选择配置文件夹..."
+  "Click here to update to version: %{version}": "单击此处更新到版本: %{version}"
+  Config folder: 配置文件夹
   Create Item: 创建项目
   Delete: 删除
+  Diamond Keys: 钻石钥匙
   Down: Down
   Duplicate: 复制
+  Eridium: Eridium
+  File: 文件
   Gear Management: 设备管理
+  Golden Keys: 金钥匙
   Guardian Rewards: 护卫者奖励
   Import: 导入
   Import Item: 导入项目
+  Import Serial: Import Serial
   Initializing...: "正在初始化..."
+  Loading config...: "正在加载配置..."
   Loading...: "正在加载..."
   Max: Max
-  Max All Ammo Amounts: 最大所有弹药量
+  Max All Ammo Amounts: 所有弹药的最大数量
   Max All Guardian Rewards: 最高所有守护者奖励
-  Max All SDU Levels: 最大所有SDU级别
+  Max All SDU Levels: 最大所有 SDU 级别
+  Money: 金钱
   No available parts or anointments found.: "找不到可用的部件或膏药."
   Open Folder: 打开文件夹
   Open on Lootlemon ➜: "在 Lootlemon.com 上打开 ➜"
-  Please Import/Create an item to get started.: "请导入/创建项目以开始."
-  SDU Management: SDU管理
+  Please Import/Create an item to get started.: "请导入或创建项目以开始使用."
+  Random: 随机
+  Refresh saves folder: 从存档文件夹重新读取数据
+  Reloading saves...: 重新加载存档...
+  SDU Management: SDU 管理
+  Save: 写入存档
+  Save GUID: Save GUID
+  Save Slot: Save Slot
+  Save Type: Save Type
+  Saves folder: 存档文件夹
   Select Borderlands 3 Save/Profile folder: 选择Borderland 3保存/配置文件文件夹
   Select...: "选择..."
   Set: Set
@@ -35,4 +49,11 @@ zh-CN:
   Skin Unlocker: 皮肤解锁
   Top: Top
   Up: Up
+  Updating...: "正在更新..."
+  Vault Card 1 Chests: 金库卡 1 箱子
+  Vault Card 1 Keys: 金库卡 1 钥匙
+  Vault Card 2 Chests: 金库卡 2 箱子
+  Vault Card 2 Keys: 金库卡 2 钥匙
+  Vault Card 3 Chests: 金库卡 3 箱子
+  Vault Card 3 Keys: 金库卡 3 钥匙
   Vehicle Unlocker: 车辆解锁

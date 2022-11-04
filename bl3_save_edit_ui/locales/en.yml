@@ -1,33 +1,47 @@
 en:
-  Borderlands 3 Save Editor: Borderlands 3 Save Editor
-  Refresh saves folder: Refresh saves folder
-  Reloading saves...: "Reloading saves..."
-  Save: Save
-  "Click here to update to version: %{version}": "Click here to update to version: %{version}"
-  Random: Random
-  Updating...: "Updating..."
+  All Levels: All Levels
   Ammo Amounts: Ammo Amounts
+  Backups folder: Backups folder
+  Borderlands 3 Save Editor: Borderlands 3 Save Editor
   Bottom: Bottom
   Change Folder: Change Folder
+  Choose a saves folder first...: "Choose a saves folder first..."
+  "Click here to update to version: %{version}": "Click here to update to version: %{version}"
+  Config folder: Config folder
   Create Item: Create Item
   Delete: Delete
+  Diamond Keys: Diamond Keys
   Down: Down
   Duplicate: Duplicate
+  Eridium: Eridium
+  File: File
   Gear Management: Gear Management
+  Golden Keys: Golden Keys
   Guardian Rewards: Guardian Rewards
   Import: Import
   Import Item: Import Item
+  Import Serial: Import Serial
   Initializing...: "Initializing..."
+  Loading config...: "Loading config..."
   Loading...: "Loading..."
   Max: Max
   Max All Ammo Amounts: Max All Ammo Amounts
   Max All Guardian Rewards: Max All Guardian Rewards
   Max All SDU Levels: Max All SDU Levels
+  Money: Money
   No available parts or anointments found.: "No available parts or anointments found."
   Open Folder: Open Folder
   Open on Lootlemon ➜: Open on Lootlemon ➜
   Please Import/Create an item to get started.: "Please Import/Create an item to get started."
+  Random: Random
+  Refresh saves folder: Refresh saves folder
+  Reloading saves...: "Reloading saves..."
   SDU Management: SDU Management
+  Save: Save
+  Save GUID: Save GUID
+  Save Slot: Save Slot
+  Save Type: Save Type
+  Saves folder: Saves folder
   Select Borderlands 3 Save/Profile folder: Select Borderlands 3 Save/Profile folder
   Select...: "Select..."
   Set: Set
@@ -35,4 +49,11 @@ en:
   Skin Unlocker: Skin Unlocker
   Top: Top
   Up: Up
+  Updating...: "Updating..."
+  Vault Card 1 Chests: Vault Card 1 Chests
+  Vault Card 1 Keys: Vault Card 1 Keys
+  Vault Card 2 Chests: Vault Card 2 Chests
+  Vault Card 2 Keys: Vault Card 2 Keys
+  Vault Card 3 Chests: Vault Card 3 Chests
+  Vault Card 3 Keys: Vault Card 3 Keys
   Vehicle Unlocker: Vehicle Unlocker

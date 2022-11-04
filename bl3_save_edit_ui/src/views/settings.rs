@@ -66,11 +66,11 @@ pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    "Config folder",
+                    t!("Config folder"),
                     Length::Units(140),
                     TextInput::new(
                         &mut settings_state.config_dir_input_state,
-                        "Loading config...",
+                        &t!("Loading config..."),
                         &settings_state.config_dir_input,
                         |_| InteractionMessage::Ignore,
                     )
@@ -106,11 +106,11 @@ pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    "Backups folder",
+                    t!("Backups folder"),
                     Length::Units(140),
                     TextInput::new(
                         &mut settings_state.backup_dir_input_state,
-                        "Choose a saves folder first...",
+                        &t!("Choose a saves folder first..."),
                         &settings_state.backup_dir_input,
                         |_| InteractionMessage::Ignore,
                     )
@@ -162,11 +162,11 @@ pub fn view(settings_state: &mut SettingsState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    "Saves folder",
+                    t!("Saves folder"),
                     Length::Units(140),
                     TextInput::new(
                         &mut settings_state.saves_dir_input_state,
-                        "Choose a saves folder first...",
+                        &t!("Choose a saves folder first..."),
                         &settings_state.saves_dir_input,
                         |_| InteractionMessage::Ignore,
                     )

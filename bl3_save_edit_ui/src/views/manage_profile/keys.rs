@@ -61,7 +61,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    "Golden Keys",
+                    t!("Golden Keys"),
                     Length::Units(170),
                     NumberInput::new(
                         &mut keys_state.golden_keys_input_state,
@@ -111,7 +111,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    "Diamond Keys",
+                    t!("Diamond Keys"),
                     Length::Units(170),
                     NumberInput::new(
                         &mut keys_state.diamond_keys_input_state,
@@ -161,7 +161,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    "Vault Card 1 Keys",
+                    t!("Vault Card 1 Keys"),
                     Length::Units(170),
                     NumberInput::new(
                         &mut keys_state.vault_card_1_keys_input_state,
@@ -211,7 +211,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    "Vault Card 1 Chests",
+                    t!("Vault Card 1 Chests"),
                     Length::Units(170),
                     NumberInput::new(
                         &mut keys_state.vault_card_1_chests_input_state,
@@ -261,7 +261,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    "Vault Card 2 Keys",
+                    t!("Vault Card 2 Keys"),
                     Length::Units(170),
                     NumberInput::new(
                         &mut keys_state.vault_card_2_keys_input_state,
@@ -311,7 +311,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    "Vault Card 2 Chests",
+                    t!("Vault Card 2 Chests"),
                     Length::Units(170),
                     NumberInput::new(
                         &mut keys_state.vault_card_2_chests_input_state,
@@ -361,7 +361,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    "Vault Card 3 Keys",
+                    t!("Vault Card 3 Keys"),
                     Length::Units(170),
                     NumberInput::new(
                         &mut keys_state.vault_card_3_keys_input_state,
@@ -411,7 +411,7 @@ pub fn view(keys_state: &mut KeysState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    "Vault Card 3 Chests",
+                    t!("Vault Card 3 Chests"),
                     Length::Units(170),
                     NumberInput::new(
                         &mut keys_state.vault_card_3_chests_input_state,

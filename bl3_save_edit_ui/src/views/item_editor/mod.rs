@@ -982,7 +982,7 @@ where
     let serial_importer = Row::new()
         .push(
             LabelledElement::create(
-                "Import Serial",
+                t!("Import Serial"),
                 Length::Units(120),
                 Tooltip::new(
                     TextInputLimited::new(
@@ -1046,7 +1046,7 @@ where
         Row::new()
             .push(
                 LabelledElement::create(
-                    "All Levels",
+                    t!("All Levels"),
                     Length::Units(95),
                     Tooltip::new(
                         NumberInput::new(

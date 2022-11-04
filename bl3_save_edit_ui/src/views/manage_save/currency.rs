@@ -31,7 +31,7 @@ pub fn view(currency_state: &mut CurrencyState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    "Money",
+                    t!("Money"),
                     Length::Units(75),
                     NumberInput::new(
                         &mut currency_state.money_input_state,
@@ -81,7 +81,7 @@ pub fn view(currency_state: &mut CurrencyState) -> Container<Bl3Message> {
         Row::new()
             .push(
                 LabelledElement::create(
-                    "Eridium",
+                    t!("Eridium"),
                     Length::Units(75),
                     NumberInput::new(
                         &mut currency_state.eridium_input_state,
