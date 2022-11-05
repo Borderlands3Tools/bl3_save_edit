@@ -2,6 +2,19 @@ zh-CN:
   view:
     init: 初始化中...
     load: 正在加载...
+  save_tab:
+    general: 通用
+    character: 角色
+    inventory: 背包
+    currency: 金钱
+    vehicle: 车辆
+    settings: 设置
+  profile_tab:
+    general: 通用
+    profile: 配置
+    keys: 钥匙
+    bank: 仓库
+    settings: 设置
   main:
     title: 无主之地 3 存档修改器
     #game saves
@@ -61,7 +74,9 @@ zh-CN:
       levels: 所有等级
       level_tooltip: 等级必须在 1 到 %{max} 之间
       set_levels: 设置
-    item_list:
+    item_list_tab:
+      items: 我的物品
+      lootlemon: Lootlemon 物品
     item_search:
       list_item: 在 %{count} 个物品中搜索
       lootlemon: 在 %{count} 个物品中搜索
@@ -84,12 +99,16 @@ zh-CN:
       inventory_data_note: 在 %{count} 个 Inventory Data 部件中搜索...
       manufacturer: Manufacturer
       manufacturer_note: 在 %{count} 个 Manufacturer 部件中搜索...
-    available_parts:
+    available:
+      tab_parts: 可用部件
+      tab_anointments: 可用受福
       show_all: 显示所有部件
       search_parts: 在 %{amount} 个可用部件中搜索...
       search_anointments: 在 %{amount} 个可用受福中搜索...
       no_available: 没有找到可用部件或受福。
-    current_parts:
+    current:
+      tab_parts: 当前部件
+      tab_anointments: 当前受福
       reorder: 重新排序部件
       tooltip: 重新排序此物品的部件。 当此复选框处于活动状态时显示的顺序将是他们在游戏中加载的顺序。 它们将从上至下装载。\n当复选框未选中，部件会分类显示；当此复选框被选中时，则会按照加载顺序显示。
       up: 上移

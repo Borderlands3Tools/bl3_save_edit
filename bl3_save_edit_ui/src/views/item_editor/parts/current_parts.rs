@@ -231,7 +231,7 @@ impl CurrentParts {
                         Row::new().spacing(15).align_items(Alignment::Center);
 
                     let reorder_parts_checkbox = Tooltip::new(
-                        Checkbox::new(self.reorder_parts, t!("inventory.current_parts.reorder"), move |c| {
+                        Checkbox::new(self.reorder_parts, t!("inventory.current.reorder"), move |c| {
                             interaction_message(
                                 ItemEditorInteractionMessage::ReorderCurrentPartsSelected(c),
                             )
@@ -242,7 +242,7 @@ impl CurrentParts {
                         .width(Length::Fill)
                         .style(Bl3UiStyle)
                         .into_element(),
-                        t!("inventory.current_parts.tooltip"),
+                        t!("inventory.current.tooltip"),
                         tooltip::Position::Top,
                     )
                     .gap(10)
@@ -257,7 +257,7 @@ impl CurrentParts {
                     if reorder_parts {
                         let reorder_move_up_button = Button::new(
                             &mut self.reorder_parts_move_up_button_state,
-                            Text::new(t!("inventory.current_parts.up"))
+                            Text::new(t!("inventory.current.up"))
                                 .font(SOURCE_HAN_SANS_BOLD)
                                 .size(17)
                                 .horizontal_alignment(Horizontal::Center),
@@ -272,7 +272,7 @@ impl CurrentParts {
 
                         let reorder_move_down_button = Button::new(
                             &mut self.reorder_parts_move_down_button_state,
-                            Text::new(t!("inventory.current_parts.down"))
+                            Text::new(t!("inventory.current.down"))
                                 .font(SOURCE_HAN_SANS_BOLD)
                                 .size(17)
                                 .horizontal_alignment(Horizontal::Center),
@@ -287,7 +287,7 @@ impl CurrentParts {
 
                         let reorder_move_top_button = Button::new(
                             &mut self.reorder_parts_move_top_button_state,
-                            Text::new(t!("inventory.current_parts.top"))
+                            Text::new(t!("inventory.current.top"))
                                 .font(SOURCE_HAN_SANS_BOLD)
                                 .size(17)
                                 .horizontal_alignment(Horizontal::Center),
@@ -302,7 +302,7 @@ impl CurrentParts {
 
                         let reorder_move_bottom_button = Button::new(
                             &mut self.reorder_parts_move_bottom_button_state,
-                            Text::new(t!("inventory.current_parts.bottom"))
+                            Text::new(t!("inventory.current.bottom"))
                                 .font(SOURCE_HAN_SANS_BOLD)
                                 .size(17)
                                 .horizontal_alignment(Horizontal::Center),
@@ -347,9 +347,9 @@ impl CurrentParts {
             let amount: usize = parts.iter().map(|cat_p| cat_p.parts.len()).sum();
 
             let search_placeholder = match self.parts_tab_type {
-                CurrentPartType::Parts => t!("inventory.current_parts.search_parts", amount = &amount.to_string()),
+                CurrentPartType::Parts => t!("inventory.current.search_parts", amount = &amount.to_string()),
                 CurrentPartType::Anointments => {
-                    t!("inventory.current_parts.search_anointments", amount = &amount.to_string())
+                    t!("inventory.current.search_anointments", amount = &amount.to_string())
                 }
             };
 
@@ -428,8 +428,8 @@ impl CurrentParts {
             }
         } else {
             let msg = match self.parts_tab_type {
-                CurrentPartType::Parts => t!("inventory.current_parts.no_parts"),
-                CurrentPartType::Anointments => t!("inventory.current_parts.no_anointments"),
+                CurrentPartType::Parts => t!("inventory.current.no_parts"),
+                CurrentPartType::Anointments => t!("inventory.current.no_anointments"),
             };
 
             current_parts_content = current_parts_content.push(no_parts_message(&msg));

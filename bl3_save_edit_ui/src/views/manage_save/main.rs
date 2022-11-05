@@ -1,5 +1,4 @@
 use iced::{button, svg, Column, Container, Length, Row};
-use strum::Display;
 
 use crate::bl3_ui::{Bl3Message, InteractionMessage};
 use crate::resources::svgs::{CHARACTER, CURRENCY, GENERAL, INVENTORY, SETTINGS, VEHICLE};
@@ -45,8 +44,7 @@ pub enum SaveTabBarInteractionMessage {
     Settings,
 }
 
-#[derive(Debug, Display, PartialEq)]
-#[strum(serialize_all = "title_case")]
+#[derive(Debug, PartialEq)]
 pub enum SaveTabBarView {
     General,
     Character,
@@ -54,6 +52,19 @@ pub enum SaveTabBarView {
     Currency,
     Vehicle,
     Settings,
+}
+
+impl std::fmt::Display for SaveTabBarView {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match self {
+            SaveTabBarView::General => write!(f, "{}", t!("save_tab.general")),
+            SaveTabBarView::Character => write!(f, "{}", t!("save_tab.character")),
+            SaveTabBarView::Inventory => write!(f, "{}", t!("save_tab.inventory")),
+            SaveTabBarView::Currency => write!(f, "{}", t!("save_tab.currency")),
+            SaveTabBarView::Vehicle => write!(f, "{}", t!("save_tab.vehicle")),
+            SaveTabBarView::Settings => write!(f, "{}", t!("save_tab.settings")),
+        }
+    }
 }
 
 pub fn view<'a>(

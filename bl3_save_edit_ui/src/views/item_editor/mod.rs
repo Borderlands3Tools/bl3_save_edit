@@ -11,7 +11,6 @@ use iced::{
 };
 use rayon::iter::{IndexedParallelIterator, IntoParallelRefIterator, ParallelIterator};
 use rayon::slice::ParallelSliceMut;
-use strum::Display;
 use tracing::error;
 
 use bl3_save_edit_core::bl3_item::{
@@ -239,17 +238,24 @@ impl ItemEditorStateExt for ItemEditorState {
     }
 }
 
-#[derive(Debug, Display, Clone, Eq, PartialEq)]
+#[derive(Debug, Clone, Eq, PartialEq)]
 pub enum ItemListTabType {
-    #[strum(to_string = "Items")]
     Items,
-    #[strum(to_string = "Lootlemon Items")]
     Lootlemon,
 }
 
 impl std::default::Default for ItemListTabType {
     fn default() -> Self {
         Self::Items
+    }
+}
+
+impl std::fmt::Display for ItemListTabType {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match self {
+            ItemListTabType::Items => write!(f, "{}", t!("inventory.item_list_tab.items")),
+            ItemListTabType::Lootlemon => write!(f, "{}", t!("inventory.item_list_tab.lootlemon")),
+        }
     }
 }
 

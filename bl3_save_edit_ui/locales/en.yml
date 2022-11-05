@@ -2,6 +2,19 @@ en:
   view:
     init: Initializing...
     load: Loading...
+  save_tab:
+    general: General
+    character: Character
+    inventory: Inventory
+    currency: Currency
+    vehicle: Vehicle
+    settings: Settings
+  profile_tab:
+    general: General
+    profile: Profile
+    keys: Keys
+    bank: Bank
+    settings: Settings
   main:
     title: Borderlands 3 Save Editor
     # game saves
@@ -61,7 +74,9 @@ en:
       levels: All Levels
       level_tooltip: Level must be between 1 and %{max}
       set_levels: Set
-    item_list:
+    item_list_tab:
+      items: Items
+      lootlemon: Lootlemon Items
     item_search:
       list_item: Search %{count} items...
       lootlemon: Search %{count} items...
@@ -84,12 +99,16 @@ en:
       inventory_data_note: Search %{count} Inventory Data Parts...
       manufacturer: Manufacturer
       manufacturer_note: Search %{count} Manufacturer Parts...
-    available_parts:
+    available:
+      tab_parts: Available Parts
+      tab_anointments: Available Anointments
       show_all: Show All Parts
       search_parts: Search %{amount} Available Parts...
       search_anointments: Search %{amount} Available Anointments...
       no_available: No available parts or anointments found.
-    current_parts:
+    current:
+      tab_parts: Current Parts
+      tab_anointments: Current Anointments
       reorder: Reorder Parts
       tooltip: Reorder the parts of this item. The order that is shown when this checkbox is active will be the order that they get loaded in game. They will be loaded from top to bottom.\nEven if this checkbox is not active and you are viewing the categorized parts, they will still be loaded in the order that is show when this checkbox is active.
       up: Up

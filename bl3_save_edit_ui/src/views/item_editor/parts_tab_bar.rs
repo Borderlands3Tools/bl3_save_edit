@@ -1,10 +1,6 @@
-use strum::Display;
-
-#[derive(Debug, Display, Clone, Eq, PartialEq)]
+#[derive(Debug, Clone, Eq, PartialEq)]
 pub enum AvailablePartType {
-    #[strum(to_string = "Available Parts")]
     Parts,
-    #[strum(to_string = "Available Anointments")]
     Anointments,
 }
 
@@ -14,16 +10,32 @@ impl std::default::Default for AvailablePartType {
     }
 }
 
-#[derive(Debug, Display, Clone, Eq, PartialEq)]
+impl std::fmt::Display for AvailablePartType {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match self {
+            AvailablePartType::Parts => write!(f, "{}", t!("inventory.available.tab_parts")),
+            AvailablePartType::Anointments => write!(f, "{}", t!("inventory.available.tab_anointments")),
+        }
+    }
+}
+
+#[derive(Debug, Clone, Eq, PartialEq)]
 pub enum CurrentPartType {
-    #[strum(to_string = "Current Parts")]
     Parts,
-    #[strum(to_string = "Current Anointments")]
     Anointments,
 }
 
 impl std::default::Default for CurrentPartType {
     fn default() -> Self {
         Self::Parts
+    }
+}
+
+impl std::fmt::Display for CurrentPartType {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match self {
+            CurrentPartType::Parts => write!(f, "{}", t!("inventory.current.tab_parts")),
+            CurrentPartType::Anointments => write!(f, "{}", t!("inventory.current.tab_anointments")),
+        }
     }
 }

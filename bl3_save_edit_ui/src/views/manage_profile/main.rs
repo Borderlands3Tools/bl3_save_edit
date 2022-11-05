@@ -1,5 +1,4 @@
 use iced::{button, svg, Column, Container, Length, Row};
-use strum::Display;
 
 use crate::bl3_ui::{Bl3Message, InteractionMessage};
 use crate::resources::svgs::{BANK, GENERAL, KEYS, PROFILE, SETTINGS};
@@ -41,14 +40,25 @@ pub enum ProfileTabBarInteractionMessage {
     Settings,
 }
 
-#[derive(Debug, Display, PartialEq)]
-#[strum(serialize_all = "title_case")]
+#[derive(Debug, PartialEq)]
 pub enum ProfileTabBarView {
     General,
     Profile,
     Keys,
     Bank,
     Settings,
+}
+
+impl std::fmt::Display for ProfileTabBarView {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match self {
+            ProfileTabBarView::General => write!(f, "{}", t!("profile_tab.general")),
+            ProfileTabBarView::Profile => write!(f, "{}", t!("profile_tab.profile")),
+            ProfileTabBarView::Keys => write!(f, "{}", t!("profile_tab.keys")),
+            ProfileTabBarView::Bank => write!(f, "{}", t!("profile_tab.bank")),
+            ProfileTabBarView::Settings => write!(f, "{}", t!("profile_tab.settings")),
+        }
+    }
 }
 
 pub fn view<'a>(
