@@ -252,10 +252,10 @@ impl std::default::Default for ItemListTabType {
 
 impl std::fmt::Display for ItemListTabType {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-        match self {
-            ItemListTabType::Items => write!(f, "{}", t!("inventory.item_list_tab.items")),
-            ItemListTabType::Lootlemon => write!(f, "{}", t!("inventory.item_list_tab.lootlemon")),
-        }
+        write!(f, "{}", match self {
+            ItemListTabType::Items => t!("inventory.item_list_tab.items"),
+            ItemListTabType::Lootlemon => t!("inventory.item_list_tab.lootlemon"),
+        })
     }
 }
 
@@ -1214,7 +1214,7 @@ where
             {
                 curr = curr.push(
                     Container::new(
-                        Text::new(format!("{}s", item_type.to_string()))
+                        Text::new(item_type.to_string())
                             .font(SOURCE_HAN_SANS_BOLD)
                             .size(18)
                             .color(Color::from_rgb8(242, 203, 5)),
@@ -1314,7 +1314,7 @@ where
                         {
                             curr = curr.push(
                                 Container::new(
-                                    Text::new(format!("{}s", item_type.to_string()))
+                                    Text::new(item_type.to_string())
                                         .font(SOURCE_HAN_SANS_BOLD)
                                         .size(18)
                                         .color(Color::from_rgb8(242, 203, 5)),

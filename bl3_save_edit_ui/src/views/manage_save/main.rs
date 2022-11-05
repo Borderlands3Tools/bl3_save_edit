@@ -56,14 +56,14 @@ pub enum SaveTabBarView {
 
 impl std::fmt::Display for SaveTabBarView {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-        match self {
-            SaveTabBarView::General => write!(f, "{}", t!("save_tab.general")),
-            SaveTabBarView::Character => write!(f, "{}", t!("save_tab.character")),
-            SaveTabBarView::Inventory => write!(f, "{}", t!("save_tab.inventory")),
-            SaveTabBarView::Currency => write!(f, "{}", t!("save_tab.currency")),
-            SaveTabBarView::Vehicle => write!(f, "{}", t!("save_tab.vehicle")),
-            SaveTabBarView::Settings => write!(f, "{}", t!("save_tab.settings")),
-        }
+        write!(f, "{}", match self {
+            SaveTabBarView::General => t!("save_tab.general"),
+            SaveTabBarView::Character => t!("save_tab.character"),
+            SaveTabBarView::Inventory => t!("save_tab.inventory"),
+            SaveTabBarView::Currency => t!("save_tab.currency"),
+            SaveTabBarView::Vehicle => t!("save_tab.vehicle"),
+            SaveTabBarView::Settings => t!("save_tab.settings"),
+        })
     }
 }
 

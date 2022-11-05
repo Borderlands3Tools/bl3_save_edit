@@ -51,13 +51,13 @@ pub enum ProfileTabBarView {
 
 impl std::fmt::Display for ProfileTabBarView {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-        match self {
-            ProfileTabBarView::General => write!(f, "{}", t!("profile_tab.general")),
-            ProfileTabBarView::Profile => write!(f, "{}", t!("profile_tab.profile")),
-            ProfileTabBarView::Keys => write!(f, "{}", t!("profile_tab.keys")),
-            ProfileTabBarView::Bank => write!(f, "{}", t!("profile_tab.bank")),
-            ProfileTabBarView::Settings => write!(f, "{}", t!("profile_tab.settings")),
-        }
+        write!(f, "{}", match self {
+            ProfileTabBarView::General => t!("profile_tab.general"),
+            ProfileTabBarView::Profile => t!("profile_tab.profile"),
+            ProfileTabBarView::Keys => t!("profile_tab.keys"),
+            ProfileTabBarView::Bank => t!("profile_tab.bank"),
+            ProfileTabBarView::Settings => t!("profile_tab.settings"),
+        })
     }
 }
 

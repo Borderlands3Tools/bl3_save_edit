@@ -1,26 +1,32 @@
 use anyhow::{Context, Result};
 use byteorder::{LittleEndian, WriteBytesExt};
-use strum::Display;
 
 use crate::error::BL3ParserError;
 use crate::error::ErrorExt;
 use crate::models::CustomFormatData;
 
-#[derive(Debug, Copy, Clone, Eq, PartialEq, Ord, PartialOrd, Display)]
+#[derive(Debug, Copy, Clone, Eq, PartialEq, Ord, PartialOrd)]
 pub enum HeaderType {
-    #[strum(to_string = "PC Save")]
     PcSave,
-    #[strum(to_string = "PC Profile")]
     PcProfile,
-    #[strum(to_string = "PS4 Save")]
     Ps4Save,
-    #[strum(to_string = "PS4 Profile")]
     Ps4Profile,
 }
 
 impl std::default::Default for HeaderType {
     fn default() -> Self {
         Self::PcSave
+    }
+}
+
+impl std::fmt::Display for HeaderType {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "{}", match self {
+            HeaderType::PcSave => t!("HeaderType.PcSave"),
+            HeaderType::PcProfile => t!("HeaderType.PcProfile"),
+            HeaderType::Ps4Save => t!("HeaderType.Ps4Save"),
+            HeaderType::Ps4Profile => t!("HeaderType.Ps4Profile"),
+        })
     }
 }
 

@@ -8,44 +8,37 @@ pub struct SaveSduSlotData {
 }
 
 #[derive(
-    Debug, Display, EnumString, EnumIter, EnumMessage, Eq, PartialEq, Ord, PartialOrd, Clone,
+    Debug, EnumString, EnumIter, EnumMessage, Eq, PartialEq, Ord, PartialOrd, Clone,
 )]
 pub enum SaveSduSlot {
     #[strum(
         serialize = "/Game/Pickups/SDU/SDU_Backpack.SDU_Backpack",
-        to_string = "Backpack"
     )]
     Backpack,
     #[strum(
         serialize = "/Game/Pickups/SDU/SDU_SniperRifle.SDU_SniperRifle",
-        to_string = "Sniper"
     )]
     Sniper,
     #[strum(
         serialize = "/Game/Pickups/SDU/SDU_Shotgun.SDU_Shotgun",
-        to_string = "Shotgun"
     )]
     Shotgun,
     #[strum(
         serialize = "/Game/Pickups/SDU/SDU_Pistol.SDU_Pistol",
-        to_string = "Pistol"
     )]
     Pistol,
     #[strum(
         serialize = "/Game/Pickups/SDU/SDU_Grenade.SDU_Grenade",
-        to_string = "Grenade"
     )]
     Grenade,
-    #[strum(serialize = "/Game/Pickups/SDU/SDU_SMG.SDU_SMG", to_string = "SMG")]
+    #[strum(serialize = "/Game/Pickups/SDU/SDU_SMG.SDU_SMG",)]
     Smg,
     #[strum(
         serialize = "/Game/Pickups/SDU/SDU_AssaultRifle.SDU_AssaultRifle",
-        to_string = "AR"
     )]
     Ar,
     #[strum(
         serialize = "/Game/Pickups/SDU/SDU_Heavy.SDU_Heavy",
-        to_string = "Heavy"
     )]
     Heavy,
 }
@@ -53,6 +46,21 @@ pub enum SaveSduSlot {
 impl std::default::Default for SaveSduSlot {
     fn default() -> Self {
         Self::Backpack
+    }
+}
+
+impl std::fmt::Display for SaveSduSlot {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "{}", match self {
+            SaveSduSlot::Backpack => t!("SaveSduSlot.Backpack"),
+            SaveSduSlot::Sniper => t!("SaveSduSlot.Sniper"),
+            SaveSduSlot::Shotgun => t!("SaveSduSlot.Shotgun"),
+            SaveSduSlot::Pistol => t!("SaveSduSlot.Pistol"),
+            SaveSduSlot::Grenade => t!("SaveSduSlot.Grenade"),
+            SaveSduSlot::Smg => t!("SaveSduSlot.Smg"),
+            SaveSduSlot::Ar => t!("SaveSduSlot.Ar"),
+            SaveSduSlot::Heavy => t!("SaveSduSlot.Heavy"),
+        })
     }
 }
 

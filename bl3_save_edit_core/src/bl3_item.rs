@@ -143,25 +143,38 @@ pub struct Bl3Part {
     pub idx: usize,
 }
 
-#[derive(Debug, Copy, Clone, Hash, Eq, PartialEq, Ord, PartialOrd, Display, EnumString)]
+#[derive(Debug, Copy, Clone, Hash, Eq, PartialEq, Ord, PartialOrd, EnumString)]
 pub enum ItemType {
-    #[strum(serialize = "BPInvPart_Artifact_C", to_string = "Artifact")]
+    #[strum(serialize = "BPInvPart_Artifact_C")]
     Artifact,
-    #[strum(serialize = "BPInvPart_ClassMod_C", to_string = "Class Mod")]
+    #[strum(serialize = "BPInvPart_ClassMod_C")]
     ClassMod,
-    #[strum(serialize = "BPInvPart_GrenadeMod_C", to_string = "Grenade Mod")]
+    #[strum(serialize = "BPInvPart_GrenadeMod_C")]
     GrenadeMod,
-    #[strum(serialize = "BPInvPart_Shield_C", to_string = "Shield")]
+    #[strum(serialize = "BPInvPart_Shield_C")]
     Shield,
-    #[strum(to_string = "Weapon")]
+    #[strum()]
     Weapon,
-    #[strum(to_string = "Other")]
+    #[strum()]
     Other,
 }
 
 impl std::default::Default for ItemType {
     fn default() -> Self {
         Self::Other
+    }
+}
+
+impl std::fmt::Display for ItemType {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "{}", match self {
+            ItemType::Artifact => t!("ItemType.Artifact"),
+            ItemType::ClassMod => t!("ItemType.ClassMod"),
+            ItemType::GrenadeMod => t!("ItemType.GrenadeMod"),
+            ItemType::Shield => t!("ItemType.Shield"),
+            ItemType::Weapon => t!("ItemType.Weapon"),
+            ItemType::Other => t!("ItemType.Other"),
+        })
     }
 }
 

@@ -1,0 +1,62 @@
+---
+zh-CN:
+  HeaderType:
+    PcSave: PC 存档
+    PcProfile: PC 配置文件
+    Ps4Save: PS4 存档
+    Ps4Profile: PS4 配置文件
+  BorderlandsScienceLevel:
+    Claptrap: 0. CL4P-TP
+    Brick: 1. 布力克
+    Mordecai: 2. 末底改
+    Torgue: 3. 托格
+    Marcus: 4. 马库斯
+    Ellie: 5. 艾丽
+    Lilith: 6. 莉莉丝
+    MadMoxxi: 7. 狂野莫西
+    Tannis: 8. 坦尼斯
+    TrueTannis: 9. 真·坦尼斯
+    None: 未开始
+  AmmoPool:
+    Ar: 步枪
+    Grenade: 手雷
+    Heavy: 重型武器
+    Pistol: 手枪
+    Smg: 冲锋枪
+    Shotgun: 霰弹枪
+    Sniper: 狙击枪
+  GuardianReward:
+    Accuracy: 精准度
+    ActionSkillCooldown: 主动技能冷却时间
+    CriticalDamage: 暴击伤害
+    ElementalDamage: 元素伤害
+    FFYLDuration: 殊死一搏持续时间
+    FFYLMovementSpeed: 殊死一搏移动速度
+    GrenadeDamage: 手雷伤害
+    GunDamage: 枪械伤害
+    GunFireRate: 枪支射速
+    MaxHealth: 最大生命值
+    MeleeDamage: 近战伤害
+    RarityRate: 幸运（稀有掉率）
+    RecoilReduction: 减少后座率
+    ReloadSpeed: 装填速度
+    ShieldCapacity: 护盾容量
+    ShieldRechargeDelay: 护盾充能延迟
+    ShieldRechargeRate: 护盾充能速度
+    VehicleDamage: 载具伤害
+  ItemType:
+    Artifact: 神器
+    ClassMod: 职业模组
+    GrenadeMod: 手雷模组
+    Shield: 护盾
+    Weapon: 枪械
+    Other: 其他
+  SaveSduSlot:
+    Backpack: 背包
+    Sniper: 狙击枪
+    Shotgun: 霰弹枪
+    Pistol: 手枪
+    Grenade: 手雷
+    Smg: 冲锋枪
+    Ar: 步枪
+    Heavy: 重型武器

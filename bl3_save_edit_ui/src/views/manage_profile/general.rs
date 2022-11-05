@@ -28,7 +28,7 @@ pub enum ProfileGeneralInteractionMessage {
 pub fn view(general_state: &mut GeneralState) -> Container<Bl3Message> {
     let file = Container::new(
         LabelledElement::create(
-            "File",
+            t!("general.file"),
             Length::Units(110),
             Tooltip::new(
                 TextInput::new(
@@ -42,7 +42,7 @@ pub fn view(general_state: &mut GeneralState) -> Container<Bl3Message> {
                 .size(17)
                 .style(Bl3UiStyle)
                 .into_element(),
-                "Not editable",
+                t!("general.file_tooltip.profile"),
                 tooltip::Position::Top,
             )
             .gap(10)
@@ -61,7 +61,7 @@ pub fn view(general_state: &mut GeneralState) -> Container<Bl3Message> {
 
     let profile_type = Container::new(
         LabelledElement::create(
-            "Profile Type",
+            t!("general.profile_type"),
             Length::Units(110),
             PickList::new(
                 &mut general_state.profile_type_selector,

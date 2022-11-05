@@ -1,4 +1,5 @@
 en:
+  title: Borderlands 3 Save Editor - v%{version}
   view:
     init: Initializing...
     load: Loading...
@@ -29,7 +30,10 @@ en:
     select: Select...
   general:
     file: File
-    file_tooltip: Not editable, this is modified by changing your Save Slot below
+    file_tooltip: 
+      save: Not editable, this is modified by changing your Save Slot below
+      profile: Not editable
+    profile_type: Profile Type
     save_guid: Save GUID
     guid_random: Random
     save_slot: Save Slot

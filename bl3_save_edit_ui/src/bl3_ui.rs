@@ -185,7 +185,7 @@ impl Application for Bl3Application {
     }
 
     fn title(&self) -> String {
-        format!("Borderlands 3 Save Editor - v{}", VERSION)
+        t!("title", version=VERSION)
     }
 
     fn update(&mut self, message: Self::Message) -> Command<Self::Message> {

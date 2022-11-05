@@ -54,7 +54,7 @@ pub fn view(general_state: &mut GeneralState) -> Container<Bl3Message> {
                         .size(17)
                         .style(Bl3UiStyle)
                         .into_element(),
-                        t!("general.file_tooltip"),
+                        t!("general.file_tooltip.save"),
                         tooltip::Position::Top,
                     )
                     .gap(10)

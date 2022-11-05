@@ -12,10 +12,10 @@ impl std::default::Default for AvailablePartType {
 
 impl std::fmt::Display for AvailablePartType {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-        match self {
-            AvailablePartType::Parts => write!(f, "{}", t!("inventory.available.tab_parts")),
-            AvailablePartType::Anointments => write!(f, "{}", t!("inventory.available.tab_anointments")),
-        }
+        write!(f, "{}", match self {
+            AvailablePartType::Parts => t!("inventory.available.tab_parts"),
+            AvailablePartType::Anointments => t!("inventory.available.tab_anointments"),
+        })
     }
 }
 
@@ -33,9 +33,9 @@ impl std::default::Default for CurrentPartType {
 
 impl std::fmt::Display for CurrentPartType {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-        match self {
-            CurrentPartType::Parts => write!(f, "{}", t!("inventory.current.tab_parts")),
-            CurrentPartType::Anointments => write!(f, "{}", t!("inventory.current.tab_anointments")),
-        }
+        write!(f, "{}", match self {
+            CurrentPartType::Parts => t!("inventory.current.tab_parts"),
+            CurrentPartType::Anointments => t!("inventory.current.tab_anointments"),
+        })
     }
 }

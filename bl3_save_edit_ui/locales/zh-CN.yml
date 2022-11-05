@@ -1,4 +1,5 @@
 zh-CN:
+  title: 无主之地 3 存档修改器 - v%{version}
   view:
     init: 初始化中...
     load: 正在加载...
@@ -29,7 +30,10 @@ zh-CN:
     select: 请选择...
   general:
     file: 文件
-    file_tooltip: 不可编辑，通过更改下面的存档槽位来修改此选项
+    file_tooltip: 
+      save: 不可编辑，通过更改下面的存档槽位来修改此选项
+      profile: 不可编辑
+    profile_type: 配置类型
     save_guid: 存档编码
     guid_random: 随机
     save_slot: 存档槽位

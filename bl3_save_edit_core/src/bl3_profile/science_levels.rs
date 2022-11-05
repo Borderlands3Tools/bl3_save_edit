@@ -1,5 +1,4 @@
 use anyhow::{bail, Context, Result};
-use strum::Display;
 
 #[derive(Debug, Clone, Default, Eq, PartialEq, Ord, PartialOrd)]
 pub struct BorderlandsScienceInfo {
@@ -8,8 +7,7 @@ pub struct BorderlandsScienceInfo {
     pub tokens: i32,
 }
 
-#[derive(Copy, Clone, Debug, Display, Eq, PartialEq, Ord, PartialOrd)]
-#[strum(serialize_all = "title_case")]
+#[derive(Copy, Clone, Debug, Eq, PartialEq, Ord, PartialOrd)]
 pub enum BorderlandsScienceLevel {
     Claptrap,
     Brick,
@@ -27,6 +25,24 @@ pub enum BorderlandsScienceLevel {
 impl std::default::Default for BorderlandsScienceLevel {
     fn default() -> Self {
         Self::Claptrap
+    }
+}
+
+impl std::fmt::Display for BorderlandsScienceLevel {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "{}", match self {
+            BorderlandsScienceLevel::Claptrap => t!("BorderlandsScienceLevel.Claptrap"),
+            BorderlandsScienceLevel::Brick => t!("BorderlandsScienceLevel.Brick"),
+            BorderlandsScienceLevel::Mordecai => t!("BorderlandsScienceLevel.Mordecai"),
+            BorderlandsScienceLevel::Torgue => t!("BorderlandsScienceLevel.Torgue"),
+            BorderlandsScienceLevel::Marcus => t!("BorderlandsScienceLevel.Marcus"),
+            BorderlandsScienceLevel::Ellie => t!("BorderlandsScienceLevel.Ellie"),
+            BorderlandsScienceLevel::Lilith => t!("BorderlandsScienceLevel.Lilith"),
+            BorderlandsScienceLevel::MadMoxxi => t!("BorderlandsScienceLevel.MadMoxxi"),
+            BorderlandsScienceLevel::Tannis => t!("BorderlandsScienceLevel.Tannis"),
+            BorderlandsScienceLevel::TrueTannis => t!("BorderlandsScienceLevel.TrueTannis"),
+            BorderlandsScienceLevel::None => t!("BorderlandsScienceLevel.None"),
+        })
     }
 }
 

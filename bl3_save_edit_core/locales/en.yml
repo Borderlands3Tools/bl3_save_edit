@@ -1,0 +1,62 @@
+---
+en:
+  HeaderType:
+    PcSave: PC Save
+    PcProfile: PC Profile
+    Ps4Save: PS4 Save
+    Ps4Profile: PS4 Profile
+  BorderlandsScienceLevel:
+    Claptrap: Claptrap
+    Brick: Brick
+    Mordecai: Mordecai
+    Torgue: Torgue
+    Marcus: Marcus
+    Ellie: Ellie
+    Lilith: Lilith
+    MadMoxxi: Mad Moxxi
+    Tannis: Tannis
+    TrueTannis: True Tannis
+    None: None
+  AmmoPool:
+    Ar: AR
+    Grenade: Grenade
+    Heavy: Heavy
+    Pistol: Pistol
+    Smg: SMG
+    Shotgun: Shotgun
+    Sniper: Sniper
+  GuardianReward:
+    Accuracy: Accuracy
+    ActionSkillCooldown: Action Skill Cooldown
+    CriticalDamage: Critical Damage
+    ElementalDamage: Elemental Damage
+    FFYLDuration: FFYL Duration
+    FFYLMovementSpeed: FFYL Movement Speed
+    GrenadeDamage: Grenade Damage
+    GunDamage: Gun Damage
+    GunFireRate: Gun Fire Rate
+    MaxHealth: Max Health
+    MeleeDamage: Melee Damage
+    RarityRate: Luck
+    RecoilReduction: Recoil Reduction
+    ReloadSpeed: Reload Speed
+    ShieldCapacity: Shield Capacity
+    ShieldRechargeDelay: Shield Recharge Delay
+    ShieldRechargeRate: Shield Recharge Rate
+    VehicleDamage: Vehicle Damage
+  ItemType:
+    Artifact: Artifact
+    ClassMod: Class Mod
+    GrenadeMod: Grenade Mod
+    Shield: Shield
+    Weapon: Weapon
+    Other: Other
+  SaveSduSlot:
+    Backpack: Backpack
+    Sniper: Sniper
+    Shotgun: Shotgun
+    Pistol: Pistol
+    Grenade: Grenade
+    Smg: SMG
+    Ar: AR
+    Heavy: Heavy
