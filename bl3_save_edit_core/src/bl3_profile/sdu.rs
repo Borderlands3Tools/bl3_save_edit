@@ -11,11 +11,10 @@ pub struct ProfileSduSlotData {
     Debug, Display, EnumString, EnumIter, EnumMessage, Eq, PartialEq, Ord, PartialOrd, Clone,
 )]
 pub enum ProfileSduSlot {
-    #[strum(serialize = "/Game/Pickups/SDU/SDU_Bank.SDU_Bank", to_string = "Bank")]
+    #[strum(serialize = "/Game/Pickups/SDU/SDU_Bank.SDU_Bank")]
     Bank,
     #[strum(
         serialize = "/Game/Pickups/SDU/SDU_LostLoot.SDU_LostLoot",
-        to_string = "Lost Loot"
     )]
     LostLoot,
 }
@@ -32,5 +31,14 @@ impl ProfileSduSlot {
 impl std::default::Default for ProfileSduSlot {
     fn default() -> Self {
         Self::Bank
+    }
+}
+
+impl std::fmt::Display for ProfileSduSlot {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "{}", match self {
+            ProfileSduSlot::Bank => t!("ProfileSduSlot.Bank"),
+            ProfileSduSlot::LostLoot => t!("ProfileSduSlot.LostLoot"),
+        })
     }
 }

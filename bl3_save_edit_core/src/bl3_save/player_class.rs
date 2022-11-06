@@ -1,25 +1,21 @@
-use strum::{Display, EnumMessage, EnumString};
+use strum::{EnumMessage, EnumString};
 
-#[derive(Clone, Copy, Debug, Display, EnumString, EnumMessage, Eq, PartialEq, Ord, PartialOrd)]
+#[derive(Clone, Copy, Debug, EnumString, EnumMessage, Eq, PartialEq, Ord, PartialOrd)]
 pub enum PlayerClass {
     #[strum(
         serialize = "/Game/PlayerCharacters/Beastmaster/PlayerClassId_Beastmaster.PlayerClassId_Beastmaster",
-        to_string = "Beastmaster"
     )]
     BeastMaster,
     #[strum(
         serialize = "/Game/PlayerCharacters/Gunner/PlayerClassId_Gunner.PlayerClassId_Gunner",
-        to_string = "Gunner"
     )]
     Gunner,
     #[strum(
         serialize = "/Game/PlayerCharacters/Operative/PlayerClassId_Operative.PlayerClassId_Operative",
-        to_string = "Operative"
     )]
     Operative,
     #[strum(
         serialize = "/Game/PlayerCharacters/SirenBrawler/PlayerClassId_Siren.PlayerClassId_Siren",
-        to_string = "Siren"
     )]
     Siren,
 }
@@ -27,6 +23,17 @@ pub enum PlayerClass {
 impl Default for PlayerClass {
     fn default() -> Self {
         Self::BeastMaster
+    }
+}
+
+impl std::fmt::Display for PlayerClass {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "{}", match self {
+            PlayerClass::BeastMaster => t!("PlayerClass.BeastMaster"),
+            PlayerClass::Gunner => t!("PlayerClass.Gunner"),
+            PlayerClass::Operative => t!("PlayerClass.Operative"),
+            PlayerClass::Siren => t!("PlayerClass.Siren"),
+        })
     }
 }
 

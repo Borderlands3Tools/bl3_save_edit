@@ -60,3 +60,44 @@ en:
     Smg: SMG
     Ar: AR
     Heavy: Heavy
+  PlayerClass:
+    BeastMaster: BeastMaster
+    Gunner: Gunner
+    Operative: Operative
+    Siren: Siren
+  InventorySlot:
+    Weapon1: Weapon 1
+    Weapon2: Weapon 2
+    Weapon3: Weapon 3
+    Weapon4: Weapon 4
+    Shield: Shield
+    Grenade: Grenade
+    ClassMod: Class Mod
+    Artifact: Artifact
+  WeaponType:
+    Pistol: Pistol
+    Shotgun: Shotgun
+    Smg: SMG
+    Ar: Assault Rifle
+    Sniper: Sniper
+    Heavy: Heavy
+  ItemRarity:
+    Common: Common
+    Uncommon: Uncommon
+    Rare: Rare
+    VeryRare: Very Rare
+    Legendary: Legendary
+    NamedWeapon: Unique Weapon
+    Unknown: Unknown
+  Challenge:
+    ArtifactSlot: Artifact Slot
+    EridianAnalyzer: Eridian Analyzer
+    EridianResonator: Eridian Resonator
+    MayhemMode: Mayhem Mode
+    BeastMasterClassModSlot: BeastMaster Class Mod Slot
+    GunnerClassModSlot: Gunner Class Mod Slot
+    OperativeClassModSlot: Operative Class Mod Slot
+    SirenClassModSlot: Siren Class Mod Slot
+  ProfileSduSlot:
+    Bank: Bank
+    LostLoot: Lost Loot

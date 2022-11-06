@@ -18,7 +18,7 @@ zh-CN:
     TrueTannis: 9. 真·坦尼斯
     None: 未开始
   AmmoPool:
-    Ar: 步枪
+    Ar: 突击步枪
     Grenade: 手雷
     Heavy: 重型武器
     Pistol: 手枪
@@ -58,5 +58,46 @@ zh-CN:
     Pistol: 手枪
     Grenade: 手雷
     Smg: 冲锋枪
-    Ar: 步枪
+    Ar: 突击步枪
     Heavy: 重型武器
+  PlayerClass:
+    BeastMaster: 兽王
+    Gunner: 枪手
+    Operative: 特工
+    Siren: 魔女
+  InventorySlot:
+    Weapon1: 武器 1
+    Weapon2: 武器 2
+    Weapon3: 武器 3
+    Weapon4: 武器 4
+    Shield: 护盾
+    Grenade: 手雷
+    ClassMod: 职业模组
+    Artifact: 传奇神器
+  WeaponType:
+    Pistol: 手枪
+    Shotgun: 霰弹枪
+    Smg: 冲锋枪
+    Ar: 突击步枪
+    Sniper: 狙击枪
+    Heavy: 重型武器
+  ItemRarity:
+    Common: Common
+    Uncommon: Uncommon
+    Rare: Rare
+    VeryRare: Very Rare
+    Legendary: Legendary
+    NamedWeapon: Unique Weapon
+    Unknown: Unknown
+  Challenge:
+    ArtifactSlot: Artifact Slot
+    EridianAnalyzer: Eridian Analyzer
+    EridianResonator: Eridian Resonator
+    MayhemMode: Mayhem Mode
+    BeastMasterClassModSlot: BeastMaster Class Mod Slot
+    GunnerClassModSlot: Gunner Class Mod Slot
+    OperativeClassModSlot: Operative Class Mod Slot
+    SirenClassModSlot: Siren Class Mod Slot
+  ProfileSduSlot:
+    Bank: Bank
+    LostLoot: Lost Loot
