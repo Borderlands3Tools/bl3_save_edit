@@ -153,7 +153,9 @@ pub enum ItemType {
     GrenadeMod,
     #[strum(serialize = "BPInvPart_Shield_C")]
     Shield,
+    #[strum()]
     Weapon,
+    #[strum()]
     Other,
 }
 
@@ -176,28 +178,31 @@ impl std::fmt::Display for ItemType {
     }
 }
 
-#[derive(Debug, Clone, Eq, PartialEq, Ord, PartialOrd, EnumString)]
+#[derive(Debug, Clone, Eq, PartialEq, Ord, PartialOrd, Display, EnumString)]
 pub enum ItemRarity {
     #[strum(
         serialize = "01/Common",
         serialize = "01/Common (Starting Gear)",
+        to_string = "Common"
     )]
     Common,
-    #[strum(serialize = "02/Uncommon")]
+    #[strum(serialize = "02/Uncommon", to_string = "Uncommon")]
     Uncommon,
     #[strum(
         serialize = "03/Rare",
         serialize = "03/Rare E-Tech",
+        to_string = "Rare"
     )]
     Rare,
     #[strum(
         serialize = "04/Very Rare",
         serialize = "04/Very Rare E-Tech",
+        to_string = "Very Rare"
     )]
     VeryRare,
-    #[strum(serialize = "05/Legendary")]
+    #[strum(serialize = "05/Legendary", to_string = "Legendary")]
     Legendary,
-    #[strum(serialize = "Named Weapon")]
+    #[strum(serialize = "Named Weapon", to_string = "Unique Weapon")]
     NamedWeapon,
     Unknown,
 }
@@ -208,41 +213,20 @@ impl std::default::Default for ItemRarity {
     }
 }
 
-impl std::fmt::Display for ItemRarity {
-    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-        write!(f, "{}", match self {
-            ItemRarity::Common => t!("ItemRarity.Common"),
-            ItemRarity::Uncommon => t!("ItemRarity.Uncommon"),
-            ItemRarity::Rare => t!("ItemRarity.Rare"),
-            ItemRarity::VeryRare => t!("ItemRarity.VeryRare"),
-            ItemRarity::Legendary => t!("ItemRarity.Legendary"),
-            ItemRarity::NamedWeapon => t!("ItemRarity.NamedWeapon"),
-            ItemRarity::Unknown => t!("ItemRarity.Unknown"),
-        })
-    }
-}
-
-#[derive(Debug, Clone, Eq, PartialEq, Ord, PartialOrd)]
+#[derive(Debug, Clone, Eq, PartialEq, Ord, PartialOrd, Display)]
 pub enum WeaponType {
+    #[strum(to_string = "Pistol")]
     Pistol,
+    #[strum(to_string = "Shotgun")]
     Shotgun,
+    #[strum(to_string = "SMG")]
     Smg,
+    #[strum(to_string = "Assault Rifle")]
     Ar,
+    #[strum(to_string = "Sniper")]
     Sniper,
+    #[strum(to_string = "Heavy")]
     Heavy,
-}
-
-impl std::fmt::Display for WeaponType {
-    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-        write!(f, "{}", match self {
-            WeaponType::Pistol => t!("WeaponType.Pistol"),
-            WeaponType::Shotgun => t!("WeaponType.Shotgun"),
-            WeaponType::Smg => t!("WeaponType.Smg"),
-            WeaponType::Ar => t!("WeaponType.Ar"),
-            WeaponType::Sniper => t!("WeaponType.Sniper"),
-            WeaponType::Heavy => t!("WeaponType.Heavy"),
-        })
-    }
 }
 
 impl Bl3Item {

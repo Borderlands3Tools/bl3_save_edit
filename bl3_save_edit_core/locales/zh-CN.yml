@@ -82,22 +82,22 @@ zh-CN:
     Sniper: 狙击枪
     Heavy: 重型武器
   ItemRarity:
-    Common: Common
-    Uncommon: Uncommon
-    Rare: Rare
-    VeryRare: Very Rare
-    Legendary: Legendary
-    NamedWeapon: Unique Weapon
-    Unknown: Unknown
+    Common: 普通
+    Uncommon: 不常见
+    Rare: 罕见
+    VeryRare: 极其罕见
+    Legendary: 传奇
+    NamedWeapon: 红字武器
+    Unknown: 未知
   Challenge:
     ArtifactSlot: Artifact Slot
     EridianAnalyzer: Eridian Analyzer
     EridianResonator: Eridian Resonator
-    MayhemMode: Mayhem Mode
+    MayhemMode: 混乱模式
     BeastMasterClassModSlot: BeastMaster Class Mod Slot
     GunnerClassModSlot: Gunner Class Mod Slot
     OperativeClassModSlot: Operative Class Mod Slot
     SirenClassModSlot: Siren Class Mod Slot
   ProfileSduSlot:
-    Bank: Bank
-    LostLoot: Lost Loot
+    Bank: 银行
+    LostLoot: 失物

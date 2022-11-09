@@ -8,7 +8,7 @@ pub struct ProfileSduSlotData {
 }
 
 #[derive(
-    Debug, Display, EnumString, EnumIter, EnumMessage, Eq, PartialEq, Ord, PartialOrd, Clone,
+    Debug, EnumString, EnumIter, EnumMessage, Eq, PartialEq, Ord, PartialOrd, Clone,
 )]
 pub enum ProfileSduSlot {
     #[strum(serialize = "/Game/Pickups/SDU/SDU_Bank.SDU_Bank")]
