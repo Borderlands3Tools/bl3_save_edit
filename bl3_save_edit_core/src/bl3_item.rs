@@ -321,7 +321,7 @@ impl Bl3Item {
             .find_first(|gd| {
                 balance_short_name_lower == gd.ident.rsplit('/').next().unwrap_or(gd.ident)
             })
-            .map(|gd| gd.name.to_owned());
+            .map(|gd| t!(gd.name).to_owned());
 
         let balance_part = BalancePart {
             ident: balance.clone(),
