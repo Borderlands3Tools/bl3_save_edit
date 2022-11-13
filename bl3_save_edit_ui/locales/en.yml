@@ -221,3 +221,783 @@ en:
   Rarity: Rarity
   Skills: Skills
   Anointment: Anointment
+  Augment: Augment
+  Behavior: Behavior
+  Element: Element
+  Manufacturer: Manufacturer
+  Material: Material
+  Ability: Ability
+  Legendary Ability: Legendary Ability
+  Secondary: Secondary
+
+  White Artifact: White Artifact
+  Green Artifact: Green Artifact
+  Blue Artifact: Blue Artifact
+  Purple Artifact: Purple Artifact
+  Legendary Artifact: Legendary Artifact
+  Unleash the Dragon Legendary Artifact: Unleash the Dragon Legendary Artifact
+  Electric Banjo Legendary Artifact: Electric Banjo Legendary Artifact
+  Grave Legendary Artifact: Grave Legendary Artifact
+  Phoenix Tears Legendary Artifact: Phoenix Tears Legendary Artifact
+  Road Warrior Legendary Artifact: Road Warrior Legendary Artifact
+  Vault Hunter's Relic Legendary Artifact: Vault Hunter's Relic Legendary Artifact
+  Beastmaster White COM: Beastmaster White COM
+  Beastmaster Green COM: Beastmaster Green COM
+  Beastmaster Blue COM: Beastmaster Blue COM
+  Beastmaster Purple COM: Beastmaster Purple COM
+  Beastmaster Legendary COM: Beastmaster Legendary COM
+  Gunner White COM: Gunner White COM
+  Gunner Green COM: Gunner Green COM
+  Gunner Blue COM: Gunner Blue COM
+  Gunner Purple COM: Gunner Purple COM
+  Gunner Legendary COM: Gunner Legendary COM
+  Operative White COM: Operative White COM
+  Operative Green COM: Operative Green COM
+  Operative Blue COM: Operative Blue COM
+  Operative Purple COM: Operative Purple COM
+  Operative Legendary COM: Operative Legendary COM
+  Siren White COM: Siren White COM
+  Siren Green COM: Siren Green COM
+  Siren Blue COM: Siren Blue COM
+  Siren Purple COM: Siren Purple COM
+  Siren Legendary COM: Siren Legendary COM
+  Exterminator: Exterminator
+  Diamond Butt Bomb: Diamond Butt Bomb
+  Rubber Cheddar Shredder: Rubber Cheddar Shredder
+  Chupa's Organ: Chupa's Organ
+  ECHO-2: ECHO-2
+  EMP: EMP
+  Epicenter: Epicenter
+  Fastball: Fastball
+  Firestorm: Firestorm
+  Tina's Hippity Hopper: Tina's Hippity Hopper
+  Hunter-Seeker: Hunter-Seeker
+  Chocolate Thunder: Chocolate Thunder
+  Kryll: Kryll
+  Elemental Persistent Contact Grenade: Elemental Persistent Contact Grenade
+  Moxxi's Bouncing Pair: Moxxi's Bouncing Pair
+  Fungus Among Us: Fungus Among Us
+  Nagata: Nagata
+  Whispering Ice: Whispering Ice
+  It's Piss: It's Piss
+  Quasar: Quasar
+  Red Queen: Red Queen
+  Hex: Hex
+  Storm Front: Storm Front
+  Burning Summit: Burning Summit
+  Surge: Surge
+  Porcelain Pipe Bomb: Porcelain Pipe Bomb
+  Ultraball: Ultraball
+  Tran-fusion: Tran-fusion
+  Widowmaker: Widowmaker
+  'NOG Potion #9': 'NOG Potion #9'
+  Atlas White Grenade: Atlas White Grenade
+  Atlas Green Grenade: Atlas Green Grenade
+  Atlas Blue Grenade: Atlas Blue Grenade
+  Atlas Purple Grenade: Atlas Purple Grenade
+  Hyperion White Grenade: Hyperion White Grenade
+  Hyperion Green Grenade: Hyperion Green Grenade
+  Hyperion Blue Grenade: Hyperion Blue Grenade
+  Hyperion Purple Grenade: Hyperion Purple Grenade
+  Pangolin White Grenade: Pangolin White Grenade
+  Pangolin Green Grenade: Pangolin Green Grenade
+  Pangolin Blue Grenade: Pangolin Blue Grenade
+  Pangolin Purple Grenade: Pangolin Purple Grenade
+  Tediore White Grenade: Tediore White Grenade
+  Tediore Green Grenade: Tediore Green Grenade
+  Tediore Blue Grenade: Tediore Blue Grenade
+  Tediore Purple Grenade: Tediore Purple Grenade
+  Torgue White Grenade: Torgue White Grenade
+  Torgue Green Grenade: Torgue Green Grenade
+  Torgue Blue Grenade: Torgue Blue Grenade
+  Torgue Purple Grenade: Torgue Purple Grenade
+  Vladof White Grenade: Vladof White Grenade
+  Vladof Green Grenade: Vladof Green Grenade
+  Vladof Blue Grenade: Vladof Blue Grenade
+  Vladof Purple Grenade: Vladof Purple Grenade
+  Deluxe Badass Combustor: Deluxe Badass Combustor
+  Frozen Heart: Frozen Heart
+  Back Ham: Back Ham
+  Big Boom Blaster: Big Boom Blaster
+  Black Hole: Black Hole
+  Mendel's Multivitamin Shield: Mendel's Multivitamin Shield
+  Band of Sitorak: Band of Sitorak
+  MSRC Auto-Dispensary: MSRC Auto-Dispensary
+  Front Loader: Front Loader
+  Golden Touch: Golden Touch
+  Impaler: Impaler
+  Loop of 4N631: Loop of 4N631
+  Messy Breakup: Messy Breakup
+  Moxxi's Embrace: Moxxi's Embrace
+  Mr Caffeine: Mr Caffeine
+  Nova Berner: Nova Berner
+  Red Suit: Red Suit
+  Re-Charger: Re-Charger
+  Rectifier: Rectifier
+  Revengenader: Revengenader
+  Rough Rider: Rough Rider
+  Shooting Star: Shooting Star
+  Red Card: Red Card
+  Stop-Gap: Stop-Gap
+  The Transformer: The Transformer
+  Unpaler: Unpaler
+  Re-Router: Re-Router
+  Ward: Ward
+  Whiskey Tango Foxtrot: Whiskey Tango Foxtrot
+  Anshin White Shield: Anshin White Shield
+  Anshin Green Shield: Anshin Green Shield
+  Anshin Blue Shield: Anshin Blue Shield
+  Anshin Purple Shield: Anshin Purple Shield
+  Hyperion White Shield: Hyperion White Shield
+  Hyperion Green Shield: Hyperion Green Shield
+  Hyperion Blue Shield: Hyperion Blue Shield
+  Hyperion Purple Shield: Hyperion Purple Shield
+  Pangolin White Shield: Pangolin White Shield
+  Pangolin Green Shield: Pangolin Green Shield
+  Pangolin Blue Shield: Pangolin Blue Shield
+  Pangolin Purple Shield: Pangolin Purple Shield
+  Blue E-Tech COV AR: Blue E-Tech COV AR
+  Purple E-Tech COV AR: Purple E-Tech COV AR
+  Blue E-Tech Dahl AR: Blue E-Tech Dahl AR
+  Purple E-Tech Dahl AR: Purple E-Tech Dahl AR
+  Blue E-Tech Torgue AR: Blue E-Tech Torgue AR
+  Purple E-Tech Torgue AR: Purple E-Tech Torgue AR
+  Blue E-Tech Vladof AR: Blue E-Tech Vladof AR
+  Purple E-Tech Vladof AR: Purple E-Tech Vladof AR
+  Blue E-Tech COV Heavy Weapon: Blue E-Tech COV Heavy Weapon
+  Purple E-Tech COV Heavy Weapon: Purple E-Tech COV Heavy Weapon
+  Blue E-Tech Torgue Heavy Weapon: Blue E-Tech Torgue Heavy Weapon
+  Purple E-Tech Torgue Heavy Weapon: Purple E-Tech Torgue Heavy Weapon
+  Blue E-Tech Vladof Heavy Weapon: Blue E-Tech Vladof Heavy Weapon
+  Purple E-Tech Vladof Heavy Weapon: Purple E-Tech Vladof Heavy Weapon
+  Blue E-Tech COV Pistol: Blue E-Tech COV Pistol
+  Purple E-Tech COV Pistol: Purple E-Tech COV Pistol
+  Blue E-Tech Dahl Pistol: Blue E-Tech Dahl Pistol
+  Purple E-Tech Dahl Pistol: Purple E-Tech Dahl Pistol
+  Blue E-Tech Maliwan Pistol: Blue E-Tech Maliwan Pistol
+  Purple E-Tech Maliwan Pistol: Purple E-Tech Maliwan Pistol
+  Blue E-Tech Tediore Pistol: Blue E-Tech Tediore Pistol
+  Purple E-Tech Tediore Pistol: Purple E-Tech Tediore Pistol
+  Blue E-Tech Torgue Pistol: Blue E-Tech Torgue Pistol
+  Purple E-Tech Torgue Pistol: Purple E-Tech Torgue Pistol
+  Blue E-Tech Vladof Pistol: Blue E-Tech Vladof Pistol
+  Purple E-Tech Vladof Pistol: Purple E-Tech Vladof Pistol
+  Blue E-Tech Hyperion Shotgun: Blue E-Tech Hyperion Shotgun
+  Purple E-Tech Hyperion Shotgun: Purple E-Tech Hyperion Shotgun
+  Blue E-Tech Maliwan Shotgun: Blue E-Tech Maliwan Shotgun
+  Purple E-Tech Maliwan Shotgun: Purple E-Tech Maliwan Shotgun
+  Blue E-Tech Tediore Shotgun: Blue E-Tech Tediore Shotgun
+  Purple E-Tech Tediore Shotgun: Purple E-Tech Tediore Shotgun
+  Blue E-Tech Torgue Shotgun: Blue E-Tech Torgue Shotgun
+  Purple E-Tech Torgue Shotgun: Purple E-Tech Torgue Shotgun
+  Blue E-Tech Dahl SMG: Blue E-Tech Dahl SMG
+  Purple E-Tech Dahl SMG: Purple E-Tech Dahl SMG
+  Blue E-Tech Hyperion SMG: Blue E-Tech Hyperion SMG
+  Purple E-Tech Hyperion SMG: Purple E-Tech Hyperion SMG
+  Blue E-Tech Maliwan SMG: Blue E-Tech Maliwan SMG
+  Purple E-Tech Maliwan SMG: Purple E-Tech Maliwan SMG
+  Blue E-Tech Tediore SMG: Blue E-Tech Tediore SMG
+  Purple E-Tech Tediore SMG: Purple E-Tech Tediore SMG
+  Blue E-Tech Dahl Sniper Rifle: Blue E-Tech Dahl Sniper Rifle
+  Purple E-Tech Dahl Sniper Rifle: Purple E-Tech Dahl Sniper Rifle
+  Blue E-Tech Hyperion Sniper Rifle: Blue E-Tech Hyperion Sniper Rifle
+  Purple E-Tech Hyperion Sniper Rifle: Purple E-Tech Hyperion Sniper Rifle
+  Blue E-Tech Maliwan Sniper Rifle: Blue E-Tech Maliwan Sniper Rifle
+  Purple E-Tech Maliwan Sniper Rifle: Purple E-Tech Maliwan Sniper Rifle
+  Blue E-Tech Vladof Sniper Rifle: Blue E-Tech Vladof Sniper Rifle
+  Purple E-Tech Vladof Sniper Rifle: Purple E-Tech Vladof Sniper Rifle
+  Null Pointer: Null Pointer
+  Carrier: Carrier
+  Portals and Shite: Portals and Shite
+  Rebel Yell: Rebel Yell
+  White Atlas AR: White Atlas AR
+  Green Atlas AR: Green Atlas AR
+  Blue Atlas AR: Blue Atlas AR
+  Purple Atlas AR: Purple Atlas AR
+  Pain is Power / Embrace the Pain: Pain is Power / Embrace the Pain
+  Sawbar: Sawbar
+  White COV AR: White COV AR
+  Green COV AR: Green COV AR
+  Blue COV AR: Blue COV AR
+  Purple COV AR: Purple COV AR
+  Barrage: Barrage
+  Breath of the Dying: Breath of the Dying
+  Earworm: Earworm
+  Hail: Hail
+  Kaos: Kaos
+  Star Helix: Star Helix
+  Warlord: Warlord
+  White Dahl AR: White Dahl AR
+  Green Dahl AR: Green Dahl AR
+  Blue Dahl AR: Blue Dahl AR
+  Purple Dahl AR: Purple Dahl AR
+  Bekah: Bekah
+  Gatling Gun: Gatling Gun
+  Hand of Glory: Hand of Glory
+  Lead Sprinkler: Lead Sprinkler
+  Pa's Rifle: Pa's Rifle
+  Rowan's Call: Rowan's Call
+  Traitor's Death: Traitor's Death
+  White Jakobs AR: White Jakobs AR
+  Green Jakobs AR: Green Jakobs AR
+  Blue Jakobs AR: Blue Jakobs AR
+  Purple Jakobs AR: Purple Jakobs AR
+  Alchemist: Alchemist
+  Amber Management: Amber Management
+  Bearcat: Bearcat
+  Laser-Sploder: Laser-Sploder
+  Try-Bolt: Try-Bolt
+  White Torgue AR: White Torgue AR
+  Green Torgue AR: Green Torgue AR
+  Blue Torgue AR: Blue Torgue AR
+  Purple Torgue AR: Purple Torgue AR
+  The Big Succ: The Big Succ
+  Damned: Damned
+  The Dictator: The Dictator
+  Faisor: Faisor
+  Lucian's Call: Lucian's Call
+  Ogre: Ogre
+  Super Shredifier: Super Shredifier
+  Boom Sickle / Sickle: Boom Sickle / Sickle
+  White Vladof AR: White Vladof AR
+  Green Vladof AR: Green Vladof AR
+  Blue Vladof AR: Blue Vladof AR
+  Purple Vladof AR: Purple Vladof AR
+  Freeman: Freeman
+  Ruby's Wrath: Ruby's Wrath
+  White Atlas Heavy Weapon: White Atlas Heavy Weapon
+  Green Atlas Heavy Weapon: Green Atlas Heavy Weapon
+  Blue Atlas Heavy Weapon: Blue Atlas Heavy Weapon
+  Purple Atlas Heavy Weapon: Purple Atlas Heavy Weapon
+  Hot Drop: Hot Drop
+  Porta-Pooper 5000: Porta-Pooper 5000
+  Agonizer 1500: Agonizer 1500
+  White COV Heavy Weapon: White COV Heavy Weapon
+  Green COV Heavy Weapon: Green COV Heavy Weapon
+  Blue COV Heavy Weapon: Blue COV Heavy Weapon
+  Purple COV Heavy Weapon: Purple COV Heavy Weapon
+  Eridian Fabricator: Eridian Fabricator
+  Gettleburger: Gettleburger
+  Hive: Hive
+  Quadomizer: Quadomizer
+  R.Y.N.A.H.: R.Y.N.A.H.
+  Scourge: Scourge
+  Tunguska: Tunguska
+  White Torgue Heavy Weapon: White Torgue Heavy Weapon
+  Green Torgue Heavy Weapon: Green Torgue Heavy Weapon
+  Blue Torgue Heavy Weapon: Blue Torgue Heavy Weapon
+  Purple Torgue Heavy Weapon: Purple Torgue Heavy Weapon
+  Jericho: Jericho
+  Mongol: Mongol
+  White Vladof Heavy Weapon: White Vladof Heavy Weapon
+  Green Vladof Heavy Weapon: Green Vladof Heavy Weapon
+  Blue Vladof Heavy Weapon: Blue Vladof Heavy Weapon
+  Purple Vladof Heavy Weapon: Purple Vladof Heavy Weapon
+  Linc: Linc
+  Peacemonger: Peacemonger
+  White Atlas Pistol: White Atlas Pistol
+  Green Atlas Pistol: Green Atlas Pistol
+  Blue Atlas Pistol: Blue Atlas Pistol
+  Purple Atlas Pistol: Purple Atlas Pistol
+  Extreme Hangin' Chadd: Extreme Hangin' Chadd
+  Pestilence: Pestilence
+  Linoge: Linoge
+  The Killing Word: The Killing Word
+  Psycho Stabber: Psycho Stabber
+  SkekSil: SkekSil
+  White COV Pistol: White COV Pistol
+  Green COV Pistol: Green COV Pistol
+  Blue COV Pistol: Blue COV Pistol
+  Purple COV Pistol: Purple COV Pistol
+  AAA: AAA
+  Hornet: Hornet
+  Nemesis: Nemesis
+  Omniloader: Omniloader
+  Night Flyer: Night Flyer
+  White Dahl Pistol: White Dahl Pistol
+  Green Dahl Pistol: Green Dahl Pistol
+  Blue Dahl Pistol: Blue Dahl Pistol
+  Purple Dahl Pistol: Purple Dahl Pistol
+  Amazing Grace: Amazing Grace
+  Buttplug: Buttplug
+  The Flood: The Flood
+  King's Call / Queen's Call: King's Call / Queen's Call
+  Maggie: Maggie
+  Dead Chamber: Dead Chamber
+  The Companion: The Companion
+  Rogue-Sight: Rogue-Sight
+  The Duc: The Duc
+  Unforgiven: Unforgiven
+  Wagon Wheel: Wagon Wheel
+  White Jakobs Pistol: White Jakobs Pistol
+  Green Jakobs Pistol: Green Jakobs Pistol
+  Blue Jakobs Pistol: Blue Jakobs Pistol
+  Purple Jakobs Pistol: Purple Jakobs Pistol
+  Hellshock: Hellshock
+  Hyper-Hydrator: Hyper-Hydrator
+  Superball: Superball
+  Starkiller: Starkiller
+  Sellout: Sellout
+  Thunderball Fists: Thunderball Fists
+  White Maliwan Pistol: White Maliwan Pistol
+  Green Maliwan Pistol: Green Maliwan Pistol
+  Blue Maliwan Pistol: Blue Maliwan Pistol
+  Purple Maliwan Pistol: Purple Maliwan Pistol
+  Bangarang: Bangarang
+  Baby Maker ++: Baby Maker ++
+  Baby Maker (fixed part): Baby Maker (fixed part)
+  Gunerang: Gunerang
+  Scorpio: Scorpio
+  White Tediore Pistol: White Tediore Pistol
+  Green Tediore Pistol: Green Tediore Pistol
+  Blue Tediore Pistol: Blue Tediore Pistol
+  Purple Tediore Pistol: Purple Tediore Pistol
+  Devastator: Devastator
+  Echo / Breeder: Echo / Breeder
+  Devils Foursum: Devils Foursum
+  Heckle: Heckle
+  Hyde: Hyde
+  Girth Blaster Elite: Girth Blaster Elite
+  Roisen's Thorns: Roisen's Thorns
+  Occultist: Occultist
+  White Torgue Pistol: White Torgue Pistol
+  Green Torgue Pistol: Green Torgue Pistol
+  Blue Torgue Pistol: Blue Torgue Pistol
+  Purple Torgue Pistol: Purple Torgue Pistol
+  Bone Shredder: Bone Shredder
+  Infinity: Infinity
+  Magnificent: Magnificent
+  The Leech: The Leech
+  White Vladof Pistol: White Vladof Pistol
+  Green Vladof Pistol: Green Vladof Pistol
+  Blue Vladof Pistol: Blue Vladof Pistol
+  Purple Vladof Pistol: Purple Vladof Pistol
+  Face-puncher: Face-puncher
+  Conference Call: Conference Call
+  Phebert: Phebert
+  Brainstormer: Brainstormer
+  The Butcher: The Butcher
+  White Hyperion Shotgun: White Hyperion Shotgun
+  Green Hyperion Shotgun: Green Hyperion Shotgun
+  Blue Hyperion Shotgun: Blue Hyperion Shotgun
+  Purple Hyperion Shotgun: Purple Hyperion Shotgun
+  The Garcia: The Garcia
+  Hellwalker: Hellwalker
+  Nimble Jack: Nimble Jack
+  One Pump Chump: One Pump Chump
+  Sledge's Shotgun / Sledge's Super Shotgun: Sledge's Shotgun / Sledge's Super Shotgun
+  Fingerbiter: Fingerbiter
+  T.K.'s Wave + variants: T.K.'s Wave + variants
+  White Jakobs Shotgun: White Jakobs Shotgun
+  Green Jakobs Shotgun: Green Jakobs Shotgun
+  Blue Jakobs Shotgun: Blue Jakobs Shotgun
+  Purple Jakobs Shotgun: Purple Jakobs Shotgun
+  Mind-Killer: Mind-Killer
+  Projectile Recursion: Projectile Recursion
+  Shrieking Devil: Shrieking Devil
+  Trevonator: Trevonator
+  Kill-o'-the-Wisp: Kill-o'-the-Wisp
+  White Maliwan Shotgun: White Maliwan Shotgun
+  Green Maliwan Shotgun: Green Maliwan Shotgun
+  Blue Maliwan Shotgun: Blue Maliwan Shotgun
+  Purple Maliwan Shotgun: Purple Maliwan Shotgun
+  Manic Pixie Dream Gun: Manic Pixie Dream Gun
+  The Horizon: The Horizon
+  Polybius: Polybius
+  Creeping Death: Creeping Death
+  White Tediore Shotgun: White Tediore Shotgun
+  Green Tediore Shotgun: Green Tediore Shotgun
+  Blue Tediore Shotgun: Blue Tediore Shotgun
+  Purple Tediore Shotgun: Purple Tediore Shotgun
+  Chomper: Chomper
+  Black Flame: Black Flame
+  Flakker: Flakker
+  Redline: Redline
+  The Boring Gun: The Boring Gun
+  The Lob: The Lob
+  Thumper: Thumper
+  White Torgue Shotgun: White Torgue Shotgun
+  Green Torgue Shotgun: Green Torgue Shotgun
+  Blue Torgue Shotgun: Blue Torgue Shotgun
+  Purple Torgue Shotgun: Purple Torgue Shotgun
+  Night Hawkin: Night Hawkin
+  Hellfire: Hellfire
+  9-Volt: 9-Volt
+  Ripper: Ripper
+  Sleeping Giant: Sleeping Giant
+  Vanquisher: Vanquisher
+  White Dahl SMG: White Dahl SMG
+  Green Dahl SMG: Green Dahl SMG
+  Blue Dahl SMG: Blue Dahl SMG
+  Purple Dahl SMG: Purple Dahl SMG
+  Bitch: Bitch
+  Crossroad: Crossroad
+  Redistributor (mission reward): Redistributor (mission reward)
+  Handsome Jackhammer: Handsome Jackhammer
+  L0V3M4CH1N3: L0V3M4CH1N3
+  Predatory Lending: Predatory Lending
+  XZ41: XZ41
+  White Hyperion SMG: White Hyperion SMG
+  Green Hyperion SMG: Green Hyperion SMG
+  Blue Hyperion SMG: Blue Hyperion SMG
+  Purple Hyperion SMG: Purple Hyperion SMG
+  Cloud Kill: Cloud Kill
+  Crit: Crit
+  Cutsman: Cutsman
+  Destructo Spinner: Destructo Spinner
+  Devoted: Devoted
+  Vault Hero: Vault Hero
+  E-Gone: E-Gone
+  The Emperor's Condiment: The Emperor's Condiment
+  Kevin's Chilly: Kevin's Chilly
+  Tsunami: Tsunami
+  Miss Moxxi's Vibra-Pulse: Miss Moxxi's Vibra-Pulse
+  Westergun: Westergun
+  White Maliwan SMG: White Maliwan SMG
+  Green Maliwan SMG: Green Maliwan SMG
+  Blue Maliwan SMG: Blue Maliwan SMG
+  Purple Maliwan SMG: Purple Maliwan SMG
+  The Boo: The Boo
+  Long Musket: Long Musket
+  Smart-Gun: Smart-Gun
+  Ten Gallon: Ten Gallon
+  White Tediore SMG: White Tediore SMG
+  Green Tediore SMG: Green Tediore SMG
+  Blue Tediore SMG: Blue Tediore SMG
+  Purple Tediore SMG: Purple Tediore SMG
+  Brashi's Dedication: Brashi's Dedication
+  Malak's Bane: Malak's Bane
+  Kenulox: Kenulox
+  White Dahl Sniper Rifle: White Dahl Sniper Rifle
+  Green Dahl Sniper Rifle: Green Dahl Sniper Rifle
+  Blue Dahl Sniper Rifle: Blue Dahl Sniper Rifle
+  Purple Dahl Sniper Rifle: Purple Dahl Sniper Rifle
+  Masterwork Crossbow: Masterwork Crossbow
+  THE TWO TIME: THE TWO TIME
+  Woodblocker: Woodblocker
+  White Hyperion Sniper Rifle: White Hyperion Sniper Rifle
+  Green Hyperion Sniper Rifle: Green Hyperion Sniper Rifle
+  Blue Hyperion Sniper Rifle: Blue Hyperion Sniper Rifle
+  Purple Hyperion Sniper Rifle: Purple Hyperion Sniper Rifle
+  Headsplosion: Headsplosion
+  The Ice Queen: The Ice Queen
+  Monocle: Monocle
+  The Hunt(er): The Hunt(er)
+  The Hunt(ed): The Hunt(ed)
+  The Hunt(ress): The Hunt(ress)
+  White Jakobs Sniper Rifle: White Jakobs Sniper Rifle
+  Green Jakobs Sniper Rifle: Green Jakobs Sniper Rifle
+  Blue Jakobs Sniper Rifle: Blue Jakobs Sniper Rifle
+  Purple Jakobs Sniper Rifle: Purple Jakobs Sniper Rifle
+  ASMD: ASMD
+  Krakatoa: Krakatoa
+  Soleki Protocol: Soleki Protocol
+  Storm / Firestorm: Storm / Firestorm
+  White Maliwan Sniper Rifle: White Maliwan Sniper Rifle
+  Green Maliwan Sniper Rifle: Green Maliwan Sniper Rifle
+  Blue Maliwan Sniper Rifle: Blue Maliwan Sniper Rifle
+  Purple Maliwan Sniper Rifle: Purple Maliwan Sniper Rifle
+  Lyuda: Lyuda
+  Cold Shoulder: Cold Shoulder
+  White Vladof Sniper Rifle: White Vladof Sniper Rifle
+  Green Vladof Sniper Rifle: Green Vladof Sniper Rifle
+  Blue Vladof Sniper Rifle: Blue Vladof Sniper Rifle
+  Purple Vladof Sniper Rifle: Purple Vladof Sniper Rifle
+  Beastmaster Peregrine Legendary COM: Beastmaster Peregrine Legendary COM
+  Gunner Flare Legendary COM: Gunner Flare Legendary COM
+  Operative Hustler Legendary COM: Operative Hustler Legendary COM
+  Siren Muse Legendary COM: Siren Muse Legendary COM
+  Faulty Star: Faulty Star
+  Guilty Spark: Guilty Spark
+  Plus Ultra: Plus Ultra
+  Limit Break: Limit Break
+  Blood-Starved Beast: Blood-Starved Beast
+  Ashen Beast: Ashen Beast
+  Major Kong: Major Kong
+  Minor Kong: Minor Kong
+  Blind Sage: Blind Sage
+  Blind Bandit: Blind Bandit
+  Convergence: Convergence
+  Reunion: Reunion
+  Lovable Rogue: Lovable Rogue
+  Likable Rascal: Likable Rascal
+  P.A.T. Mk. III: P.A.T. Mk. III
+  P.A.T. Mk. II: P.A.T. Mk. II
+  P.A.T. Mk. I: P.A.T. Mk. I
+  Rebound: Rebound
+  Sawpenny: Sawpenny
+  Septimator Prime: Septimator Prime
+  Septimator: Septimator
+  Prompt Critical: Prompt Critical
+  Critical Mass: Critical Mass
+  Ghast Call: Ghast Call
+  Scream of Terror: Scream of Terror
+  Fearmonger: Fearmonger
+  Stalker: Stalker
+  Beastmaster St4ckbot Legendary COM: Beastmaster St4ckbot Legendary COM
+  Gunner Green Monster Legendary COM: Gunner Green Monster Legendary COM
+  Operative Seein' Dead Legendary COM: Operative Seein' Dead Legendary COM
+  Siren Golden Rule Legendary COM: Siren Golden Rule Legendary COM
+  Acid Burn: Acid Burn
+  Slider: Slider
+  All-in: All-in
+  Double Downer: Double Downer
+  Ember's Blaze: Ember's Blaze
+  Rico: Rico
+  AutoAimè: AutoAimè
+  Boomer: Boomer
+  Cheap Tips: Cheap Tips
+  Craps: Craps
+  Creamer: Creamer
+  Digby's Smooth Tube: Digby's Smooth Tube
+  Ember's Purge: Ember's Purge
+  Heart Breaker: Heart Breaker
+  ION CANNON: ION CANNON
+  ION LASER: ION LASER
+  Just Kaus: Just Kaus
+  Lucky 7: Lucky 7
+  Melt Facer: Melt Facer
+  Nukem: Nukem
+  Robo-Melter: Robo-Melter
+  Scoville: Scoville
+  Slow Hand: Slow Hand
+  Brad Luck: Brad Luck
+  La Varlope: La Varlope
+  Fish Slap: Fish Slap
+  Firewall: Firewall
+  M.E.A.T. Shield: M.E.A.T. Shield
+  Wattson: Wattson
+  Grease Trap: Grease Trap
+  Iceburger: Iceburger
+  Ice Pick: Ice Pick
+  Needle Gun: Needle Gun
+  O.P.Q. System: O.P.Q. System
+  NoPewPew: NoPewPew
+  Pricker: Pricker
+  Yellowcake: Yellowcake
+  Terminal Polyaimorous: Terminal Polyaimorous
+  Superstreamer: Superstreamer
+  Wedding Invitation: Wedding Invitation
+  Vendetta Purple Artifact: Vendetta Purple Artifact
+  Core Buster: Core Buster
+  Doc Hina's Miracle Bomb: Doc Hina's Miracle Bomb
+  Chandelier: Chandelier
+  The Beast (rad): The Beast (rad)
+  The Beast (shock): The Beast (shock)
+  Brightside: Brightside
+  Bubble Blaster: Bubble Blaster
+  Contained Blast: Contained Blast
+  Icebreaker: Icebreaker
+  Proprietary License: Proprietary License
+  Dakota: Dakota
+  Beacon: Beacon
+  Dowsing Rod: Dowsing Rod
+  Mother Too: Mother Too
+  The Shoddy: The Shoddy
+  Flipper: Flipper
+  Frequency: Frequency
+  Gargoyle: Gargoyle
+  Complex Root: Complex Root
+  Light Show: Light Show
+  The Chalice: The Chalice
+  Miscreant: Miscreant
+  Narp: Narp
+  Peashooter: Peashooter
+  Plumage: Plumage
+  The Blanc: The Blanc
+  Quickdraw: Quickdraw
+  Bloom: Bloom
+  Satisfaction: Satisfaction
+  Marshal: Marshal
+  Spade: Spade
+  Robin's Call: Robin's Call
+  Splinter: Splinter
+  Stonethrower: Stonethrower
+  Unkempt Harold: Unkempt Harold
+  Lunacy Legendary Artifact: Lunacy Legendary Artifact
+  Pearl of Ineffable Knowledge Legendary Artifact: Pearl of Ineffable Knowledge Legendary Artifact
+  Beastmaster Tr4iner Legendary COM: Beastmaster Tr4iner Legendary COM
+  Gunner Sapper Legendary COM: Gunner Sapper Legendary COM
+  Operative Conductor Legendary COM: Operative Conductor Legendary COM
+  Siren Stone Legendary COM: Siren Stone Legendary COM
+  Initiative: Initiative
+  Old God: Old God
+  Torch: Torch
+  Void Rift: Void Rift
+  Anarchy: Anarchy
+  Bite Size: Bite Size
+  Clairvoyance: Clairvoyance
+  Cocky Bastard: Cocky Bastard
+  Firecracker: Firecracker
+  Frozen Devil: Frozen Devil
+  Seeryul Killur: Seeryul Killur
+  Hydrafrost: Hydrafrost
+  Insider: Insider
+  Kaleidoscope: Kaleidoscope
+  Little Yeeti: Little Yeeti
+  Love Drill (mission version): Love Drill (mission version)
+  Love Drill (legendary version): Love Drill (legendary version)
+  Mutant: Mutant
+  Oldridian: Oldridian
+  Flama Diddle: Flama Diddle
+  Sacrificial Lamb: Sacrificial Lamb
+  Seventh Sense (purple version): Seventh Sense (purple version)
+  Seventh Sense (ghost Burton version): Seventh Sense (ghost Burton version)
+  SF Force: SF Force
+  Shocker: Shocker
+  Skullmasher: Skullmasher
+  Soulrender: Soulrender
+  Stauros' Burn: Stauros' Burn
+  The Cure: The Cure
+  Nothingness: Nothingness
+  Seventh Sense (legendary version): Seventh Sense (legendary version)
+  Seventh Sense (mission version): Seventh Sense (mission version)
+  Unseen Threat: Unseen Threat
+  Deathrattle Legendary Artifact: Deathrattle Legendary Artifact
+  Holy Grail Legendary Artifact: Holy Grail Legendary Artifact
+  Mysterious Amulet Purple Artifact: Mysterious Amulet Purple Artifact
+  Toboggan Legendary Artifact: Toboggan Legendary Artifact
+  Beastmaster Cmdl3t Legendary COM: Beastmaster Cmdl3t Legendary COM
+  Beastmaster (Designer's Cut) White COM: Beastmaster (Designer's Cut) White COM
+  Beastmaster (Designer's Cut) Green COM: Beastmaster (Designer's Cut) Green COM
+  Beastmaster (Designer's Cut) Blue COM: Beastmaster (Designer's Cut) Blue COM
+  Beastmaster (Designer's Cut) Purple COM: Beastmaster (Designer's Cut) Purple COM
+  Gunner Eternal Flame Legendary COM: Gunner Eternal Flame Legendary COM
+  Gunner (Designer's Cut) White COM: Gunner (Designer's Cut) White COM
+  Gunner (Designer's Cut) Green COM: Gunner (Designer's Cut) Green COM
+  Gunner (Designer's Cut) Blue COM: Gunner (Designer's Cut) Blue COM
+  Gunner (Designer's Cut) Purple COM: Gunner (Designer's Cut) Purple COM
+  Operative Spy Legendary COM: Operative Spy Legendary COM
+  Operative (Designer's Cut) White COM: Operative (Designer's Cut) White COM
+  Operative (Designer's Cut) Green COM: Operative (Designer's Cut) Green COM
+  Operative (Designer's Cut) Blue COM: Operative (Designer's Cut) Blue COM
+  Operative (Designer's Cut) Purple COM: Operative (Designer's Cut) Purple COM
+  Siren Kensei Legendary COM: Siren Kensei Legendary COM
+  Siren (Designer's Cut) White COM: Siren (Designer's Cut) White COM
+  Siren (Designer's Cut) Green COM: Siren (Designer's Cut) Green COM
+  Siren (Designer's Cut) Blue COM: Siren (Designer's Cut) Blue COM
+  Siren (Designer's Cut) Purple COM: Siren (Designer's Cut) Purple COM
+  HOT Spring: HOT Spring
+  Beskar: Beskar
+  Infernal Wish: Infernal Wish
+  Madcap: Madcap
+  Gas Mask: Gas Mask
+  Binary Operator: Binary Operator
+  Boogeyman: Boogeyman
+  Critical Thug / Critical Thug x2: Critical Thug / Critical Thug x2
+  Dark Army +: Dark Army +
+  Firefly: Firefly
+  Hotfoot Teddy: Hotfoot Teddy
+  Ice Age: Ice Age
+  Kickcharger: Kickcharger
+  Superconducting Plasma Coil: Superconducting Plasma Coil
+  Res: Res
+  Fasterfied Tizzy: Fasterfied Tizzy
+  Torrent: Torrent
+  Snide Trickshot: Snide Trickshot
+  Company Man (Atlas) Legendary Artifact: Company Man (Atlas) Legendary Artifact
+  Company Man (CoV) Legendary Artifact: Company Man (CoV) Legendary Artifact
+  Company Man (Dahl) Legendary Artifact: Company Man (Dahl) Legendary Artifact
+  Company Man (Hyperion) Legendary Artifact: Company Man (Hyperion) Legendary Artifact
+  Company Man (Jakobs) Legendary Artifact: Company Man (Jakobs) Legendary Artifact
+  Company Man (Maliwan) Legendary Artifact: Company Man (Maliwan) Legendary Artifact
+  Company Man (Tediore) Legendary Artifact: Company Man (Tediore) Legendary Artifact
+  Company Man (Torgue) Legendary Artifact: Company Man (Torgue) Legendary Artifact
+  Company Man (Vladof) Legendary Artifact: Company Man (Vladof) Legendary Artifact
+  Mysterious Artifact Purple Artifact: Mysterious Artifact Purple Artifact
+  Beastmaster Roll Reversal Legendary COM: Beastmaster Roll Reversal Legendary COM
+  Gunner Primary Heat Exchanger Legendary COM: Gunner Primary Heat Exchanger Legendary COM
+  Operative Critical Mass Legendary COM: Operative Critical Mass Legendary COM
+  Siren Death's Blessings Legendary COM: Siren Death's Blessings Legendary COM
+  Mesmer: Mesmer
+  Ringer / The Big Ringer / Dead Ringer: Ringer / The Big Ringer / Dead Ringer
+  Re-Volter: Re-Volter
+  Free Radical: Free Radical
+  Ionic Disruptor: Ionic Disruptor
+  Redeye Rocket Pod: Redeye Rocket Pod
+  Atlas Replay: Atlas Replay
+  Backburner: Backburner
+  D.N.A.: D.N.A.
+  Multi-tap: Multi-tap
+  Kaoson: Kaoson
+  The Monarch: The Monarch
+  Plaguebearer: Plaguebearer
+  Reflux: Reflux
+  Sand Hawk: Sand Hawk
+  Commander Planetoid (dedicated drop only) Legendary Artifact: Commander Planetoid (dedicated drop only) Legendary Artifact
+  Cosmic Crater (dedicated drop only) Legendary Artifact: Cosmic Crater (dedicated drop only) Legendary Artifact
+  Deathless (dedicated drop only) Legendary Artifact: Deathless (dedicated drop only) Legendary Artifact
+  Loaded Dice (dedicated drop only) Legendary Artifact: Loaded Dice (dedicated drop only) Legendary Artifact
+  Moxxi's Endowment (dedicated drop only) Legendary Artifact: Moxxi's Endowment (dedicated drop only) Legendary Artifact
+  Otto Idol (dedicated drop only) Legendary Artifact: Otto Idol (dedicated drop only) Legendary Artifact
+  Pull Out Method (dedicated drop only) Legendary Artifact: Pull Out Method (dedicated drop only) Legendary Artifact
+  Rocket Boots (dedicated drop only) Legendary Artifact: Rocket Boots (dedicated drop only) Legendary Artifact
+  Safeguard (dedicated drop only) Legendary Artifact: Safeguard (dedicated drop only) Legendary Artifact
+  Launch Pad (dedicated drop only) Legendary Artifact: Launch Pad (dedicated drop only) Legendary Artifact
+  Splatter Gun (dedicated drop only) Legendary Artifact: Splatter Gun (dedicated drop only) Legendary Artifact
+  Static Charge (dedicated drop only) Legendary Artifact: Static Charge (dedicated drop only) Legendary Artifact
+  Victory Rush (dedicated drop only) Legendary Artifact: Victory Rush (dedicated drop only) Legendary Artifact
+  White Elephant (dedicated drop only) Legendary Artifact: White Elephant (dedicated drop only) Legendary Artifact
+  Beastmaster Bounty Hunter Legendary COM: Beastmaster Bounty Hunter Legendary COM
+  Beastmaster Cosmic Stalker Legendary COM: Beastmaster Cosmic Stalker Legendary COM
+  Beastmaster DE4DEYE Legendary COM: Beastmaster DE4DEYE Legendary COM
+  Beastmaster Friend-Bot Legendary COM: Beastmaster Friend-Bot Legendary COM
+  Beastmaster Rakk Commander Legendary COM: Beastmaster Rakk Commander Legendary COM
+  Beastmaster Red Fang Legendary COM: Beastmaster Red Fang Legendary COM
+  Gunner Bear Trooper Legendary COM: Gunner Bear Trooper Legendary COM
+  Gunner Blast Master Legendary COM: Gunner Blast Master Legendary COM
+  Gunner Bloodletter Legendary COM: Gunner Bloodletter Legendary COM
+  Gunner Mind Sweeper Legendary COM: Gunner Mind Sweeper Legendary COM
+  Gunner Rocketeer Legendary COM: Gunner Rocketeer Legendary COM
+  Operative Cold Warrior Legendary COM: Operative Cold Warrior Legendary COM
+  Operative Executor Legendary COM: Operative Executor Legendary COM
+  Operative Shockerator Legendary COM: Operative Shockerator Legendary COM
+  Operative Infiltrator Legendary COM: Operative Infiltrator Legendary COM
+  Operative Techspert Legendary COM: Operative Techspert Legendary COM
+  Siren Breaker Legendary COM: Siren Breaker Legendary COM
+  Siren Dragon Legendary COM: Siren Dragon Legendary COM
+  Siren Elementalist Legendary COM: Siren Elementalist Legendary COM
+  Siren Nimbus Legendary COM: Siren Nimbus Legendary COM
+  Siren Phasezerker Legendary COM: Siren Phasezerker Legendary COM
+  Beastmaster R4kk P4k Legendary COM: Beastmaster R4kk P4k Legendary COM
+  Gunner Raging Bear Legendary COM: Gunner Raging Bear Legendary COM
+  Operative Antifreeze Legendary COM: Operative Antifreeze Legendary COM
+  Siren Spiritual Driver Legendary COM: Siren Spiritual Driver Legendary COM
+  Re-Charger Berner: Re-Charger Berner
+  Frozen Snowshoe: Frozen Snowshoe
+  Red Card Re-Charger: Red Card Re-Charger
+  Version 0.m: Version 0.m
+  Redistributor (legendary version): Redistributor (legendary version)
+  Moonfire: Moonfire
+  Kyb's Worth: Kyb's Worth
+  P2P Networker: P2P Networker
+  Tiggs' Boom: Tiggs' Boom
+  Crader's EM-P5: Crader's EM-P5
+  Vosk's Deathgrip: Vosk's Deathgrip
+  S3RV-80S-EXECUTE: S3RV-80S-EXECUTE
+  Good Juju: Good Juju
+  Juliet's Dazzle: Juliet's Dazzle
+  Tankman's Shield: Tankman's Shield
+  Zheitsev's Eruption: Zheitsev's Eruption
+  Short Stick: Short Stick
+  Short Stick (legendary version): Short Stick (legendary version)
+  Lightspeed: Lightspeed
+  Asclepius: Asclepius
+  Stinger: Stinger
+  Globetrottr: Globetrottr
+  Smog: Smog
+  Web Slinger: Web Slinger
+  Super Soldier: Super Soldier
+  Bird of Prey: Bird of Prey
+  Guardian 4N631: Guardian 4N631
+  Mechanic: Mechanic
+  Shlooter Legendary Artifact: Shlooter Legendary Artifact
+  Pyroburst: Pyroburst
+  Gold Rush: Gold Rush
+  Troubleshooter: Troubleshooter
+  Bloodsucker: Bloodsucker
+  Sidewinder: Sidewinder
+  Mana Well: Mana Well
+  Blade Fury: Blade Fury
+  Creeping Corruption: Creeping Corruption
+  TNTina: TNTina

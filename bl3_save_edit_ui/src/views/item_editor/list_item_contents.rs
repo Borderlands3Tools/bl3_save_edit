@@ -10,12 +10,14 @@ use crate::resources::svgs::{FAVORITE, JUNK};
 pub fn view(item: &Bl3Item) -> Column<InteractionMessage> {
     let balance_part = item.balance_part();
 
-    let label = balance_part.name.clone().unwrap_or_else(|| {
+    let label = if let Some(name) = &balance_part.name {
+        t!(&name)
+    } else {
         balance_part
             .short_ident
             .clone()
             .unwrap_or_else(|| balance_part.ident.clone())
-    });
+    };
 
     let mut tags_row = Row::new()
         .push(

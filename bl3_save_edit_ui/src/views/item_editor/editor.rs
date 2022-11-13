@@ -149,7 +149,7 @@ impl Editor {
                     i.ident.to_lowercase().contains(balance_search_query)
                         || i.name
                             .as_ref()
-                            .map(|n| n.to_lowercase().contains(balance_search_query))
+                            .map(|n| t!(n).to_lowercase().contains(balance_search_query))
                             .unwrap_or(false)
                 })
                 .cloned()

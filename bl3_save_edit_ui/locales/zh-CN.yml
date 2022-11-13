@@ -221,3 +221,783 @@ zh-CN:
   Rarity: 罕见
   Skills: 技能
   Anointment: 受福
+  Augment: 增强
+  Behavior: 性能
+  Element: 元素
+  Manufacturer: 制造者
+  Material: 材料
+  Ability: 能力
+  Legendary Ability: 传奇能力
+  Secondary: 辅助
+
+  White Artifact: 白色神器
+  Green Artifact: 绿色神器
+  Blue Artifact: 蓝色神器
+  Purple Artifact: 紫色神器
+  Legendary Artifact: 传奇神器
+  Unleash the Dragon Legendary Artifact: 巨龙出击 传奇神器
+  Electric Banjo Legendary Artifact: 电子班卓 传奇神器
+  Grave Legendary Artifact: 坟墓 传奇神器
+  Phoenix Tears Legendary Artifact: 凤凰之泪 传奇神器
+  Road Warrior Legendary Artifact: 拦路勇士 传奇神器
+  Vault Hunter's Relic Legendary Artifact: Vault Hunter's Relic Legendary Artifact
+  Beastmaster White COM: 兽王 白色职业模组
+  Beastmaster Green COM: 兽王 绿色职业模组
+  Beastmaster Blue COM: 兽王 蓝色职业模组
+  Beastmaster Purple COM: 兽王 紫色职业模组
+  Beastmaster Legendary COM: 兽王 传奇职业模组
+  Gunner White COM: 枪手 白色职业模组
+  Gunner Green COM: 枪手 绿色职业模组
+  Gunner Blue COM: 枪手 蓝色职业模组
+  Gunner Purple COM: 枪手 紫色职业模组
+  Gunner Legendary COM: 枪手 传奇职业模组
+  Operative White COM: 特工 白色职业模组
+  Operative Green COM: 特工 绿色职业模组
+  Operative Blue COM: 特工 蓝色职业模组
+  Operative Purple COM: 特工 紫色职业模组
+  Operative Legendary COM: 特工 传奇职业模组
+  Siren White COM: 魔女 白色职业模组
+  Siren Green COM: 魔女 绿色职业模组
+  Siren Blue COM: 魔女 蓝色职业模组
+  Siren Purple COM: 魔女 紫色职业模组
+  Siren Legendary COM: 魔女 传奇职业模组
+  Exterminator: 终结者
+  Diamond Butt Bomb: 钻石屁屁弹
+  Rubber Cheddar Shredder: 奶酪切割机
+  Chupa's Organ: 舒帕的管风琴
+  ECHO-2: ECHO-2
+  EMP: 电磁脉冲
+  Epicenter: 震中
+  Fastball: 快球
+  Firestorm: 烈焰风暴
+  Tina's Hippity Hopper: 缇娜的跳跳虫
+  Hunter-Seeker: 追猎者
+  Chocolate Thunder: 巧克力闪电
+  Kryll: Kryll
+  Elemental Persistent Contact Grenade: Elemental Persistent Contact Grenade
+  Moxxi's Bouncing Pair: 莫西的大波
+  Fungus Among Us: 病菌侵袭
+  Nagata: 永田
+  Whispering Ice: 低语之冰
+  It's Piss: 一团糟
+  Quasar: 类星体
+  Red Queen: 红桃皇后
+  Hex: 六角
+  Storm Front: 风暴前线
+  Burning Summit: 燃烧瓶
+  Surge: 浪涌
+  Porcelain Pipe Bomb: 瓷管炸弹
+  Ultraball: 超级球
+  Tran-fusion: 传输
+  Widowmaker: 黑寡妇
+  'NOG Potion #9': '诺格药水9号'
+  Atlas White Grenade: 阿特拉斯 白色手雷
+  Atlas Green Grenade: 阿特拉斯 绿色手雷
+  Atlas Blue Grenade: 阿特拉斯 蓝色手雷
+  Atlas Purple Grenade: 阿特拉斯 紫色手雷
+  Hyperion White Grenade: 亥伯龙 白色手雷
+  Hyperion Green Grenade: 亥伯龙 绿色手雷
+  Hyperion Blue Grenade: 亥伯龙 蓝色手雷
+  Hyperion Purple Grenade: 亥伯龙 紫色手雷
+  Pangolin White Grenade: 穿山甲 白色手雷
+  Pangolin Green Grenade: 穿山甲 绿色手雷
+  Pangolin Blue Grenade: 穿山甲 蓝色手雷
+  Pangolin Purple Grenade: 穿山甲 紫色手雷
+  Tediore White Grenade: 泰迪尔 白色手雷
+  Tediore Green Grenade: 泰迪尔 绿色手雷
+  Tediore Blue Grenade: 泰迪尔 蓝色手雷
+  Tediore Purple Grenade: 泰迪尔 紫色手雷
+  Torgue White Grenade: 托格 白色手雷
+  Torgue Green Grenade: 托格 绿色手雷
+  Torgue Blue Grenade: 托格 蓝色手雷
+  Torgue Purple Grenade: 托格 紫色手雷
+  Vladof White Grenade: 弗拉多夫 白色手雷
+  Vladof Green Grenade: 弗拉多夫 绿色手雷
+  Vladof Blue Grenade: 弗拉多夫 蓝色手雷
+  Vladof Purple Grenade: 弗拉多夫 紫色手雷
+  Deluxe Badass Combustor: 资深恶棍
+  Frozen Heart: 冰封之心
+  Back Ham: 背后伤害
+  Big Boom Blaster: 大爆炸冲击
+  Black Hole: 黑洞
+  Mendel's Multivitamin Shield: 门德尔超营养护盾
+  Band of Sitorak: 赛托拉克的魔带
+  MSRC Auto-Dispensary: 口袋药房
+  Front Loader: 生命铠甲
+  Golden Touch: 点石成金
+  Impaler: 穿刺公
+  Loop of 4N631: 4N631循环
+  Messy Breakup: 支离破碎
+  Moxxi's Embrace: 莫西的拥抱
+  Mr Caffeine: 咖啡因先生
+  Nova Berner: 伯纳星爆
+  Red Suit: 赤甲
+  Re-Charger: 充能者
+  Rectifier: 带电者
+  Revengenader: 复仇者（护盾）
+  Rough Rider: 狂野骑士
+  Shooting Star: 流星
+  Red Card: 红牌罚下
+  Stop-Gap: 神佑
+  The Transformer: 变形金刚
+  Unpaler: 反穿刺公
+  Re-Router: 能量转向器
+  Ward: 守卫者
+  Whiskey Tango Foxtrot: 沃特法
+  Anshin White Shield: 安心 白色护盾
+  Anshin Green Shield: 安心 绿色护盾
+  Anshin Blue Shield: 安心 蓝色护盾
+  Anshin Purple Shield: 安心 紫色护盾
+  Hyperion White Shield: 亥伯龙 白色护盾
+  Hyperion Green Shield: 亥伯龙 绿色护盾
+  Hyperion Blue Shield: 亥伯龙 蓝色手雷
+  Hyperion Purple Shield: 亥伯龙 紫色护盾
+  Pangolin White Shield: 穿山甲 白色护盾
+  Pangolin Green Shield: 穿山甲 绿色护盾
+  Pangolin Blue Shield: 穿山甲 蓝色护盾
+  Pangolin Purple Shield: 穿山甲 紫色护盾
+  Blue E-Tech COV AR: 秘藏之子 蓝色E科技突击步枪
+  Purple E-Tech COV AR: 秘藏之子 紫色E科技突击步枪
+  Blue E-Tech Dahl AR: 达尔 蓝色E科技突击步枪
+  Purple E-Tech Dahl AR: 达尔 紫色E科技突击步枪
+  Blue E-Tech Torgue AR: 托格 蓝色E科技突击步枪
+  Purple E-Tech Torgue AR: 托格 紫色E科技突击步枪
+  Blue E-Tech Vladof AR: 弗拉多夫 蓝色E科技突击步枪
+  Purple E-Tech Vladof AR: 弗拉多夫 紫色E科技突击步枪
+  Blue E-Tech COV Heavy Weapon: 秘藏之子 蓝色E科技重型武器
+  Purple E-Tech COV Heavy Weapon: 秘藏之子 紫色E科技重型武器
+  Blue E-Tech Torgue Heavy Weapon: 托格 蓝色E科技重型武器
+  Purple E-Tech Torgue Heavy Weapon: 托格 紫色E科技重型武器
+  Blue E-Tech Vladof Heavy Weapon: 弗拉多夫 蓝色E科技重型武器
+  Purple E-Tech Vladof Heavy Weapon: 弗拉多夫 紫色E科技重型武器
+  Blue E-Tech COV Pistol: 秘藏之子 蓝色E科技手枪
+  Purple E-Tech COV Pistol: 秘藏之子 紫色E科技手枪
+  Blue E-Tech Dahl Pistol: 达尔 蓝色E科技手枪
+  Purple E-Tech Dahl Pistol: 达尔 紫色E科技手枪
+  Blue E-Tech Maliwan Pistol: 马里旺 蓝色E科技手枪
+  Purple E-Tech Maliwan Pistol: 马里旺 紫色E科技手枪
+  Blue E-Tech Tediore Pistol: 泰迪尔 蓝色E科技手枪
+  Purple E-Tech Tediore Pistol: 泰迪尔 紫色E科技手枪
+  Blue E-Tech Torgue Pistol: 托格 蓝色E科技手枪
+  Purple E-Tech Torgue Pistol: 托格 紫色E科技手枪
+  Blue E-Tech Vladof Pistol: 弗拉多夫 蓝色E科技手枪
+  Purple E-Tech Vladof Pistol: 弗拉多夫 紫色E科技手枪
+  Blue E-Tech Hyperion Shotgun: 亥伯龙 蓝色E科技霰弹枪
+  Purple E-Tech Hyperion Shotgun: 亥伯龙 紫色E科技霰弹枪
+  Blue E-Tech Maliwan Shotgun: 马里旺 蓝色E科技霰弹枪
+  Purple E-Tech Maliwan Shotgun: 马里旺 紫色E科技霰弹枪
+  Blue E-Tech Tediore Shotgun: 泰迪尔 蓝色E科技霰弹枪
+  Purple E-Tech Tediore Shotgun: 泰迪尔 紫色E科技霰弹枪
+  Blue E-Tech Torgue Shotgun: 托格 蓝色E科技霰弹枪
+  Purple E-Tech Torgue Shotgun: 托格 紫色E科技霰弹枪
+  Blue E-Tech Dahl SMG: 达尔 蓝色E科技冲锋枪
+  Purple E-Tech Dahl SMG: 达尔 紫色E科技冲锋枪
+  Blue E-Tech Hyperion SMG: 亥伯龙 蓝色E科技冲锋枪
+  Purple E-Tech Hyperion SMG: 亥伯龙 紫色E科技冲锋枪
+  Blue E-Tech Maliwan SMG: 马里旺 蓝色E科技冲锋枪
+  Purple E-Tech Maliwan SMG: 马里旺 紫色E科技冲锋枪
+  Blue E-Tech Tediore SMG: 泰迪尔 蓝色E科技冲锋枪
+  Purple E-Tech Tediore SMG: 泰迪尔 紫色E科技冲锋枪
+  Blue E-Tech Dahl Sniper Rifle: 达尔 蓝色E科技狙击枪
+  Purple E-Tech Dahl Sniper Rifle: 达尔 紫色E科技狙击枪
+  Blue E-Tech Hyperion Sniper Rifle: 亥伯龙 蓝色E科技狙击枪
+  Purple E-Tech Hyperion Sniper Rifle: 亥伯龙 紫色E科技狙击枪
+  Blue E-Tech Maliwan Sniper Rifle: 马里旺 蓝色E科技狙击枪
+  Purple E-Tech Maliwan Sniper Rifle: 马里旺 紫色E科技狙击枪
+  Blue E-Tech Vladof Sniper Rifle: 弗拉多夫 蓝色E科技狙击枪
+  Purple E-Tech Vladof Sniper Rifle: 弗拉多夫 紫色E科技狙击枪
+  Null Pointer: 空指针
+  Carrier: 航空母舰
+  Portals and Shite: Portals and Shite
+  Rebel Yell: 反抗的号角
+  White Atlas AR: 阿特拉斯 白色突击步枪
+  Green Atlas AR: 阿特拉斯 绿色突击步枪
+  Blue Atlas AR: 阿特拉斯 蓝色突击步枪
+  Purple Atlas AR: 阿特拉斯 紫色突击步枪
+  Pain is Power / Embrace the Pain: 苦痛之力、拥抱痛苦
+  Sawbar: 锯条
+  White COV AR: 秘藏之子 白色突击步枪
+  Green COV AR: 秘藏之子 绿色突击步枪
+  Blue COV AR: 秘藏之子 蓝色突击步枪
+  Purple COV AR: 秘藏之子 紫色突击步枪
+  Barrage: 狂轰滥炸（枪械）
+  Breath of the Dying: 垂死之息
+  Earworm: 害虫
+  Hail: 冰雹
+  Kaos: 卡奥斯
+  Star Helix: 恒星螺旋
+  Warlord: 军阀
+  White Dahl AR: 达尔 白色突击步枪
+  Green Dahl AR: 达尔 绿色突击步枪
+  Blue Dahl AR: 达尔 蓝色突击步枪
+  Purple Dahl AR: 达尔 紫色突击步枪
+  Bekah: 贝卡
+  Gatling Gun: 加特林枪
+  Hand of Glory: 荣耀之手
+  Lead Sprinkler: 弹雨
+  Pa's Rifle: 老爸步枪
+  Rowan's Call: 罗恩的召唤
+  Traitor's Death: 叛徒之死
+  White Jakobs AR: 雅各布斯 白色突击步枪
+  Green Jakobs AR: 雅各布斯 绿色突击步枪
+  Blue Jakobs AR: 雅各布斯 蓝色突击步枪
+  Purple Jakobs AR: 雅各布斯 紫色突击步枪
+  Alchemist: 炼金术师
+  Amber Management: 琥珀管理
+  Bearcat: 熊狸
+  Laser-Sploder: 激光爆炸枪
+  Try-Bolt: 原力试炼
+  White Torgue AR: 托格 白色突击步枪
+  Green Torgue AR: 托格 绿色突击步枪
+  Blue Torgue AR: 托格 蓝色突击步枪
+  Purple Torgue AR: 托格 紫色突击步枪
+  The Big Succ: '“大果”'
+  Damned: 厄难
+  The Dictator: 独裁者
+  Faisor: 费索
+  Lucian's Call: 卢西恩的召唤
+  Ogre: 食人魔
+  Super Shredifier: 超级粉碎者
+  Boom Sickle / Sickle: 爆破镰刀、镰刀
+  White Vladof AR: 弗拉多夫 白色突击步枪
+  Green Vladof AR: 弗拉多夫 绿色突击步枪
+  Blue Vladof AR: 弗拉多夫 蓝色突击步枪
+  Purple Vladof AR: 弗拉多夫 紫色突击步枪
+  Freeman: 弗里曼
+  Ruby's Wrath: 鲁比的愤怒
+  White Atlas Heavy Weapon: 阿特拉斯 白色重型武器
+  Green Atlas Heavy Weapon: 阿特拉斯 绿色重型武器
+  Blue Atlas Heavy Weapon: 阿特拉斯 蓝色重型武器
+  Purple Atlas Heavy Weapon: 阿特拉斯 紫色重型武器
+  Hot Drop: 炽热飞弹
+  Porta-Pooper 5000: 移动喷粪机5000
+  Agonizer 1500: 痛苦制造机1500
+  White COV Heavy Weapon: 秘藏之子 白色重型武器
+  Green COV Heavy Weapon: 秘藏之子 绿色重型武器
+  Blue COV Heavy Weapon: 秘藏之子 蓝色重型武器
+  Purple COV Heavy Weapon: 秘藏之子 紫色重型武器
+  Eridian Fabricator: Eridian Fabricator
+  Gettleburger: 格塔堡
+  Hive: 蜂巢
+  Quadomizer: 四元主宰
+  R.Y.N.A.H.: R.Y.N.A.H.
+  Scourge: 鞭笞
+  Tunguska: 通古斯大爆炸
+  White Torgue Heavy Weapon: 托格 白色重型武器
+  Green Torgue Heavy Weapon: 托格 绿色重型武器
+  Blue Torgue Heavy Weapon: 托格 蓝色重型武器
+  Purple Torgue Heavy Weapon: 托格 紫色重型武器
+  Jericho: 杰里科
+  Mongol: 蒙古
+  White Vladof Heavy Weapon: 弗拉多夫 白色重型武器
+  Green Vladof Heavy Weapon: 弗拉多夫 绿色重型武器
+  Blue Vladof Heavy Weapon: 弗拉多夫 蓝色重型武器
+  Purple Vladof Heavy Weapon: 弗拉多夫 紫色重型武器
+  Linc: 连接
+  Peacemonger: 泛和平主义者
+  White Atlas Pistol: 阿特拉斯 白色手枪
+  Green Atlas Pistol: 阿特拉斯 绿色手枪
+  Blue Atlas Pistol: 阿特拉斯 蓝色手枪
+  Purple Atlas Pistol: 阿特拉斯 紫色手枪
+  Extreme Hangin' Chadd: 极端悬停查德
+  Pestilence: 瘟疫
+  Linoge: 群
+  The Killing Word: 甜言蜜语
+  Psycho Stabber: 狂人刺客
+  SkekSil: 司凯希斯
+  White COV Pistol: 秘藏之子 白色手枪
+  Green COV Pistol: 秘藏之子 绿色手枪
+  Blue COV Pistol: 秘藏之子 蓝色手枪
+  Purple COV Pistol: 秘藏之子 紫色手枪
+  AAA: 惊雷AAA
+  Hornet: 大黄蜂
+  Nemesis: 涅墨西斯
+  Omniloader: 万用装载器
+  Night Flyer: 夜间飞行者
+  White Dahl Pistol: 达尔 白色手枪
+  Green Dahl Pistol: 达尔 绿色手枪
+  Blue Dahl Pistol: 达尔 蓝色手枪
+  Purple Dahl Pistol: 达尔 紫色手枪
+  Amazing Grace: 奇异恩典
+  Buttplug: 肛门塞
+  The Flood: 洪水
+  King's Call / Queen's Call: 国王的召唤、女王的召唤
+  Maggie: 玛吉
+  Dead Chamber: 死亡室
+  The Companion: 同伴
+  Rogue-Sight: 侠盗视线
+  The Duc: 毁灭公爵
+  Unforgiven: 不可饶恕
+  Wagon Wheel: 货车轮
+  White Jakobs Pistol: 雅各布斯 白色手枪
+  Green Jakobs Pistol: 雅各布斯 绿色手枪
+  Blue Jakobs Pistol: 雅各布斯 蓝色手枪
+  Purple Jakobs Pistol: 雅各布斯 紫色手枪
+  Hellshock: 地狱震荡
+  Hyper-Hydrator: 超能电水枪
+  Superball: 弹力球
+  Starkiller: 弑星者
+  Sellout: 背叛
+  Thunderball Fists: 闪电球之拳
+  White Maliwan Pistol: 马里旺 白色手枪
+  Green Maliwan Pistol: 马里旺 绿色手枪
+  Blue Maliwan Pistol: 马里旺 蓝色手枪
+  Purple Maliwan Pistol: 马里旺 紫色手枪
+  Bangarang: 死神射手
+  Baby Maker ++: 宝贝制造者++
+  Baby Maker (fixed part): 宝贝制造者(固定零件)
+  Gunerang: 回旋枪
+  Scorpio: 毒刺（枪械）
+  White Tediore Pistol: 泰迪尔 白色手枪
+  Green Tediore Pistol: 泰迪尔 绿色手枪
+  Blue Tediore Pistol: 泰迪尔 蓝色手枪
+  Purple Tediore Pistol: 泰迪尔 紫色手枪
+  Devastator: 破坏者（枪械）
+  Echo / Breeder: Echo、增殖装置
+  Devils Foursum: 魔鬼四人组
+  Heckle: Heckle
+  Hyde: Hyde
+  Girth Blaster Elite: 格思爆能精英
+  Roisen's Thorns: 罗森的刺
+  Occultist: 神秘术士
+  White Torgue Pistol: 托格 白色手枪
+  Green Torgue Pistol: 托格 绿色手枪
+  Blue Torgue Pistol: 托格 蓝色手枪
+  Purple Torgue Pistol: 托格 紫色手枪
+  Bone Shredder: 碎骨机
+  Infinity: 无穷
+  Magnificent: 棒极了
+  The Leech: 吸血鬼（枪械）
+  White Vladof Pistol: 弗拉多夫 白色手枪
+  Green Vladof Pistol: 弗拉多夫 绿色手枪
+  Blue Vladof Pistol: 弗拉多夫 蓝色手枪
+  Purple Vladof Pistol: 弗拉多夫 紫色手枪
+  Face-puncher: 面部穿孔机
+  Conference Call: 电话会议
+  Phebert: 费博特
+  Brainstormer: 头脑风暴者
+  The Butcher: 屠夫
+  White Hyperion Shotgun: 亥伯龙 白色霰弹枪
+  Green Hyperion Shotgun: 亥伯龙 绿色霰弹枪
+  Blue Hyperion Shotgun: 亥伯龙 蓝色霰弹枪
+  Purple Hyperion Shotgun: 亥伯龙 紫色霰弹枪
+  The Garcia: 加西亚家族
+  Hellwalker: 地狱行者
+  Nimble Jack: 敏捷杰克
+  One Pump Chump: 单泵笨蛋
+  Sledge's Shotgun / Sledge's Super Shotgun: 斯莱奇霰弹枪、斯莱奇超级霰弹枪
+  Fingerbiter: 咬指者
+  T.K.'s Wave + variants: T.K 波动 + 变体
+  White Jakobs Shotgun: 雅各布斯 白色霰弹枪
+  Green Jakobs Shotgun: 雅各布斯 绿色霰弹枪
+  Blue Jakobs Shotgun: 雅各布斯 蓝色霰弹枪
+  Purple Jakobs Shotgun: 雅各布斯 紫色霰弹枪
+  Mind-Killer: 精神杀手
+  Projectile Recursion: 射弹循环
+  Shrieking Devil: 咆哮恶魔
+  Trevonator: 特雷弗终结者
+  Kill-o'-the-Wisp: 鬼火
+  White Maliwan Shotgun: 马里旺 白色霰弹枪
+  Green Maliwan Shotgun: 马里旺 绿色霰弹枪
+  Blue Maliwan Shotgun: 马里旺 蓝色霰弹枪
+  Purple Maliwan Shotgun: 马里旺 紫色霰弹枪
+  Manic Pixie Dream Gun: Manic Pixie Dream Gun
+  The Horizon: 地平线
+  Polybius: 波力比阿斯
+  Creeping Death: 爬行死亡
+  White Tediore Shotgun: 泰迪尔 白色霰弹枪
+  Green Tediore Shotgun: 泰迪尔 绿色霰弹枪
+  Blue Tediore Shotgun: 泰迪尔 蓝色霰弹枪
+  Purple Tediore Shotgun: 泰迪尔 紫色霰弹枪
+  Chomper: 咀嚼者
+  Black Flame: 黑色火焰
+  Flakker: 高射炮
+  Redline: 终点线
+  The Boring Gun: 打孔枪
+  The Lob: 大厅
+  Thumper: 桑普兔
+  White Torgue Shotgun: 托格 白色霰弹枪
+  Green Torgue Shotgun: 托格 绿色霰弹枪
+  Blue Torgue Shotgun: 托格 蓝色霰弹枪
+  Purple Torgue Shotgun: 托格 紫色霰弹枪
+  Night Hawkin: 夜鹰
+  Hellfire: 地狱火
+  9-Volt: 9伏特
+  Ripper: 开膛手
+  Sleeping Giant: 沉睡巨人
+  Vanquisher: 绝对征服
+  White Dahl SMG: 达尔 白色冲锋枪
+  Green Dahl SMG: 达尔 绿色冲锋枪
+  Blue Dahl SMG: 达尔 蓝色冲锋枪
+  Purple Dahl SMG: 达尔 紫色冲锋枪
+  Bitch: 贱人
+  Crossroad: 十字枪
+  Redistributor (mission reward): 再分配器 (任务奖励)
+  Handsome Jackhammer: 铁臂帅杰克
+  L0V3M4CH1N3: L0V3M4CH1N3
+  Predatory Lending: 掠夺式借贷
+  XZ41: XZ41
+  White Hyperion SMG: 亥伯龙 白色冲锋枪
+  Green Hyperion SMG: 亥伯龙 绿色冲锋枪
+  Blue Hyperion SMG: 亥伯龙 蓝色冲锋枪
+  Purple Hyperion SMG: 亥伯龙 紫色冲锋枪
+  Cloud Kill: 毒云术
+  Crit: 暴击
+  Cutsman: 切割者
+  Destructo Spinner: 破坏漩涡
+  Devoted: 奉献
+  Vault Hero: 密藏英雄
+  E-Gone: 埃贡
+  The Emperor's Condiment: 皇帝的佐料
+  Kevin's Chilly: 凯文的寒颤
+  Tsunami: 海啸
+  Miss Moxxi's Vibra-Pulse: 莫西小姐的震动枪
+  Westergun: 韦斯特枪支
+  White Maliwan SMG: 马里旺 白色冲锋枪
+  Green Maliwan SMG: 马里旺 绿色冲锋枪
+  Blue Maliwan SMG: 马里旺 蓝色冲锋枪
+  Purple Maliwan SMG: 马里旺 紫色冲锋枪
+  The Boo: 豆荚
+  Long Musket: 长杆步枪
+  Smart-Gun: 智能枪
+  Ten Gallon: 十加仑
+  White Tediore SMG: 泰迪尔 白色冲锋枪
+  Green Tediore SMG: 泰迪尔 绿色冲锋枪
+  Blue Tediore SMG: 泰迪尔 蓝色冲锋枪
+  Purple Tediore SMG: 泰迪尔 紫色冲锋枪
+  Brashi's Dedication: 布拉希之奉献
+  Malak's Bane: 马拉克之祸
+  Kenulox: 克努洛克斯
+  White Dahl Sniper Rifle: 达尔 白色狙击枪
+  Green Dahl Sniper Rifle: 达尔 绿色狙击枪
+  Blue Dahl Sniper Rifle: 达尔 蓝色狙击枪
+  Purple Dahl Sniper Rifle: 达尔 紫色狙击枪
+  Masterwork Crossbow: 大师级十字弓
+  THE TWO TIME: 两次
+  Woodblocker: 暴恐份子
+  White Hyperion Sniper Rifle: 亥伯龙 白色狙击枪
+  Green Hyperion Sniper Rifle: 亥伯龙 绿色狙击枪
+  Blue Hyperion Sniper Rifle: 亥伯龙 蓝色狙击枪
+  Purple Hyperion Sniper Rifle: 亥伯龙 紫色狙击枪
+  Headsplosion: 爆头
+  The Ice Queen: 冰雪女王
+  Monocle: 单片镜
+  The Hunt(er): 猎人
+  The Hunt(ed): 猎物
+  The Hunt(ress): 女猎人
+  White Jakobs Sniper Rifle: 雅各布斯 白色狙击枪
+  Green Jakobs Sniper Rifle: 雅各布斯 绿色狙击枪
+  Blue Jakobs Sniper Rifle: 雅各布斯 蓝色狙击枪
+  Purple Jakobs Sniper Rifle: 雅各布斯 紫色狙击枪
+  ASMD: 人造电磁毁灭者
+  Krakatoa: 喀拉喀托
+  Soleki Protocol: 索勒基协议
+  Storm / Firestorm: 风暴、烈焰风暴
+  White Maliwan Sniper Rifle: 马里旺 白色狙击枪
+  Green Maliwan Sniper Rifle: 马里旺 绿色狙击枪
+  Blue Maliwan Sniper Rifle: 马里旺 蓝色狙击枪
+  Purple Maliwan Sniper Rifle: 马里旺 紫色狙击枪
+  Lyuda: 莉尤达
+  Cold Shoulder: 冷狱
+  White Vladof Sniper Rifle: 弗拉多夫 白色狙击枪
+  Green Vladof Sniper Rifle: 弗拉多夫 绿色狙击枪
+  Blue Vladof Sniper Rifle: 弗拉多夫 蓝色狙击枪
+  Purple Vladof Sniper Rifle: 弗拉多夫 紫色狙击枪
+  Beastmaster Peregrine Legendary COM: 兽王 游隼 传奇职业模组
+  Gunner Flare Legendary COM: 枪手 闪耀 传奇职业模组
+  Operative Hustler Legendary COM: 特工 皮条客 传奇职业模组
+  Siren Muse Legendary COM: 魔女 缪斯 传奇职业模组
+  Faulty Star: 星运之错
+  Guilty Spark: 罪恶火花
+  Plus Ultra: 超极致
+  Limit Break: 突破极限
+  Blood-Starved Beast: 嗜血野兽
+  Ashen Beast: 苍白巨兽
+  Major Kong: 大钢炮
+  Minor Kong: 小钢炮
+  Blind Sage: 盲眼贤者
+  Blind Bandit: 盲眼强盗
+  Convergence: 收敛
+  Reunion: 重聚
+  Lovable Rogue: 可爱流氓
+  Likable Rascal: 欢喜无赖
+  P.A.T. Mk. III: 阿端III型
+  P.A.T. Mk. II: 阿端II型
+  P.A.T. Mk. I: 阿端I型
+  Rebound: 反弹
+  Sawpenny: 财奴锯架
+  Septimator Prime: 第七人首领
+  Septimator: 第七人
+  Prompt Critical: 瞬发临界
+  Critical Mass: 临界质量
+  Ghast Call: 恶鬼召唤
+  Scream of Terror: 恐惧惨叫
+  Fearmonger: 恐惧散布者
+  Stalker: 潜行者
+  Beastmaster St4ckbot Legendary COM: 兽王 叠加机器人 传奇职业模组
+  Gunner Green Monster Legendary COM: 枪手 绿色怪兽 传奇职业模组
+  Operative Seein' Dead Legendary COM: 特工 见证死亡 传奇职业模组
+  Siren Golden Rule Legendary COM: 魔女 黄金法则 传奇职业模组
+  Acid Burn: 酸性灼伤
+  Slider: Slider
+  All-in: 梭哈
+  Double Downer: 双倍镇定剂
+  Ember's Blaze: 安贝儿的怒火
+  Rico: 跳弹
+  AutoAimè: 自动叹息
+  Boomer: 轰爆者
+  Cheap Tips: 廉价小费
+  Craps: 花旗骰
+  Creamer: 奶油分离器
+  Digby's Smooth Tube: 迪格比的光滑管
+  Ember's Purge: 安贝尔的大清洗
+  Heart Breaker: 负心汉
+  ION CANNON: 离子炮
+  ION LASER: 离子激光
+  Just Kaus: 正当防卫
+  Lucky 7: 幸运7
+  Melt Facer: 熔脸者
+  Nukem: 核子
+  Robo-Melter: 熔铁者
+  Scoville: 斯科维尔
+  Slow Hand: 慢手
+  Brad Luck: 倒霉鬼
+  La Varlope: 瓦洛普
+  Fish Slap: 鱼拍
+  Firewall: 火墙
+  M.E.A.T. Shield: M.E.A.T. Shield
+  Wattson: 威特逊
+  Grease Trap: 油脂陷阱
+  Iceburger: 冰堡包
+  Ice Pick: Ice Pick
+  Needle Gun: 针击枪
+  O.P.Q. System: O.P.Q.系列步枪
+  NoPewPew: 不准嗡
+  Pricker: 刺头
+  Yellowcake: 黄饼
+  Terminal Polyaimorous: Terminal Polyaimorous
+  Superstreamer: 超级主播
+  Wedding Invitation: 婚礼请帖
+  Vendetta Purple Artifact: Vendetta Purple Artifact
+  Core Buster: 核心爆发
+  Doc Hina's Miracle Bomb: 希娜医生的奇迹手雷
+  Chandelier: 吊灯
+  The Beast (rad): The Beast (rad)
+  The Beast (shock): The Beast (shock)
+  Brightside: 光明一面
+  Bubble Blaster: 泡沫爆破者
+  Contained Blast: 遏制爆炸
+  Icebreaker: 破冰者
+  Proprietary License: 专利执照
+  Dakota: 达科他
+  Beacon: 信标
+  Dowsing Rod: 探矿杖
+  Mother Too: 地球探险II
+  The Shoddy: 次品
+  Flipper: 飞鳍
+  Frequency: 频率
+  Gargoyle: 石像鬼
+  Complex Root: 复杂根须
+  Light Show: 灯光展
+  The Chalice: 圣杯（枪械）
+  Miscreant: 异端
+  Narp: 纳普
+  Peashooter: 豌豆射手
+  Plumage: 羽毛
+  The Blanc: 布兰科
+  Quickdraw: 快枪手
+  Bloom: 绽放
+  Satisfaction: 满意度
+  Marshal: 警长
+  Spade: 铁锹
+  Robin's Call: 罗宾的召唤
+  Splinter: 分裂者
+  Stonethrower: 投石器
+  Unkempt Harold: 蓬乱的哈罗德
+  Lunacy Legendary Artifact: 癫狂 传奇神器
+  Pearl of Ineffable Knowledge Legendary Artifact: 禁讳知识宝珠 传奇神器
+  Beastmaster Tr4iner Legendary COM: 兽王 驯兽师 传奇职业模组
+  Gunner Sapper Legendary COM: 枪手 爆破手 传奇职业模组
+  Operative Conductor Legendary COM: 特工 指挥员 传奇职业模组
+  Siren Stone Legendary COM: 魔女 顽石 传奇职业模组
+  Initiative: 主动性
+  Old God: 旧神
+  Torch: 火把
+  Void Rift: 虚空裂隙
+  Anarchy: 大混乱
+  Bite Size: Bite Size
+  Clairvoyance: 灵视
+  Cocky Bastard: 自大狂
+  Firecracker: 烟火
+  Frozen Devil: 冰封恶魔
+  Seeryul Killur: 连环杀手
+  Hydrafrost: 冰霜九头蛇
+  Insider: 内部人士
+  Kaleidoscope: 万花筒
+  Little Yeeti: 小雪怪
+  Love Drill (mission version): 爱情演练 (任务版本)
+  Love Drill (legendary version): 爱情演练 (传奇版本)
+  Mutant: 突变体
+  Oldridian: 旧矿
+  Flama Diddle: 火焰欺诈
+  Sacrificial Lamb: 替罪羔羊
+  Seventh Sense (purple version): 第七感 (紫色版本)
+  Seventh Sense (ghost Burton version): 第七感 (幽灵伯顿版本)
+  SF Force: 科幻力量
+  Shocker: 震击者
+  Skullmasher: 碎颅者
+  Soulrender: 裂魂者
+  Stauros' Burn: 火刑架
+  The Cure: 治愈
+  Nothingness: 虚无
+  Seventh Sense (legendary version): 第七感 (传奇版本)
+  Seventh Sense (mission version): 第七感 (任务版本)
+  Unseen Threat: 未知威胁
+  Deathrattle Legendary Artifact: 亡语传奇神器
+  Holy Grail Legendary Artifact: 圣杯 传奇神器
+  Mysterious Amulet Purple Artifact: Mysterious Amulet Purple Artifact
+  Toboggan Legendary Artifact: 平底雪橇 传奇神器
+  Beastmaster Cmdl3t Legendary COM: 兽王 指令 传奇职业模组
+  Beastmaster (Designer's Cut) White COM: 兽王 (导演剪辑版) 白色职业模组
+  Beastmaster (Designer's Cut) Green COM: 兽王 (导演剪辑版) 绿色职业模组
+  Beastmaster (Designer's Cut) Blue COM: 兽王 (导演剪辑版) 蓝色职业模组
+  Beastmaster (Designer's Cut) Purple COM: 兽王 (导演剪辑版) 紫色职业模组
+  Gunner Eternal Flame Legendary COM: 枪手 永恒之火 传奇职业模组
+  Gunner (Designer's Cut) White COM: 枪手 (导演剪辑版) 白色职业模组
+  Gunner (Designer's Cut) Green COM: 枪手 (导演剪辑版) 绿色职业模组
+  Gunner (Designer's Cut) Blue COM: 枪手 (导演剪辑版) 蓝色职业模组
+  Gunner (Designer's Cut) Purple COM: 枪手 (导演剪辑版) 紫色职业模组
+  Operative Spy Legendary COM: 特工 间谍 传奇职业模组
+  Operative (Designer's Cut) White COM: 特工 (导演剪辑版) 白色职业模组
+  Operative (Designer's Cut) Green COM: 特工 (导演剪辑版) 绿色职业模组
+  Operative (Designer's Cut) Blue COM: 特工 (导演剪辑版) 蓝色职业模组
+  Operative (Designer's Cut) Purple COM: 特工 (导演剪辑版) 紫色职业模组
+  Siren Kensei Legendary COM: 魔女 剑圣 传奇职业模组
+  Siren (Designer's Cut) White COM: 魔女 (导演剪辑版) 白色职业模组
+  Siren (Designer's Cut) Green COM: 魔女 (导演剪辑版) 绿色职业模组
+  Siren (Designer's Cut) Blue COM: 魔女 (导演剪辑版) 蓝色职业模组
+  Siren (Designer's Cut) Purple COM: 魔女 (导演剪辑版) 紫色职业模组
+  HOT Spring: 温泉
+  Beskar: 贝斯卡
+  Infernal Wish: 地狱希冀
+  Madcap: 莽夫
+  Gas Mask: 毒气面罩
+  Binary Operator: 二元运算大师
+  Boogeyman: 怪物
+  Critical Thug / Critical Thug x2: 致命暴徒、致命暴徒 x2
+  Dark Army +: 黑暗军队 +
+  Firefly: 萤火虫
+  Hotfoot Teddy: 疾行泰迪
+  Ice Age: 冰河世纪
+  Kickcharger: 踢击充能器
+  Superconducting Plasma Coil: 超导等离子线圈
+  Res: 抗性
+  Fasterfied Tizzy: 无影恐慌
+  Torrent: 激流
+  Snide Trickshot: 花式射击
+  Company Man (Atlas) Legendary Artifact: Company Man (Atlas) Legendary Artifact
+  Company Man (CoV) Legendary Artifact: Company Man (CoV) Legendary Artifact
+  Company Man (Dahl) Legendary Artifact: Company Man (Dahl) Legendary Artifact
+  Company Man (Hyperion) Legendary Artifact: Company Man (Hyperion) Legendary Artifact
+  Company Man (Jakobs) Legendary Artifact: Company Man (Jakobs) Legendary Artifact
+  Company Man (Maliwan) Legendary Artifact: Company Man (Maliwan) Legendary Artifact
+  Company Man (Tediore) Legendary Artifact: Company Man (Tediore) Legendary Artifact
+  Company Man (Torgue) Legendary Artifact: Company Man (Torgue) Legendary Artifact
+  Company Man (Vladof) Legendary Artifact: Company Man (Vladof) Legendary Artifact
+  Mysterious Artifact Purple Artifact: 神秘神器 紫色神器
+  Beastmaster Roll Reversal Legendary COM: 兽王 逆向翻滚 传奇职业模组
+  Gunner Primary Heat Exchanger Legendary COM: 枪手 主热交换器 传奇职业模组
+  Operative Critical Mass Legendary COM: 特工 临界质量 传奇职业模组
+  Siren Death's Blessings Legendary COM: 魔女 死神的祝福 传奇职业模组
+  Mesmer: 神秘
+  Ringer / The Big Ringer / Dead Ringer: 替身、大个 替身、死亡 替身
+  Re-Volter: 反抗者
+  Free Radical: 自由激进
+  Ionic Disruptor: 离子分裂器
+  Redeye Rocket Pod: 红眼火箭发射器
+  Atlas Replay: 阿特拉斯回放
+  Backburner: 备胎
+  D.N.A.: D.N.A.
+  Multi-tap: 多次点击
+  Kaoson: 考桑
+  The Monarch: 君王
+  Plaguebearer: 瘟疫传播者
+  Reflux: 逆流
+  Sand Hawk: 沙鹰
+  Commander Planetoid (dedicated drop only) Legendary Artifact: Commander Planetoid (dedicated drop only) Legendary Artifact
+  Cosmic Crater (dedicated drop only) Legendary Artifact: Cosmic Crater (dedicated drop only) Legendary Artifact
+  Deathless (dedicated drop only) Legendary Artifact: Deathless (dedicated drop only) Legendary Artifact
+  Loaded Dice (dedicated drop only) Legendary Artifact: Loaded Dice (dedicated drop only) Legendary Artifact
+  Moxxi's Endowment (dedicated drop only) Legendary Artifact: Moxxi's Endowment (dedicated drop only) Legendary Artifact
+  Otto Idol (dedicated drop only) Legendary Artifact: Otto Idol (dedicated drop only) Legendary Artifact
+  Pull Out Method (dedicated drop only) Legendary Artifact: Pull Out Method (dedicated drop only) Legendary Artifact
+  Rocket Boots (dedicated drop only) Legendary Artifact: Rocket Boots (dedicated drop only) Legendary Artifact
+  Safeguard (dedicated drop only) Legendary Artifact: Safeguard (dedicated drop only) Legendary Artifact
+  Launch Pad (dedicated drop only) Legendary Artifact: Launch Pad (dedicated drop only) Legendary Artifact
+  Splatter Gun (dedicated drop only) Legendary Artifact: Splatter Gun (dedicated drop only) Legendary Artifact
+  Static Charge (dedicated drop only) Legendary Artifact: Static Charge (dedicated drop only) Legendary Artifact
+  Victory Rush (dedicated drop only) Legendary Artifact: Victory Rush (dedicated drop only) Legendary Artifact
+  White Elephant (dedicated drop only) Legendary Artifact: 白象 (dedicated drop only) 传奇神器
+  Beastmaster Bounty Hunter Legendary COM: 兽王 赏金猎人 传奇职业模组
+  Beastmaster Cosmic Stalker Legendary COM: 兽王 宇宙潜行怪龙 传奇职业模组
+  Beastmaster DE4DEYE Legendary COM: 兽王 神枪手 传奇职业模组
+  Beastmaster Friend-Bot Legendary COM: 兽王 友方机器人 传奇职业模组
+  Beastmaster Rakk Commander Legendary COM: 兽王 飞龙指挥官 传奇职业模组
+  Beastmaster Red Fang Legendary COM: 兽王 赤红之牙 传奇职业模组
+  Gunner Bear Trooper Legendary COM: 枪手 熊熊游骑兵 传奇职业模组
+  Gunner Blast Master Legendary COM: 枪手 爆破专家 传奇职业模组
+  Gunner Bloodletter Legendary COM: 枪手 血书 传奇职业模组
+  Gunner Mind Sweeper Legendary COM: 枪手 思想清洁工 传奇职业模组
+  Gunner Rocketeer Legendary COM: 枪手 火箭兵 传奇职业模组
+  Operative Cold Warrior Legendary COM: 特工 冷战分子 传奇职业模组
+  Operative Executor Legendary COM: 特工 刽子手 传奇职业模组
+  Operative Shockerator Legendary COM: 特工 震惊者 传奇职业模组
+  Operative Infiltrator Legendary COM: 特工 潜入者 传奇职业模组
+  Operative Techspert Legendary COM: 特工 技术专家 传奇职业模组
+  Siren Breaker Legendary COM: 魔女 断路器 传奇职业模组
+  Siren Dragon Legendary COM: 魔女 魔龙 传奇职业模组
+  Siren Elementalist Legendary COM: 魔女 元素师 传奇职业模组
+  Siren Nimbus Legendary COM: 魔女 灵气 传奇职业模组
+  Siren Phasezerker Legendary COM: 魔女 相位狂战士 传奇职业模组
+  Beastmaster R4kk P4k Legendary COM: 兽王 飞龙包 传奇职业模组
+  Gunner Raging Bear Legendary COM: 枪手 愤怒熊 传奇职业模组
+  Operative Antifreeze Legendary COM: 特工 防冻 传奇职业模组
+  Siren Spiritual Driver Legendary COM: 魔女 灵魂车手 传奇职业模组
+  Re-Charger Berner: 充能星爆
+  Frozen Snowshoe: 冰冻雪鞋
+  Red Card Re-Charger: 红牌补充者
+  Version 0.m: 版本0.m
+  Redistributor (legendary version): 再分配器 (传奇版本)
+  Moonfire: 月火
+  Kyb's Worth: 某人的财产
+  P2P Networker: P2P Networker
+  Tiggs' Boom: 狄格思爆炸
+  Crader's EM-P5: 克拉德的EM-P5
+  Vosk's Deathgrip: 沃斯克的死亡之握
+  S3RV-80S-EXECUTE: S3RV-80S-EXECUTE
+  Good Juju: 幸运护符
+  Juliet's Dazzle: 朱丽叶的闪耀
+  Tankman's Shield: 坦克侠护盾
+  Zheitsev's Eruption: 梅尔加尼的爆发
+  Short Stick: 短棍
+  Short Stick (legendary version): 短棍 (传奇版本)
+  Lightspeed: 光速
+  Asclepius: 医神
+  Stinger: 毒刺（护盾）
+  Globetrottr: 环球旅行家
+  Smog: 烟雾
+  Web Slinger: 蛛网尖刺龙
+  Super Soldier: 超级士兵
+  Bird of Prey: 猛禽
+  Guardian 4N631: 护卫者4N631
+  Mechanic: 技工
+  Shlooter Legendary Artifact: 宝藏射手 传奇神器
+  Pyroburst: 烈焰狂欢
+  Gold Rush: 淘金热
+  Troubleshooter: 小能手
+  Bloodsucker: Bloodsucker
+  Sidewinder: 响尾蛇
+  Mana Well: 神力之井
+  Blade Fury: 利刃之怒
+  Creeping Corruption: 诡异腐化
+  TNTina: 缇恩缇娜
