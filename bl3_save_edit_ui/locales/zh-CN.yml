@@ -185,6 +185,7 @@ zh-CN:
     vault_card3_keys: 秘藏卡片3 钥匙
     max: 设为最大
 
+
   Atlas: 阿特拉斯
   Dahl: 达尔
   Vladof: 弗拉多夫
@@ -198,15 +199,17 @@ zh-CN:
   Anshin: 安心
   Pangolin: 穿山甲
 
+
   Class Mod: 职业模组
-  Eridian: 外星科技
-  Eridian No Min Gamestage: 外星科技 No Min Gamestage
+  Eridian: 伊瑞德科技
+  Eridian No Min Gamestage: 伊瑞德科技 No Min Gamestage
   Assault Rifle: 突击步枪
   Heavy: 重型武器
   Pistol: 手枪
   Shotgun: 霰弹枪
   SMG: 冲锋枪
   Sniper: 狙击枪
+
 
   Common: 普通
   Uncommon: 不常见
@@ -215,20 +218,51 @@ zh-CN:
   Legendary: 传奇
   Unique Weapon: 命名武器
 
+
   Character: 角色
   Modtype: 类型
-  Primary: 首要
   Rarity: 罕见
   Skills: 技能
   Anointment: 受福
-  Augment: 增强
-  Behavior: 性能
+  Augment: 词条
+  Legendary Aug: 传奇词条
+  Behavior: 特性
   Element: 元素
   Manufacturer: 制造者
   Material: 材料
   Ability: 能力
   Legendary Ability: 传奇能力
-  Secondary: 辅助
+  Primary: 首要
+  Secondary: 次要
+  Accessory: 配件
+  Barrel: 枪管
+  Barrel Accessory: 枪管配件
+  Body: 枪身
+  Body Accessory: 枪身配件
+  Bolt: 枪栓
+  Elemental: 元素
+  Elemental 2: 次要元素
+  Fire Selector: 射击选择器
+  Foregrip: 前握把
+  Grip: 握把
+  Grip Accessory: 握把配件
+  Hammer: 击锤
+  Magazine: 弹匣
+  Magazine Accessory: 弹匣配件
+  Rail: 滑轨
+  Reload Type: 装填模块
+  Scope: 瞄具
+  Scope Accessory: 瞄具配件
+  Starter: 启动装置
+  Stock: 枪托
+  Stock Accessory: 枪托配件
+  Tk Wave: Tk Wave
+  Trigger: 扳机
+  Underbarrel Type: 下挂式枪管
+  Underbarrel Type 2: 下挂式配件 2
+  Underbarrel Type 3: 下挂式配件 3
+  Unknown Parts: 未知部件
+
 
   White Artifact: 白色神器
   Green Artifact: 绿色神器
@@ -476,7 +510,7 @@ zh-CN:
   Green COV Heavy Weapon: 秘藏之子 绿色重型武器
   Blue COV Heavy Weapon: 秘藏之子 蓝色重型武器
   Purple COV Heavy Weapon: 秘藏之子 紫色重型武器
-  Eridian Fabricator: Eridian Fabricator
+  Eridian Fabricator: 伊瑞德制造器
   Gettleburger: 格塔堡
   Hive: 蜂巢
   Quadomizer: 四元主宰
@@ -587,7 +621,7 @@ zh-CN:
   One Pump Chump: 单泵笨蛋
   Sledge's Shotgun / Sledge's Super Shotgun: 斯莱奇霰弹枪、斯莱奇超级霰弹枪
   Fingerbiter: 咬指者
-  T.K.'s Wave + variants: T.K 波动 + 变体
+  T.K.'s Wave + variants: 潮汐波
   White Jakobs Shotgun: 雅各布斯 白色霰弹枪
   Green Jakobs Shotgun: 雅各布斯 绿色霰弹枪
   Blue Jakobs Shotgun: 雅各布斯 蓝色霰弹枪

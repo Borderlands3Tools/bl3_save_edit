@@ -185,6 +185,7 @@ en:
     vault_card3_keys: Vault Card 3 Keys
     max: Max
 
+
   Atlas: Atlas
   Dahl: Dahl
   Vladof: Vladof
@@ -198,6 +199,7 @@ en:
   Anshin: Anshin
   Pangolin: Pangolin
 
+
   Class Mod: Class Mod
   Eridian: Eridian
   Eridian No Min Gamestage: Eridian No Min Gamestage
@@ -208,6 +210,7 @@ en:
   SMG: SMG
   Sniper: Sniper
 
+
   Common: Common
   Uncommon: Uncommon
   Rare: Rare
@@ -215,20 +218,51 @@ en:
   Legendary: Legendary
   Unique Weapon: Unique Weapon
 
+
   Character: Character
   Modtype: Modtype
-  Primary: Primary
   Rarity: Rarity
   Skills: Skills
   Anointment: Anointment
   Augment: Augment
+  Legendary Aug: Legendary Aug
   Behavior: Behavior
   Element: Element
   Manufacturer: Manufacturer
   Material: Material
   Ability: Ability
   Legendary Ability: Legendary Ability
+  Primary: Primary
   Secondary: Secondary
+  Accessory: Accessory
+  Barrel: Barrel
+  Barrel Accessory: Barrel Accessory
+  Body: Body
+  Body Accessory: Body Accessory
+  Bolt: Bolt
+  Elemental: Elemental
+  Elemental 2: Elemental 2
+  Fire Selector: Fire Selector
+  Foregrip: Foregrip
+  Grip: Grip
+  Grip Accessory: Grip Accessory
+  Hammer: Hammer
+  Magazine: Magazine
+  Magazine Accessory: Magazine Accessory
+  Rail: Rail
+  Reload Type: Reload Type
+  Scope: Scope
+  Scope Accessory: Scope Accessory
+  Starter: Starter
+  Stock: Stock
+  Stock Accessory: Stock Accessory
+  Tk Wave: Tk Wave
+  Trigger: Trigger
+  Underbarrel Type: Underbarrel Type
+  Underbarrel Type 2: Underbarrel Type 2
+  Underbarrel Type 3: Underbarrel Type 3
+  Unknown Parts: Unknown Parts
+
 
   White Artifact: White Artifact
   Green Artifact: Green Artifact
