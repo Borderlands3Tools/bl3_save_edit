@@ -1429,12 +1429,12 @@ pub fn get_filtered_items(
                         .contains(&search_items_query)
                 })
                 .unwrap_or(false)
-            || "favorite".contains(search_items_query)
+            || t!("inventory.list_item.favorite").contains(search_items_query)
                 && item
                     .flags
                     .map(|f| f.contains(ItemFlags::FAVORITE))
                     .unwrap_or(false)
-            || "junk".contains(search_items_query)
+            || t!("inventory.list_item.junk").contains(search_items_query)
                 && item
                     .flags
                     .map(|f| f.contains(ItemFlags::JUNK))
@@ -1449,8 +1449,7 @@ pub fn get_filtered_items(
                 .item_parts
                 .as_ref()
                 .map(|ip| {
-                    ip.rarity
-                        .to_string()
+                    t!(&ip.rarity.to_string())
                         .to_lowercase()
                         .contains(&search_items_query)
                         || ip

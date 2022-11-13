@@ -87,6 +87,8 @@ en:
     list_item:
       item_empty: Please Import/Create an item to get started.
       level: level %{level}
+      favorite: favorite
+      junk: junk
       duplicate: Duplicate
       share: Share
       delete: Delete
@@ -182,3 +184,17 @@ en:
     vault_card3_chests: Vault Card 3 Chests
     vault_card3_keys: Vault Card 3 Keys
     max: Max
+
+  Common: Common
+  Uncommon: Uncommon
+  Rare: Rare
+  Very Rare: Very Rare
+  Legendary: Legendary
+  Unique Weapon: Unique Weapon
+
+  Character: Character
+  Modtype: Modtype
+  Primary: Primary
+  Rarity: Rarity
+  Skills: Skills
+  Anointment: Anointment

@@ -87,6 +87,8 @@ zh-CN:
     list_item:
       item_empty: 请导入/创建一个物品以开始操作。
       level: 等级 %{level}
+      favorite: 收藏
+      junk: 垃圾
       duplicate: 复制
       share: 分享
       delete: 删除
@@ -182,3 +184,17 @@ zh-CN:
     vault_card3_chests: 秘藏卡片3 宝箱
     vault_card3_keys: 秘藏卡片3 钥匙
     max: 设为最大
+
+  Common: 普通
+  Uncommon: 不常见
+  Rare: 罕见
+  Very Rare: 极其罕见
+  Legendary: 传奇
+  Unique Weapon: 命名武器
+
+  Character: 角色
+  Modtype: 类型
+  Primary: 首要
+  Rarity: 罕见
+  Skills: 技能
+  Anointment: 受福

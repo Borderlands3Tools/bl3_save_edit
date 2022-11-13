@@ -386,7 +386,7 @@ impl CurrentParts {
                             {
                                 curr = curr.push(
                                     Container::new(
-                                        Text::new(&cat_parts.category)
+                                        Text::new(&t!(&cat_parts.category))
                                             .font(SOURCE_HAN_SANS_BOLD)
                                             .size(17)
                                             .color(Color::from_rgb8(242, 203, 5)),

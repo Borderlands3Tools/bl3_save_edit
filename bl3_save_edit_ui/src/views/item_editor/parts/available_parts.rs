@@ -294,7 +294,7 @@ impl AvailableParts {
                         {
                             curr = curr.push(
                                 Container::new(
-                                    Text::new(category_name.unwrap_or(&cat_parts.category))
+                                    Text::new(category_name.unwrap_or(&t!(&cat_parts.category)))
                                         .font(SOURCE_HAN_SANS_BOLD)
                                         .size(17)
                                         .color(Color::from_rgb8(242, 203, 5)),

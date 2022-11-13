@@ -60,7 +60,7 @@ pub fn view(item: &Bl3Item) -> Column<InteractionMessage> {
         if item_parts.rarity != ItemRarity::Unknown {
             tags_row = tags_row.push(
                 Container::new(
-                    Text::new(item_parts.rarity.to_string())
+                    Text::new(t!(&item_parts.rarity.to_string()))
                         .font(SOURCE_HAN_SANS)
                         .size(15),
                 )
