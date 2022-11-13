@@ -1417,7 +1417,7 @@ pub fn get_filtered_items(
         };
 
         balance_part_to_search
-            .map(|n| n.contains(&search_items_query))
+            .map(|n| t!(&n).contains(&search_items_query))
             .unwrap_or(false)
             || item
                 .manufacturer_part()
@@ -1440,9 +1440,7 @@ pub fn get_filtered_items(
                     .map(|f| f.contains(ItemFlags::JUNK))
                     .unwrap_or(false)
             || t!("inventory.list_item.level", level=&item.level().to_string()).contains(&search_items_query)
-            || item
-                .item_type
-                .to_string()
+            || t!(&item.item_type.to_string())
                 .to_lowercase()
                 .contains(&search_items_query)
             || item

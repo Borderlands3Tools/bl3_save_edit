@@ -36,7 +36,7 @@ pub fn view(item: &Bl3Item) -> Column<InteractionMessage> {
         }
 
         tags_row = tags_row.push(
-            Container::new(Text::new(manufacturer_short).font(SOURCE_HAN_SANS).size(15))
+            Container::new(Text::new(t!(&manufacturer_short)).font(SOURCE_HAN_SANS).size(15))
                 .padding(5)
                 .style(ItemInfoStyle),
         )
@@ -47,7 +47,7 @@ pub fn view(item: &Bl3Item) -> Column<InteractionMessage> {
             if let Some(weapon_type) = &item_parts.weapon_type {
                 tags_row = tags_row.push(
                     Container::new(
-                        Text::new(weapon_type.to_string())
+                        Text::new(t!(&weapon_type.to_string()))
                             .font(SOURCE_HAN_SANS)
                             .size(15),
                     )
