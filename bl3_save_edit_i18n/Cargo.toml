@@ -1,0 +1,22 @@
+[package]
+name = "bl3_save_edit_i18n"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+unic-langid = {version = "0.9.0", features = ["macros"]}
+i18n-embed = { version = "0.13.4", features = ["fluent-system", "desktop-requester"]}
+rust-embed = "6.4"
+i18n-embed-fl = "0.6.0"
+lazy_static = "1.4"
+accept-language = "2.0"
+
+once_cell = "1.9"
+serde = { version = "1.0", features = ["derive"] }
+toml = { git="https://github.com/umegaya/toml-rs.git", branch = "umegaya/multiline-inline-table"}
+fluent = "0.16"
+anyhow = "1.0"
+tokio = { version = "1.20", features = ["full"] }
+intl-memoizer = "0.5.1"

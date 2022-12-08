@@ -1,5 +1,5 @@
 [workspace]
-members = ["bl3_save_edit_core", "bl3_save_edit_ui"]
+members = ["bl3_save_edit_core", "bl3_save_edit_ui", "bl3_save_edit_i18n"]
 
 resolver = "2"
 

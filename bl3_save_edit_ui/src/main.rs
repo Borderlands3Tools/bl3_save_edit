@@ -12,12 +12,8 @@ use crate::bl3_ui::Bl3Application;
 use crate::config::Bl3Config;
 use crate::update::remove_file;
 
-// Load I18n macro, for allow you use `t!` macro in anywhere.
-#[macro_use]
-extern crate rust_i18n;
-
-// Init translations for current crate.
-i18n!("locales");
+use i18n_embed::DesktopLanguageRequester;
+use library_fluent::{hello_world, localizer};
 
 mod bl3_ui;
 mod bl3_ui_style;
@@ -39,8 +35,12 @@ fn main() -> Result<()> {
 
     env::set_var("RUST_LOG", "INFO");
 
-    rust_i18n::set_locale("zh-CN");
-    rust_i18n::locale();
+    let library_localizer = localizer();
+    let requested_languages = DesktopLanguageRequester::requested_languages();
+
+    if let Err(error) = library_localizer.select(&requested_languages) {
+        eprintln!("Error while loading languages for library_fluent {}", error);
+    }
 
     let config = Bl3Config::load();
 

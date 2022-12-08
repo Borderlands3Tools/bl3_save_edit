@@ -1,9 +1,6 @@
-// Load I18n macro, for allow you use `t!` macro in anywhere.
+// Load I18n macro, for allow you use `tfl!` macro in anywhere.
 #[macro_use]
-extern crate rust_i18n;
-
-// Init translations for current crate.
-i18n!("locales");
+extern crate bl3_save_edit_i18n;
 
 pub mod arbitrary_bits;
 pub mod bl3_item;
